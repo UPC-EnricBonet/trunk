@@ -1,0 +1,141 @@
+<dataBase name="cheproo_prova">
+
+	<phases>
+		<phase name="phase1" type="aqueous">
+			<species name="ca+2" ionicRadius="6.0" ionicCharge="2.0" molWeight="40.078" limMolConductivity=""/>
+			<species name="cl-" ionicRadius="3.0" ionicCharge="-1.0" molWeight="35.453" limMolConductivity=""/>
+			<species name="co2(aq)" ionicRadius="3.0" ionicCharge="0.0" molWeight="44.01"/>			
+			<species name="co3-2" ionicRadius="5.0" ionicCharge="-2.0" molWeight="60"/>
+			<species name="h+" ionicRadius="9.0" ionicCharge="1.0" molWeight="1"/>
+			<species name="h2o" ionicRadius="9.0" ionicCharge="1.0" molWeight="18"/>
+			<species name="hco3-" ionicRadius="4.0" ionicCharge="-1.0" molWeight="61"/>
+			<species name="fe+2" ionicRadius="6.0" ionicCharge="2.0" molWeight="55.85"/>
+			<species name="fe+3" ionicRadius="9.0" ionicCharge="3.0" molWeight="55.85"/>
+			<species name="fe(oh)3" ionicRadius="4.0" ionicCharge="-1.0" molWeight="106.85"/>
+			<species name="fe(oh)2" ionicRadius="4.0" ionicCharge="1.0" molWeight="89.85"/>
+			<species name="mg2+" ionicRadius="8.0" ionicCharge="2.0" molWeight="24.3"/>
+			<species name="na+" ionicRadius="4.0" ionicCharge="1.0" molWeight="23"/>
+			<species name="nacl(aq)" ionicRadius="3.0" ionicCharge="0.0" molWeight="58.45"/>
+			<species name="o2" ionicRadius="0.0" ionicCharge="0.0" molWeight="16"/>
+			<species name="oh-" ionicRadius="3.0" ionicCharge="-1.0" molWeight="17"/>
+			<species name="so4-2" ionicRadius="4.0" ionicCharge="-2.0" molWeight="96"/>
+			<species name="naso4" ionicRadius="4.0" ionicCharge="-1.0" molWeight="119"/>
+			<species name="caso4(aq)" ionicRadius="0.0" ionicCharge="0.0" molWeight="136.14"/>
+		</phase>
+
+		<phase name="phase2" type="mineral">
+			<species name="caco3(s)" molarVolume="36.934"/>
+			<species name="camgco3(s)" molarVolume="64.365"/>
+			<species name="caso4(s)" molarVolume="74.690"/>
+			<species name="feooh(s)" molarVolume="20.820"/>
+		</phase>
+		<phase name="phase3" type="gas">
+			<species name="co2(g)" molarVolume="24465.0"/>
+		</phase>
+		
+	</phases>
+	
+	<reactions>
+		<reaction name="h2o">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -13.9951" />
+			</logK> 
+			<ref type="species" ID="-1.0">h2o</ref>
+			<ref type="species" ID="1.0">h+</ref>
+			<ref type="species" ID="1.0">oh-</ref>
+		</reaction>
+		<reaction name="o2">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -34.0" />
+			</logK> 
+			<ref type="species" ID="1.0">o2</ref>
+			<ref type="species" ID="-2.0">h2o</ref>
+			<ref type="species" ID="4.0">h+</ref>
+			<ref type="species" ID="-4.0">fe+3</ref>
+			<ref type="species" ID="4.0">fe+2</ref>
+		</reaction>
+		<reaction name="nacl(aq)">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  0.777" />
+			</logK> 		
+			<ref type="species" ID="-4.0">na+</ref>
+			<ref type="species" ID="4.0">cl-</ref>
+		</reaction>
+		<reaction name="naso4">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -0.82" />
+			</logK> 		
+			<ref type="species" ID="-1.0">naso4</ref>
+			<ref type="species" ID="1.0">na+</ref>
+			<ref type="species" ID="1.0">so4-2</ref>
+		</reaction>
+		<reaction name="caso4(aq)">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -2.1111" />
+			</logK> 		
+			<ref type="species" ID="-1.0">caso4(aq)</ref>
+			<ref type="species" ID="1.0">ca+2</ref>
+			<ref type="species" ID="1.0">so4-2</ref>
+		</reaction>
+		<reaction name="fe(oh)3">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -28.4" />
+			</logK> 		
+			<ref type="species" ID="-1.0">fe(oh)3</ref>
+			<ref type="species" ID="1.0">fe+3</ref>
+			<ref type="species" ID="3.0">oh-</ref>
+		</reaction>
+		<reaction name="fe(oh)2">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -22.3" />
+			</logK> 		
+			<ref type="species" ID="-1.0">fe(oh)2</ref>
+			<ref type="species" ID="1.0">fe+3</ref>
+			<ref type="species" ID="2.0">oh-</ref>
+		</reaction>
+		<reaction name="feooh(s)">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -41.5" />
+			</logK> 		
+			<ref type="species" ID="-1.0">feooh(s)</ref>
+			<ref type="species" ID="-1.0">h2o</ref>
+			<ref type="species" ID="1.0">fe+3</ref>
+			<ref type="species" ID="3.0">oh-</ref>
+		</reaction>
+		<reaction name="co3-2">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -10.3" />
+			</logK> 		
+			<ref type="species" ID="-1.0">co3-2</ref>
+			<ref type="species" ID="1.0">hco3-</ref>
+			<ref type="species" ID="-1.0">h+</ref>
+		</reaction>
+		<reaction name="co2(aq)">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -6.3447" />
+			</logK> 		
+			<ref type="species" ID="-1.0">co2(aq)</ref>
+			<ref type="species" ID="-1.0">h2o</ref>			
+			<ref type="species" ID="1.0">hco3-</ref>
+			<ref type="species" ID="1.0">h+</ref>
+		</reaction>
+		<reaction name="caco3(s)">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  1.8487" />
+			</logK> 		
+			<ref type="species" ID="-1.0">caco3(s)</ref>			
+			<ref type="species" ID="1.0">ca+2</ref>
+			<ref type="species" ID="1.0">hco3-</ref>
+			<ref type="species" ID="-1.0">h+</ref>
+		</reaction>		
+		<reaction name="caso4(s)">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -4.6" />
+			</logK> 		
+			<ref type="species" ID="-1.0">caso4(s)</ref>
+			<ref type="species" ID="1.0">ca+2</ref>
+			<ref type="species" ID="1.0">so4-2</ref>
+		</reaction>
+	</reactions>
+	
+</dataBase>

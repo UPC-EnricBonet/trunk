@@ -1,0 +1,369 @@
+ <dataBase name ="mastertemp">
+    <phases>
+       <phase name ="phase1" type="aqueous">
+         <species name="h2o" ionicRadius="3.0" ionicCharge=" 0.0" molWeight="18" />
+		 <species name="br-" ionicRadius="4.0" ionicCharge="-1.0" />
+         <species name="ca+2" ionicRadius="6.0" ionicCharge=" 2.0" molWeight="40.078"/>
+         <species name="cl-" ionicRadius="3.0" ionicCharge="-1.0" molWeight="35.453"/>
+         <species name="fe+3" ionicRadius="6.0" ionicCharge=" 3.0" molWeight="55.85"/>
+         <species name="fe+2" ionicRadius="6.0" ionicCharge=" 2.0" molWeight="55.85"/>
+         <species name="h+" ionicRadius="9.0" ionicCharge=" 1.0" molWeight="1"/>
+         <species name="hco3-" ionicRadius="4.0" ionicCharge="-1.0" molWeight="61"/>
+         <species name="k+" ionicRadius="3.0" ionicCharge=" 1.0" />
+		 <species name="li+" ionicRadius="4.0" ionicCharge=" 1.0" />
+         <species name="mg+2" ionicRadius="8.0" ionicCharge=" 2.0" molWeight="24.3"/>
+         <species name="na+" ionicRadius="4.0" ionicCharge=" 1.0" molWeight="23" />
+         <species name="so4-2" ionicRadius="4.0" ionicCharge="-2.0" molWeight="96"/>
+		 <species name="o2" ionicRadius="0.0" ionicCharge=" 0.0" molWeight="16"/>
+         <species name="co2(aq)" ionicRadius="3.0" ionicCharge=" 0.0" molWeight="44.01" />
+         <species name="co3-2" ionicRadius="5.0" ionicCharge="-2.0" molWeight="60"/>
+         <species name="caco3(aq)" ionicRadius="0.0" ionicCharge=" 0.0" />
+         <species name="cahco3+" ionicRadius="4.0" ionicCharge=" 1.0" />
+         <species name="caso4(aq)" ionicRadius="0.0" ionicCharge=" 0.0" molWeight="136.14"/>
+         <species name="fe(oh)2+" ionicRadius="4.0" ionicCharge=" 1.0" molWeight="89.85"/>
+		 <species name="fe(oh)2" ionicRadius="4.0" ionicCharge=" 1.0" molWeight="89.85"/>
+         <species name="fe(oh)3-" ionicRadius="4.0" ionicCharge="-1.0" molWeight="106.85"/>
+		 <species name="fe(oh)3" ionicRadius="4.0" ionicCharge="-1.0" molWeight="106.85"/>
+         <species name="kso4-" ionicRadius="4.0" ionicCharge="-1.0" />
+         <species name="mgco3(aq)" ionicRadius="0.0" ionicCharge=" 0.0" />
+         <species name="mghco3+" ionicRadius="4.0" ionicCharge=" 1.0" />
+         <species name="mgoh+" ionicRadius="4.0" ionicCharge=" 1.0" />
+         <species name="mgso4(aq)" ionicRadius="3.0" ionicCharge=" 0.0" />
+		 <species name="nacl(aq)" ionicRadius="3.0" ionicCharge="0.0" molWeight="58.45"/>
+         <species name="naco3-" ionicRadius="4.0" ionicCharge="-1.0" />
+         <species name="nahco3(aq)" ionicRadius="3.0" ionicCharge=" 0.0" />
+         <species name="naso4-" ionicRadius="4.0" ionicCharge="-1.0" molWeight="119"/>
+         <species name="oh-" ionicRadius="3.0" ionicCharge="-1.0"  molWeight="17"/>
+		 <species name="y+3" ionicRadius="5.0" ionicCharge=" 3.0" />
+       </phase>
+       <phase name ="phase2" type="mineral">
+         <species name="calcite" molarVolume=" 36.934" />
+		 <species name="feooh(s)" molarVolume=" 20.820" />
+         <species name="gypsum" molarVolume=" 74.690" />
+       </phase>
+       <phase name ="phase3" type="gas">
+         <species name="co2(g)" molarVolume="24465.00" difVolume="0.0" />
+       </phase>
+    </phases>
+    <reactions>
+		<reaction name="h2o">
+			<logK>
+				<ref type="temp" ID=" 25.0" value="  -13.9951" />
+			</logK> 
+			<ref type="species" ID="-1.0" value="h2o"/>
+			<ref type="species" ID="1.0" value="h+"/>
+			<ref type="species" ID="1.0" value="oh-"/>
+		</reaction>	
+      <reaction name="fe(oh)2" >
+          <logK>
+            <ref type="temp" ID=" 25.0" value="   -22.3" />
+          </logK>
+            <ref type="species" ID="-1.0" value="fe(oh)2               " />
+            <ref type="species" ID=" 1.0" value="fe+3                " />
+            <ref type="species" ID=" 2.0" value="oh-                  " />
+       </reaction>	  	   
+      <reaction name="fe(oh)3" >
+          <logK>
+            <ref type="temp" ID=" 25.0" value="   -28.4" />
+          </logK>
+            <ref type="species" ID="-1.0" value="fe(oh)3               " />
+            <ref type="species" ID=" 1.0" value="fe+3                " />
+            <ref type="species" ID=" 3.0" value="oh-                  " />
+       </reaction>	   
+      <reaction name="o2" >
+          <logK>
+            <ref type="temp" ID=" 25.0" value="-34.0" />
+          </logK>
+            <ref type="species" ID="4.0" value="h+                  " />
+            <ref type="species" ID=" 1.0" value="o2                  " />
+            <ref type="species" ID=" -2.0" value="h2o                 " />
+            <ref type="species" ID=" -4.0" value="fe+3                " />
+			<ref type="species" ID=" 4.0" value="fe+2                " />
+       </reaction>	   
+      <reaction name="co2(aq)" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -6.5804" />
+            <ref type="temp" ID=" 25.0" value="   -6.3447" />
+            <ref type="temp" ID=" 60.0" value="   -6.2684" />
+            <ref type="temp" ID="100.0" value="   -6.3882" />
+            <ref type="temp" ID="150.0" value="   -6.7235" />
+            <ref type="temp" ID="200.0" value="   -7.1969" />
+            <ref type="temp" ID="250.0" value="   -7.7868" />
+            <ref type="temp" ID="300.0" value="   -8.5280" />
+          </logK>
+			<ref type="species" ID="-1.0" value="co2(aq)             " />
+            <ref type="species" ID="-1.0" value="h2o                 " />
+            <ref type="species" ID=" 1.0" value="h+                  " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+       </reaction>
+      <reaction name="co3-2" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   10.6241" />
+            <ref type="temp" ID=" 25.0" value="   10.3288" />
+            <ref type="temp" ID=" 60.0" value="   10.1304" />
+            <ref type="temp" ID="100.0" value="   10.0836" />
+            <ref type="temp" ID="150.0" value="   10.2003" />
+            <ref type="temp" ID="200.0" value="   10.4648" />
+            <ref type="temp" ID="250.0" value="   10.8707" />
+            <ref type="temp" ID="300.0" value="   11.4638" />
+          </logK>
+		    <ref type="species" ID="-1.0" value="co3-2               " />
+            <ref type="species" ID="-1.0" value="h+                  " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+       </reaction>
+      <reaction name="caco3(aq)" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="    7.5021" />
+            <ref type="temp" ID=" 25.0" value="    7.0017" />
+            <ref type="temp" ID=" 60.0" value="    6.4516" />
+            <ref type="temp" ID="100.0" value="    5.9636" />
+            <ref type="temp" ID="150.0" value="    5.4683" />
+            <ref type="temp" ID="200.0" value="    5.0185" />
+            <ref type="temp" ID="250.0" value="    4.5355" />
+            <ref type="temp" ID="300.0" value="    3.9118" />
+          </logK>
+		    <ref type="species" ID="-1.0" value="caco3(aq)           " />
+            <ref type="species" ID="-1.0" value="h+                  " />
+            <ref type="species" ID=" 1.0" value="ca+2                " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+       </reaction>
+      <reaction name="cahco3+" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -1.0951" />
+            <ref type="temp" ID=" 25.0" value="   -1.0467" />
+            <ref type="temp" ID=" 60.0" value="   -1.1592" />
+            <ref type="temp" ID="100.0" value="   -1.4181" />
+            <ref type="temp" ID="150.0" value="   -1.8587" />
+            <ref type="temp" ID="200.0" value="   -2.4000" />
+            <ref type="temp" ID="250.0" value="   -3.0514" />
+            <ref type="temp" ID="300.0" value="   -3.8725" />
+          </logK>
+		    <ref type="species" ID=" -1.0" value="cahco3+" />
+            <ref type="species" ID=" 1.0" value="ca+2                " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+       </reaction>
+      <reaction name="caso4(aq)" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -2.0713" />
+            <ref type="temp" ID=" 25.0" value="   -2.1111" />
+            <ref type="temp" ID=" 60.0" value="   -2.2647" />
+            <ref type="temp" ID="100.0" value="   -2.5111" />
+            <ref type="temp" ID="150.0" value="   -2.9101" />
+            <ref type="temp" ID="200.0" value="   -3.4328" />
+            <ref type="temp" ID="250.0" value="   -4.1424" />
+            <ref type="temp" ID="300.0" value="   -5.1853" />
+          </logK>
+            <ref type="species" ID=" -1.0" value="caso4(aq)          " />		  
+            <ref type="species" ID=" 1.0" value="ca+2                " />
+            <ref type="species" ID=" 1.0" value="so4-2               " />
+       </reaction>
+      <reaction name="fe(oh)2+" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="    6.7950" />
+            <ref type="temp" ID=" 25.0" value="    5.6700" />
+            <ref type="temp" ID=" 60.0" value="    4.3503" />
+            <ref type="temp" ID="100.0" value="    3.1181" />
+            <ref type="temp" ID="150.0" value="    1.8595" />
+            <ref type="temp" ID="200.0" value="    0.7860" />
+            <ref type="temp" ID="250.0" value="   -0.2004" />
+            <ref type="temp" ID="300.0" value="   -1.1648" />
+          </logK>
+            <ref type="species" ID="-2.0" value="h+                  " />
+            <ref type="species" ID=" 1.0" value="fe+3                " />
+            <ref type="species" ID=" 2.0" value="h2o                 " />
+       </reaction>
+      <reaction name="kso4-" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -0.8854" />
+            <ref type="temp" ID=" 25.0" value="   -0.8796" />
+            <ref type="temp" ID=" 60.0" value="   -0.9907" />
+            <ref type="temp" ID="100.0" value="   -1.1946" />
+            <ref type="temp" ID="150.0" value="   -1.5202" />
+            <ref type="temp" ID="200.0" value="   -1.9189" />
+            <ref type="temp" ID="250.0" value="   -2.4160" />
+            <ref type="temp" ID="300.0" value="   -3.0860" />
+          </logK>
+		    <ref type="species" ID=" -1.0" value="kso4-               " />
+            <ref type="species" ID=" 1.0" value="k+                  " />
+            <ref type="species" ID=" 1.0" value="so4-2               " />
+       </reaction>
+      <reaction name="mgco3(aq)" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="    7.7399" />
+            <ref type="temp" ID=" 25.0" value="    7.3499" />
+            <ref type="temp" ID=" 60.0" value="    6.9262" />
+            <ref type="temp" ID="100.0" value="    6.5632" />
+            <ref type="temp" ID="150.0" value="    6.2045" />
+            <ref type="temp" ID="200.0" value="    5.8725" />
+            <ref type="temp" ID="250.0" value="    5.4900" />
+            <ref type="temp" ID="300.0" value="    4.9530" />
+          </logK>
+		    <ref type="species" ID=" -1.0" value="mgco3(aq)           " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+            <ref type="species" ID=" 1.0" value="mg+2                " />
+            <ref type="species" ID="-1.0" value="h+                  " />
+       </reaction>
+      <reaction name="mghco3+" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -1.0798" />
+            <ref type="temp" ID=" 25.0" value="   -1.0357" />
+            <ref type="temp" ID=" 60.0" value="   -1.1638" />
+            <ref type="temp" ID="100.0" value="   -1.4355" />
+            <ref type="temp" ID="150.0" value="   -1.8804" />
+            <ref type="temp" ID="200.0" value="   -2.4146" />
+            <ref type="temp" ID="250.0" value="   -3.0493" />
+            <ref type="temp" ID="300.0" value="   -3.8424" />
+          </logK>
+		    <ref type="species" ID=" -1.0" value="mghco3+           " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+            <ref type="species" ID=" 1.0" value="mg+2                " />
+       </reaction>
+      <reaction name="mgoh+" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="  500.0000" />
+            <ref type="temp" ID=" 25.0" value="   -2.2100" />
+            <ref type="temp" ID=" 60.0" value="  500.0000" />
+            <ref type="temp" ID="100.0" value="  500.0000" />
+            <ref type="temp" ID="150.0" value="  500.0000" />
+            <ref type="temp" ID="200.0" value="  500.0000" />
+            <ref type="temp" ID="250.0" value="  500.0000" />
+            <ref type="temp" ID="300.0" value="  500.0000" />
+          </logK>
+            <ref type="species" ID=" -1.0" value="mgoh+               " />
+			<ref type="species" ID=" 1.0" value="mg+2                " />
+            <ref type="species" ID=" 1.0" value="oh-                 " />
+       </reaction>
+      <reaction name="mgso4(aq)" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -2.1371" />
+            <ref type="temp" ID=" 25.0" value="   -2.4117" />
+            <ref type="temp" ID=" 60.0" value="   -2.8356" />
+            <ref type="temp" ID="100.0" value="   -3.3461" />
+            <ref type="temp" ID="150.0" value="   -4.0717" />
+            <ref type="temp" ID="200.0" value="   -4.9545" />
+            <ref type="temp" ID="250.0" value="   -6.1327" />
+            <ref type="temp" ID="300.0" value="   -7.9950" />
+          </logK>
+		    <ref type="species" ID=" -1.0" value="mgso4(aq)           " />
+            <ref type="species" ID=" 1.0" value="mg+2                " />
+            <ref type="species" ID=" 1.0" value="so4-2               " />
+       </reaction>
+      <reaction name="naco3-" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="    9.8151" />
+            <ref type="temp" ID=" 25.0" value="    9.8144" />
+            <ref type="temp" ID=" 60.0" value="   10.0745" />
+            <ref type="temp" ID="100.0" value="   10.6485" />
+            <ref type="temp" ID="150.0" value="   11.5684" />
+            <ref type="temp" ID="200.0" value="   12.6320" />
+            <ref type="temp" ID="250.0" value="   13.7927" />
+            <ref type="temp" ID="300.0" value="   14.9187" />
+          </logK>
+		    <ref type="species" ID="-1.0" value="naco3-               " />
+            <ref type="species" ID="-1.0" value="h+                  " />
+            <ref type="species" ID=" 1.0" value="na+                 " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+       </reaction>
+      <reaction name="nahco3(aq)" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -0.3722" />
+            <ref type="temp" ID=" 25.0" value="   -0.1541" />
+            <ref type="temp" ID=" 60.0" value="    0.1107" />
+            <ref type="temp" ID="100.0" value="    0.4116" />
+            <ref type="temp" ID="150.0" value="    0.7933" />
+            <ref type="temp" ID="200.0" value="    1.2137" />
+            <ref type="temp" ID="250.0" value="    1.7319" />
+            <ref type="temp" ID="300.0" value="    2.5012" />
+          </logK>
+		    <ref type="species" ID=" -1.0" value="nahco3(aq)           " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+            <ref type="species" ID=" 1.0" value="na+                 " />
+       </reaction>
+      <reaction name="naso4-" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -0.7652" />
+            <ref type="temp" ID=" 25.0" value="   -0.8200" />
+            <ref type="temp" ID=" 60.0" value="   -0.9103" />
+            <ref type="temp" ID="100.0" value="   -0.9843" />
+            <ref type="temp" ID="150.0" value="   -1.0706" />
+            <ref type="temp" ID="200.0" value="   -1.1876" />
+            <ref type="temp" ID="250.0" value="   -1.4021" />
+            <ref type="temp" ID="300.0" value="   -1.8660" />
+          </logK>
+            <ref type="species" ID=" -1.0" value="naso4-              " />		  
+            <ref type="species" ID=" 1.0" value="na+                 " />
+            <ref type="species" ID=" 1.0" value="so4-2               " />
+       </reaction>
+      <reaction name="oh-" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   14.9398" />
+            <ref type="temp" ID=" 25.0" value="   13.9951" />
+            <ref type="temp" ID=" 60.0" value="   13.0272" />
+            <ref type="temp" ID="100.0" value="   12.2551" />
+            <ref type="temp" ID="150.0" value="   11.6308" />
+            <ref type="temp" ID="200.0" value="   11.2836" />
+            <ref type="temp" ID="250.0" value="   11.1675" />
+            <ref type="temp" ID="300.0" value="   11.3002" />
+          </logK>
+		    <ref type="species" ID="-1.0" value="oh-                 " />
+            <ref type="species" ID="-1.0" value="h+                  " />
+            <ref type="species" ID=" 1.0" value="h2o                 " />
+       </reaction>
+      <reaction name="calcite" >
+          <logK>
+			<ref type="temp" ID="  0.0" value="    2.2257" />
+			<ref type="temp" ID=" 25.0" value="    1.8487" />
+			<ref type="temp" ID=" 60.0" value="    1.3330" />
+			<ref type="temp" ID="100.0" value="    0.7743" />
+			<ref type="temp" ID="150.0" value="    0.0999" />
+			<ref type="temp" ID="200.0" value="   -0.5838" />
+			<ref type="temp" ID="250.0" value="   -1.3262" />
+			<ref type="temp" ID="300.0" value="   -2.2154" />
+          </logK>
+			<ref type="species" ID="-1.0" value="calcite            " />
+            <ref type="species" ID="-1.0" value="h+                  " />
+            <ref type="species" ID=" 1.0" value="ca+2                " />
+            <ref type="species" ID=" 1.0" value="hco3-               " />
+       </reaction>	   
+      <reaction name="feooh(s)" >
+          <logK>
+			<ref type="temp" ID=" 25.0" value="-41.5" />
+          </logK>
+            <ref type="species" ID="-1.0" value="feooh(s)               " />
+            <ref type="species" ID=" 1.0" value="fe+3                " />
+            <ref type="species" ID=" -1.0" value="h2o                 " />
+			<ref type="species" ID=" 3.0" value="oh-               " />
+       </reaction>
+      <reaction name="gypsum" >
+          <logK>
+<ref type="temp" ID="  0.0" value="   -4.5331" />
+<ref type="temp" ID=" 25.0" value="   -4.4823" />
+<ref type="temp" ID=" 60.0" value="   -4.6094" />
+<ref type="temp" ID="100.0" value="   -4.9035" />
+<ref type="temp" ID="150.0" value="   -5.4334" />
+<ref type="temp" ID="200.0" value="   -6.1386" />
+<ref type="temp" ID="250.0" value="   -7.0675" />
+<ref type="temp" ID="300.0" value="   -8.3580" />
+          </logK>
+            <ref type="species" ID=" 1.0" value="ca+2                " />
+            <ref type="species" ID=" 1.0" value="so4-2               " />
+            <ref type="species" ID="-1.0" value="gypsum                " />
+       </reaction>
+      <reaction name="co2(g)" >
+          <logK>
+            <ref type="temp" ID="  0.0" value="   -7.6765" />
+            <ref type="temp" ID=" 25.0" value="   -7.8136" />
+            <ref type="temp" ID=" 60.0" value="   -8.0527" />
+            <ref type="temp" ID="100.0" value="   -8.3574" />
+            <ref type="temp" ID="150.0" value="   -8.7692" />
+            <ref type="temp" ID="200.0" value="   -9.2165" />
+            <ref type="temp" ID="250.0" value="   -9.7202" />
+            <ref type="temp" ID="300.0" value="  -10.3393" />
+          </logK>
+			<ref type="species" ID="-1.0" value="co2(g)              " />
+			<ref type="species" ID="-1.0" value="h2o                 " />
+			<ref type="species" ID=" 1.0" value="h+                  " />
+			<ref type="species" ID=" 1.0" value="hco3-               " />
+       </reaction>
+       </reactions>
+ </dataBase>

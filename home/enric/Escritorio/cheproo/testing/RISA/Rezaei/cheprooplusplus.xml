@@ -1,0 +1,59 @@
+<cheprooPlusPlusInputFile name="cheproo_input">
+
+	<cheprooPlusPlus name="simulation1">
+		<function name="speciateWaters" isSecOrdDerivCalc="false" writeInfo="false">
+			<ref type = "chemicalComposition" ID="1">water1</ref>	
+		</function>	
+	</cheprooPlusPlus>
+	
+	<globalChemicalSystem buildOption="readFromMasterTemp" thermodynamicDatabase="mastertemp.xml">
+
+		<phase name="aqueous1" type="aqueousDebyeHuckel" model="aqueous"> 
+			<ref type="species">ca+2</ref>
+			<ref type="species">h+</ref>
+			<ref type="species">hco3-</ref>
+			<ref type="species">oh-</ref>
+			<ref type="species">co3-2</ref>
+			<ref type="species">co2(aq)</ref>
+			<ref type="species">h2o</ref>
+		</phase>
+		<phase name="mineral1" type="mineralPure" model="mineral"> 
+			<ref type="species">calcite</ref>
+		</phase>
+		<phase name="gas1Prova" type="gasIdeal" model="gas"> 
+			<ref type="species">co2(g)</ref>
+		</phase>		
+		
+		<localChemicalSystems>
+			<localChemicalSystem name="local1" type="localChemicalSystemConstPrimary" maxRelativeError="1e-9" maxResidual="1e-11" maxIterNum="100"/>
+		</localChemicalSystems>
+		
+	</globalChemicalSystem>
+	
+	<proostList type="chemicalComposition">	
+		<chemicalComposition ID="1" name="water1" temp="25.00">  <!--agua que se inyecta-->
+		
+			<ref type="firstGuess" cGuess="0.0007" primarySpecies="h2o"/>
+			<ref type="firstGuess" cGuess="0.72e-3" primarySpecies="ca+2"/>			
+			<ref type="firstGuess" cGuess="1.0e-8" primarySpecies="h+"/>
+			<ref type="firstGuess" cGuess="1.0e-5" primarySpecies="hco3-"/>
+			
+			<ref type="constraint" iCon="activity" value="1.0" name="h2o"/>
+			<ref type="constraint" iCon="eqmin" value="1.0" name="calcite"/>
+			<ref type="constraint" iCon="eqgas" value="0.000316228" name="co2(g)"/>
+			<ref type="constraint" iCon="chgbal" std="1.0e-5"/>
+			<ref type="constraint" iCon="alk"  value="0.000984922" std="9.849e-6"/>
+			<ref type="constraint" iCon="cTot" value="0.000492461" name="ca+2" std="0.000049247"/>
+			<ref type="constraint" iCon="activity" value="5.2941991e-09" name="h+" std="1.0"/>
+			<ref type="constraint" iCon="eqmin" value="1.0" name="calcite" std="1.0"/>
+			<ref type="constraint" iCon="eqgas" value="0.000316228" name="co2(g)" std="1.0"/>
+			
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			<ref type="phaseContent" name="gas1" model="gas" value="0.1"/>
+			
+		</chemicalComposition>
+	 </proostList>
+
+</cheprooPlusPlusInputFile>

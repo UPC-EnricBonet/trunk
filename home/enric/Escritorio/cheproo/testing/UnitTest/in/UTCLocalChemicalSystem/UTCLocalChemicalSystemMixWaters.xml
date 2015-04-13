@@ -1,0 +1,63 @@
+<cheprooPlusPlusInputFile name="cheproo_input">
+
+	<cheprooPlusPlus name="simulation1">
+		<function name="mixWaters" writeInfo="false">
+			<ref type="chemicalComposition" ID="1" mixingRatio="0.6">water_1</ref>	
+			<ref type="chemicalComposition" ID="2" mixingRatio="0.4">water_2</ref>	
+		</function>	
+	</cheprooPlusPlus>
+
+	<globalChemicalSystem buildOption="readFromMasterTemp" thermodynamicDatabase="mastertemp.xml">
+
+		<phase name="aqueous1" type="aqueousIdeal" model="aqueous"> 
+			<ref type="species">so4-2</ref>
+			<ref type="species">ca+2</ref>
+		</phase>
+		<phase name="mineral1" type="mineralPure" model="mineral"> 
+			<ref type="species">gypsum</ref>
+		</phase>
+		
+ 		<localChemicalSystems>
+			<localChemicalSystem name="local1" type="localChemicalSystemConstPrimary" maxRelativeError="1e-5" maxResidual="1e-10" maxIterNum="100"/>
+		</localChemicalSystems>
+		
+		<kineticReactions>
+			<kineticReaction name="calcite" type="reactionRateLawLasaga" ea="0.0">
+				<params area="100"/>
+				<term ID="1" p="1.0" q="1.0">
+					<ref type="species" name="h+" n="1.0"/>
+				</term>
+			</kineticReaction>
+		</kineticReactions>
+
+	</globalChemicalSystem>
+	
+	<proostList type="chemicalComposition">	
+		<chemicalComposition ID="1" name="water_1" temp="25.00"> 
+		
+			<ref type="firstGuess" cGuess="0.0015" primarySpecies="so4-2"/>
+			<ref type="firstGuess" cGuess="9.0e-10" primarySpecies="ca+2"/>
+			
+			<ref type="constraint" iCon="cTot" value="0.002512" name="so4-2"/>
+			<ref type="constraint" iCon="eqmin" name="gypsum" value="1.0"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="1.0"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+		<chemicalComposition ID="2" name="water_2" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.015" primarySpecies="so4-2"/>
+			<ref type="firstGuess" cGuess="9.0e-10" primarySpecies="ca+2"/>
+			
+			<ref type="constraint" iCon="cTot" value="0.02512" name="so4-2"/>
+			<ref type="constraint" iCon="eqmin" name="gypsum" value="1.0"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="1.0"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+			
+	 </proostList>
+
+</cheprooPlusPlusInputFile>
