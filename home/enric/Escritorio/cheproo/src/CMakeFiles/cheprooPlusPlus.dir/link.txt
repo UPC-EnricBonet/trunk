@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/cheprooPlusPlus.dir/main.cpp.o  -o ../bin/cheprooPlusPlus -rdynamic -lcommonLib ../lib/cheprooLib/libCheprooLib.a -lQtXml -lQtCore -lcommonLib -lQtXml -lQtCore 
