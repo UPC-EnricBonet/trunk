@@ -7,10 +7,6 @@
 // 
 
 
-//Prueba para ver como afecta al cambiar cosillas!!!!!!!!!!!!!!
-
-
-
 
 // System includes
 
@@ -44,8 +40,8 @@ namespace Kratos
         KRATOS_CREATE_VARIABLE(double, SINK_SOURCE)
         KRATOS_CREATE_VARIABLE(string, SV)
         KRATOS_CREATE_VARIABLE(string, SV_X)
-        KRATOS_CREATE_VARIABLE(string, SV_Y)
-        KRATOS_CREATE_VARIABLE(string, SV_Z)
+       // KRATOS_CREATE_VARIABLE(string, SV_Y)
+        //KRATOS_CREATE_VARIABLE(string, SV_Z)
         
         KRATOS_CREATE_VARIABLE(double, LEAKAGE_COEFFICIENT) 
         KRATOS_CREATE_VARIABLE(double, LEVEL)
