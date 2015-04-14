@@ -10,11 +10,9 @@
 
 // System includes
 
-<<<<<<< HEAD
+
 //Vuelvo hacer un change, ahora hago otro desde el ordenador pequeño!!!
-=======
-//Vuelvo hacer un change!!!
->>>>>>> 2e66b9d29a4295581ebf8eccc8c79795c80490ab
+
 
 // External includes 
 
