@@ -1,6 +1,6 @@
 #include "caqueousideal.h"
 
-//aQUI TB
+
 CAqueousIdeal::CAqueousIdeal()
 {
     this->mClassName = "CAqueousIdeal";
