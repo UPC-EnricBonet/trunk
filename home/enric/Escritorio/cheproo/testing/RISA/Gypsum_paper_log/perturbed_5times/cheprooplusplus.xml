@@ -1,0 +1,175 @@
+<cheprooPlusPlusInputFile name="cheproo_input">
+
+	<cheprooPlusPlus name="simulation1">
+		<function name="speciateWaters" isSecOrdDerivCalc="false" writeInfo="false">
+			<ref type = "chemicalComposition" ID="1">water1</ref>	
+			<ref type = "chemicalComposition" ID="2">water2</ref>	
+			<ref type = "chemicalComposition" ID="3">water3</ref>	
+			<ref type = "chemicalComposition" ID="4">water4</ref>				
+			<ref type = "chemicalComposition" ID="5">water5</ref>	
+			<ref type = "chemicalComposition" ID="6">water6</ref>	
+			<ref type = "chemicalComposition" ID="7">water7</ref>	
+			<ref type = "chemicalComposition" ID="8">water8</ref>	
+			<ref type = "chemicalComposition" ID="9">water9</ref>				
+			<ref type = "chemicalComposition" ID="10">water10</ref>				
+		</function>	
+	</cheprooPlusPlus>
+	
+	<globalChemicalSystem buildOption="readFromMasterTemp" thermodynamicDatabase="mastertemp.xml">
+
+		<phase name="aqueous1" type="aqueousIdeal" model="aqueous"> 
+			<ref type="species">ca+2</ref>
+			<ref type="species">so4-2</ref>
+		</phase>
+		<phase name="mineral1" type="mineralPure" model="mineral"> 
+			<ref type="species">gypsum</ref>
+		</phase>		
+		
+		<localChemicalSystems>
+			<localChemicalSystem name="local1" type="localChemicalSystemConstPrimary" maxRelativeError="1e-5" maxResidual="1e-10" maxIterNum="100"/>
+		</localChemicalSystems>
+		
+	</globalChemicalSystem>
+	
+	<proostList type="chemicalComposition">	
+	
+		<chemicalComposition ID="1" name="water1" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0012" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.02" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-2.51891" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+		
+		<chemicalComposition ID="2" name="water2" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0012" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.02" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-2.69262" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+		
+		<chemicalComposition ID="3" name="water3" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0012" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.02" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-3.25720" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+		
+		<chemicalComposition ID="4" name="water4" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0012" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.02" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-3.36578" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+
+
+		<chemicalComposition ID="5" name="water5" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0012" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.02" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-3.90865" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+		
+		<chemicalComposition ID="6" name="water6" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0012" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.02" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-2.51891" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			<ref type="constraint" iCon="cTot" value="-2.17147" isLog10Value="true"  isRelError="false" name="so4-2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+
+		<chemicalComposition ID="7" name="water7" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0012" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.02" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-2.69262" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			<ref type="constraint" iCon="cTot" value="-1.08573" isLog10Value="true"  isRelError="false" name="so4-2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+
+		<chemicalComposition ID="8" name="water8" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0012" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.02" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-3.25720" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			<ref type="constraint" iCon="cTot" value="-1.95432" isLog10Value="true"  isRelError="false" name="so4-2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+
+		<chemicalComposition ID="9" name="water9" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.00043" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.24" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-3.36578" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			<ref type="constraint" iCon="cTot" value="-0.60205" isLog10Value="true"  isRelError="false" name="so4-2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>
+
+		<chemicalComposition ID="10" name="water10" temp="25.00">
+		
+			<ref type="firstGuess" cGuess="0.0001" primarySpecies="ca+2"/>	
+			<ref type="firstGuess" cGuess="0.06" primarySpecies="so4-2"/>			
+			
+			<ref type="constraint" iCon="eqmin" name="gypsum"/>
+			<ref type="constraint" iCon="cTot" value="-3.90865" isLog10Value="true"  isRelError="false" name="ca+2" std="0.5"/>
+			<ref type="constraint" iCon="cTot" value="-1.15490" isLog10Value="true"  isRelError="false" name="so4-2" std="0.5"/>
+			
+			<ref type="phaseContent" name="aqueous1" model="aqueous" value="0.1"/>
+			<ref type="phaseContent" name="mineral1" model="mineral" value="0.1"/>
+			
+		</chemicalComposition>		
+		
+		
+	 </proostList>
+
+</cheprooPlusPlusInputFile>

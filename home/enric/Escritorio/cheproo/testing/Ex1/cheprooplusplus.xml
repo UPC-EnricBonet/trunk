@@ -1,0 +1,55 @@
+<cheprooPlusPlusInputFile name="cheproo_input">
+
+	<cheprooPlusPlus name="simulation1">
+		<function name="speciateWaters" isSecOrdDerivCalc="false" writeInfo="false">
+			<ref type = "water" ID="1">water_injected</ref>	
+		</function>	
+	</cheprooPlusPlus>
+	
+	<globalChemicalSystem buildOption="readFromMaster25" thermodynamicDatabase="completemaster25.xml">
+
+		<phase name="aqueous1" type="aqueousIdeal" model="aqueous"> 
+			<ref type="species">ca+2</ref>
+			<ref type="species">h+</ref>
+			<ref type="species">oh-</ref>
+			<ref type="species">hco3-</ref>
+			<ref type="species">h2o</ref>
+			<ref type="species">co2(aq)</ref>
+		</phase>
+ 		<phase name="mineral1" type="mineralIdeal" model="mineral"> 	
+			<ref type="species">caco3(s)</ref>		
+		</phase>
+		<localChemicalSystems>
+			<localChemicalSystem name="local1" type="localChemicalSystemConstPrimary" maxRelativeError="1e-5" maxResidual="1e-10" maxIterNum="100">
+				<ref type="primarySpecies">ca+2</ref>
+				<ref type="primarySpecies">h+</ref>
+				<ref type="primarySpecies">hco3-</ref>
+				<ref type="primarySpecies">oh-</ref>
+			</localChemicalSystem>
+		</localChemicalSystems>
+
+<!-- 		<reactionRateLaw name="calciteDiss" type="reactionRateLawLasaga" ea="0.0" attr1="1.0">
+		   <ref type="species" attr1="3.9d-7" attr2="1.0" attr3="1.0">calcite</ref>
+		</reactionRateLaw>  -->
+	</globalChemicalSystem>
+	
+	<proostList type = "water">	
+		<water ID="1" name="water_injected" temp="25.00">  <!--agua que se inyecta-->
+			<ref type="species" iCon="ctot" cGuess="1.0e-6" cTot="1.0e-7" constraint="">h+</ref>
+			<ref type="species" iCon="ctot" cGuess="1.0e-3" cTot="1.0e-1" constraint="">hco3-</ref>
+			<ref type="species" iCon="ctot" cGuess="1.0e-3" cTot="4.47e-3" constraint="dolomite">ca+2</ref>
+			<ref type="species" iCon="ctot" cGuess="0.0" cTot="4.47e-3" constraint="dolomite">oh-</ref>			
+		</water>
+	 </proostList>
+<!-- 	 <proostList type = "output">
+		<output name="totalConc1" type="totalConc">
+			<ref type="species">hco3-</ref>
+		</output>
+		<output name="concentrations" type="conc">
+			<ref type="species">h+</ref>
+			<ref type="species">fe3+</ref>
+			<ref type="species">mg+2</ref>
+			<ref type="species">o2</ref>
+		</output>
+	</proostList> -->
+</cheprooPlusPlusInputFile>

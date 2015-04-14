@@ -1,0 +1,3 @@
+/home/enric/Escritorio/cheproo/lib/cheprooLib/CMakeFiles/CheprooLib.dir
+/home/enric/Escritorio/cheproo/testing/CMakeFiles/CheprooUnitTest.dir
+/home/enric/Escritorio/cheproo/src/CMakeFiles/cheprooPlusPlus.dir
