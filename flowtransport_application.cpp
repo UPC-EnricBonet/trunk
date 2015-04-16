@@ -11,7 +11,12 @@
 // System includes
 
 
+<<<<<<< HEAD
 //Vuelvo hacer un change, ahora hago otro desde el ordenador pequeño!!!
+=======
+
+//Vuelvo hacer un change, ahora hago otro desde el ordenador pequeño!!! Este es el cambio del 16 de Abril de 2015
+>>>>>>> 8e8f28ad59c089b4dfa793718ec01c5208b88297
 
 
 // External includes 
