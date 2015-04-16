@@ -12,7 +12,7 @@
 
 
 <<<<<<< HEAD
-//Vuelvo hacer un change, ahora hago otro desde el ordenador pequeño!!!
+//Vuelvo hacer un change, ahora hago otro desde el ordenador pequeño, jou jou!!!
 =======
 
 //Vuelvo hacer un change, ahora hago otro desde el ordenador pequeño!!! Este es el cambio del 16 de Abril de 2015
