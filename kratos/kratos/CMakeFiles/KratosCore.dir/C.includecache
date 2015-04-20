@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/enric/kratos/kratos/sources/mmio.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+includes/mmio.h
+/home/enric/kratos/kratos/sources/includes/mmio.h
+
+kratos/includes/kratos_export_dll.h
+
+kratos/includes/mmio.h
+includes/kratos_export_dll.h
+kratos/includes/includes/kratos_export_dll.h
+

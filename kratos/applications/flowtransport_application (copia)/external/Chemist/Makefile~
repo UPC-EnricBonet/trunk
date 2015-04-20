@@ -1,0 +1,5 @@
+CC=gCC
+CFLAGS=-Wall -ggdb -fPIC
+LDFLAGS=-fPIC -shared
+ libfich.so: LibChemist.o
+$(CC) $(LDFLAGS) -o $@ $^

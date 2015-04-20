@@ -1,0 +1,159 @@
+// Project includes 
+#include "includes/define.h"
+#include "custom_conditions/sinksource.h"
+#include "flow_application.h"
+#include "utilities/math_utils.h"
+
+
+namespace Kratos
+{
+    
+        typedef GeometryData::KratosGeometryType KratosGeometryType;
+        
+	//************************************************************************************
+	//************************************************************************************
+	SinkSource::SinkSource(IndexType NewId, GeometryType::Pointer pGeometry)
+		: Condition(NewId, pGeometry)
+	{		
+		//DO NOT ADD DOFS HERE!!!
+	}
+
+	//************************************************************************************
+	//************************************************************************************
+	SinkSource::SinkSource(IndexType NewId, GeometryType::Pointer pGeometry,  PropertiesType::Pointer pProperties)
+		: Condition(NewId, pGeometry, pProperties)
+	{
+	}
+	Condition::Pointer SinkSource::Create(IndexType NewId, NodesArrayType const& ThisNodes,  PropertiesType::Pointer pProperties) const
+	{
+		return Condition::Pointer(new SinkSource(NewId, GetGeometry().Create(ThisNodes), pProperties));
+	}
+
+	SinkSource::~SinkSource()
+	{
+	}
+
+	//************************************************************************************
+	//************************************************************************************
+	void SinkSource::CalculateRightHandSide(VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo)
+	{
+            bool CalculateStiffnessMatrixFlag =false;
+            MatrixType temp = Matrix();
+            
+            this->CalculateAll(temp, rRightHandSideVector, rCurrentProcessInfo, CalculateStiffnessMatrixFlag);
+        }
+
+        void SinkSource::CalculateLocalSystem(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo)
+	{
+            bool CalculateStiffnessMatrixFlag =true;
+            
+            this->CalculateAll(rLeftHandSideMatrix, rRightHandSideVector, rCurrentProcessInfo, CalculateStiffnessMatrixFlag);
+        }
+        
+        void SinkSource::EquationIdVector(EquationIdVectorType& rResult, ProcessInfo& CurrentProcessInfo)
+	{
+		int number_of_nodes = GetGeometry().PointsNumber();
+		unsigned int index;
+		unsigned int dim = 1;
+		rResult.resize(number_of_nodes*dim);
+		for (int i=0;i<number_of_nodes;i++)
+		{
+			index = i*dim;
+			rResult[index] = (GetGeometry()[i].GetDof(HEAD_LEVEL).EquationId());			
+		}
+	}
+
+	//************************************************************************************
+	//************************************************************************************
+	void SinkSource::GetDofList(DofsVectorType& ConditionalDofList,ProcessInfo& CurrentProcessInfo)
+	{
+		unsigned int dim = 1;
+		ConditionalDofList.resize(GetGeometry().size()*dim);
+		unsigned int index;
+		for (unsigned int i=0;i<GetGeometry().size();i++)
+		{
+			
+			index = i*dim;
+			ConditionalDofList[index] = (GetGeometry()[i].pGetDof(HEAD_LEVEL));
+		}
+	}
+        
+	//************************************************************************************
+	//************************************************************************************
+	void SinkSource::CalculateAll(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo, bool aCalculateStiffnessMatrixFlag)
+	{
+		KRATOS_TRY
+
+                //Set Matrix & vector size
+                unsigned int number_of_nodes = GetGeometry().size();
+                unsigned int MatSize=number_of_nodes;
+            
+                if (aCalculateStiffnessMatrixFlag==true)
+                {
+                    if(rLeftHandSideMatrix.size1() != MatSize)
+                        rLeftHandSideMatrix.resize(MatSize,MatSize,false);
+                    noalias(rLeftHandSideMatrix) = ZeroMatrix(MatSize,MatSize);
+                }
+                
+                if(rRightHandSideVector.size() != MatSize)
+                    rRightHandSideVector.resize(MatSize,false);
+                
+                //Get properties
+                const double flowRate = GetProperties()[FLOW_RATE];
+                //En caso de meter valor via NodalData!!!: double flowRate = GetGeometry()[0].GetSolutionStepValue(FLOW_RATE);    
+                
+                KratosGeometryType typeOfElement= GetGeometry().GetGeometryType();
+                
+                switch ( typeOfElement ) {
+                    case  GeometryData::Kratos_Point2D:
+                  this->CalculateLocalSystemPoint(rLeftHandSideMatrix, rRightHandSideVector, rCurrentProcessInfo,flowRate);
+                  break;
+                    case GeometryData::Kratos_Line2D2:
+                  this->CalculateLocalSystemLine(rLeftHandSideMatrix, rRightHandSideVector, rCurrentProcessInfo,flowRate);
+                  break;
+                    case GeometryData::Kratos_Triangle2D3:
+                  this->CalculateLocalSystemTriangle(rLeftHandSideMatrix, rRightHandSideVector, rCurrentProcessInfo,flowRate);
+                  break;
+                default:
+                  KRATOS_ERROR(std::logic_error, "This element is not yet implement in order to solve source term!!!!! ERROR", "");
+                  break;
+                }    
+                
+                KRATOS_CATCH("");
+	}
+        
+        
+        void SinkSource::CalculateLocalSystemPoint(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo, const double aFlowRate)
+        {
+		rRightHandSideVector[0] = aFlowRate;
+        }
+        
+        void SinkSource::CalculateLocalSystemLine(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo, const double aFlowRate)
+        {
+            
+                //calculate lenght
+                double xlenght = GetGeometry()[1].X() - GetGeometry()[0].X();
+                double ylenght = GetGeometry()[1].Y() - GetGeometry()[0].Y();
+                double lenght = xlenght*xlenght + ylenght*ylenght;
+                lenght = sqrt(lenght);
+		
+		rRightHandSideVector[0] = (aFlowRate*lenght)/2;
+                rRightHandSideVector[1] = (aFlowRate*lenght)/2;
+		
+        }
+        
+        void SinkSource::CalculateLocalSystemTriangle(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo, const double aFlowRate)
+        {
+
+                //calculate area
+                double Area = GetGeometry().Area();
+		
+		rRightHandSideVector[0] = (aFlowRate*Area)/3;
+                rRightHandSideVector[1] = (aFlowRate*Area)/3;
+                rRightHandSideVector[2] = (aFlowRate*Area)/3;
+                
+        }
+
+	//************************************************************************************
+	//************************************************************************************
+} // Namespace Kratos

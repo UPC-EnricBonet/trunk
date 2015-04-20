@@ -1,0 +1,93 @@
+Begin ModelPartData
+//  VARIABLE_NAME value
+End ModelPartData
+
+Begin Properties 1            
+SPECIFIC_STORAGE 2.03873e-05            
+PERMEABILITY_WATER 1.019367e-04 
+POROSITY 0.35 
+DIFFUSION_COEFFICIENT 6.60000e-06
+End Properties
+
+Begin Properties 2           
+PRESCRIBED_VALUE 0.1
+End Properties
+
+Begin Nodes
+       1        0.0        0.0         0.0                    
+       2        1.0        0.0         0.0                               
+       3        2.0        0.0         0.0                           
+       4        0.0        1.0         0.0                               
+       5        1.0        1.0         0.0                               
+       6        2.0        1.0         0.0
+       7        0.0        2.0         0.0                               
+       8        1.0        2.0         0.0
+       9        2.0        2.0         0.0                                
+End Nodes
+
+Begin Elements FlowPressureTrans2D 
+  1 1 1 2 5  
+  2 1 1 5 4
+  3 1 2 3 6
+  4 1 2 6 5
+  5 1 4 5 8
+  6 1 4 8 7
+  7 1 5 6 9
+  8 1 5 9 8
+End Elements
+
+Begin Conditions PointMassFlow //Right_side massFlow sea water
+9 2        3        
+10 2       6       
+11 2       9
+End Conditions
+
+Begin NodalData PRESSURE   //Right_side hydrostatic sea water pressure
+1	1    19620.000
+4	1     9810.000
+7       1        0.000
+3	1    19620.000 
+6	1     9810.000
+9       1        0.000 
+End NodalData
+
+Begin NodalData CONCENTRATION
+1       1       0.000
+4	1       0.000 
+7	1       0.000
+End NodalData
+
+Begin ElementalData DENSITY_ELEM //Non-constant
+1 1000
+2 1000
+3 1000
+4 1000
+5 1000
+6 1000
+7 1000
+8 1000
+End ElementalData
+
+Begin ElementalData DARCY_FLOW_X //Non-constant
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+End ElementalData
+
+Begin ElementalData DARCY_FLOW_Y //Non-constant
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+End ElementalData
+
+

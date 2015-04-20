@@ -1,0 +1,13 @@
+ |  /           |             
+ ' /   __| _` | __|  _ \   __|
+ . \  |   (   | |   (   |\__ \ 
+_|\_\_|  \__,_|\__|\___/ ____/
+           Multi-Physics 3.3.11098
+Importing    KratosFlowTransportApplication
+Initializing KratosFlowTransportApplication... 
+Importing    KratosExternalSolversApplication
+Initializing KratosExternalSolversApplication... 
+Importing    KratosMeshingApplication
+Initializing Kratos MeshingApplication... 
+[ "FluidTransport" ] 
+[ Opened for IO: .node, .prop, .elem, .cond, .init  ]

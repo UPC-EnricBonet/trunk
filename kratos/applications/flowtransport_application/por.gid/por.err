@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/enric/kratos/applications/flowtransport_application/por.gid/por.py", line 46, in <module>
+    model_part_io = ModelPartIO("FluidTransport")         # we set the name of the .mdpa file 
+ValueError: in Kratos::ModelPartIO::ModelPartIO(const string&, bool) [ /home/enric/kratos/kratos/includes/model_part_io.h , Line 135 ]
+
+with subject    :  Error opening input file :  FluidTransport.mdpa

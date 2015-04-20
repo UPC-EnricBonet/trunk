@@ -1,0 +1,2453 @@
+GiD Post Results File 1.0
+GaussPoints "tri1_element_gp" ElemType Triangle
+Number Of Gauss Points: 1
+Natural Coordinates: Internal
+End GaussPoints
+Result "PRESSURE" "Kratos" 0 Scalar OnNodes
+Values
+1 19620
+2 0
+3 19620
+4 9810
+5 0
+6 9810
+7 0
+8 0
+9 0
+End Values
+Result "CONCENTRATION" "Kratos" 0 Scalar OnNodes
+Values
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+End Values
+Result "DENSITY" "Kratos" 0 Scalar OnNodes
+Values
+1 -1.85699e-148
+2 0
+3 0.0469101
+4 1.58679e-316
+5 1.58681e-316
+6 1.58897e-316
+7 1.97626e-323
+8 9.88131e-324
+9 6.90877e-310
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 0 Scalar OnNodes
+Values
+1 0
+2 0
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+End Values
+Result "CONCENTRATION" "Kratos" 0.2 Scalar OnNodes
+Values
+1 0
+2 0.00206179
+3 -0.00057218
+4 0
+5 0.00274712
+6 0.0405387
+7 0
+8 0.000922297
+9 0.0502729
+End Values
+Result "PRESSURE" "Kratos" 0.2 Scalar OnNodes
+Values
+1 19620
+2 14388
+3 19620
+4 9810
+5 6540
+6 9810
+7 0
+8 -1308
+9 0
+End Values
+Result "DENSITY" "Kratos" 0.2 Scalar OnNodes
+Values
+1 1000
+2 1001.44
+3 999.599
+4 1000
+5 1001.92
+6 1028.38
+7 1000
+8 1000.65
+9 1035.19
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 0.2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 0.4 Scalar OnNodes
+Values
+1 0
+2 0.00280385
+3 -0.000611803
+4 0
+5 0.00402376
+6 0.0423449
+7 0
+8 0.00177873
+9 0.0753227
+End Values
+Result "PRESSURE" "Kratos" 0.4 Scalar OnNodes
+Values
+1 19620
+2 18137.6
+3 19620
+4 9810
+5 8720
+6 9810
+7 0
+8 -697.598
+9 0
+End Values
+Result "DENSITY" "Kratos" 0.4 Scalar OnNodes
+Values
+1 1000
+2 1001.96
+3 999.572
+4 1000
+5 1002.82
+6 1029.64
+7 1000
+8 1001.25
+9 1052.73
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 0.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 0.6000000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00311789
+3 -0.000435799
+4 0
+5 0.00462423
+6 0.0432272
+7 0
+8 0.00219568
+9 0.0877575
+End Values
+Result "PRESSURE" "Kratos" 0.6000000000000001 Scalar OnNodes
+Values
+1 19620
+2 19178.2
+3 19620
+4 9810
+5 9446.67
+6 9810
+7 0
+8 -284.852
+9 0
+End Values
+Result "DENSITY" "Kratos" 0.6000000000000001 Scalar OnNodes
+Values
+1 1000
+2 1002.18
+3 999.695
+4 1000
+5 1003.24
+6 1030.26
+7 1000
+8 1001.54
+9 1061.43
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 0.6000000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 0.8 Scalar OnNodes
+Values
+1 0
+2 0.00328918
+3 -0.000188004
+4 0
+5 0.00495367
+6 0.0438198
+7 0
+8 0.00235551
+9 0.0939929
+End Values
+Result "PRESSURE" "Kratos" 0.8 Scalar OnNodes
+Values
+1 19620
+2 19483.2
+3 19620
+4 9810
+5 9688.89
+6 9810
+7 0
+8 -105.415
+9 0
+End Values
+Result "DENSITY" "Kratos" 0.8 Scalar OnNodes
+Values
+1 1000
+2 1002.3
+3 999.868
+4 1000
+5 1003.47
+6 1030.67
+7 1000
+8 1001.65
+9 1065.8
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 0.8 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 1 Scalar OnNodes
+Values
+1 0
+2 0.00341364
+3 8.58504e-05
+4 0
+5 0.00518516
+6 0.0443255
+7 0
+8 0.00240502
+9 0.0971659
+End Values
+Result "PRESSURE" "Kratos" 1 Scalar OnNodes
+Values
+1 19620
+2 19576.5
+3 19620
+4 9810
+5 9769.63
+6 9810
+7 0
+8 -37.2309
+9 0
+End Values
+Result "DENSITY" "Kratos" 1 Scalar OnNodes
+Values
+1 1000
+2 1002.39
+3 1000.06
+4 1000
+5 1003.63
+6 1031.03
+7 1000
+8 1001.68
+9 1068.02
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 1 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 1.2 Scalar OnNodes
+Values
+1 0
+2 0.00352382
+3 0.000371969
+4 0
+5 0.00538346
+6 0.044808
+7 0
+8 0.00241216
+9 0.0988019
+End Values
+Result "PRESSURE" "Kratos" 1.2 Scalar OnNodes
+Values
+1 19620
+2 19605.9
+3 19620
+4 9810
+5 9796.54
+6 9810
+7 0
+8 -12.8289
+9 0
+End Values
+Result "DENSITY" "Kratos" 1.2 Scalar OnNodes
+Values
+1 1000
+2 1002.47
+3 1000.26
+4 1000
+5 1003.77
+6 1031.37
+7 1000
+8 1001.69
+9 1069.16
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 1.2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 1.4 Scalar OnNodes
+Values
+1 0
+2 0.00363079
+3 0.000666287
+4 0
+5 0.00557084
+6 0.0452859
+7 0
+8 0.00240345
+9 0.0996533
+End Values
+Result "PRESSURE" "Kratos" 1.4 Scalar OnNodes
+Values
+1 19620
+2 19615.4
+3 19620
+4 9810
+5 9805.51
+6 9810
+7 0
+8 -4.35999
+9 0
+End Values
+Result "DENSITY" "Kratos" 1.4 Scalar OnNodes
+Values
+1 1000
+2 1002.54
+3 1000.47
+4 1000
+5 1003.9
+6 1031.7
+7 1000
+8 1001.68
+9 1069.76
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 1.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 1.6 Scalar OnNodes
+Values
+1 0
+2 0.00373832
+3 0.000967619
+4 0
+5 0.00575441
+6 0.0457643
+7 0
+8 0.00238853
+9 0.100099
+End Values
+Result "PRESSURE" "Kratos" 1.6 Scalar OnNodes
+Values
+1 19620
+2 19618.5
+3 19620
+4 9810
+5 9808.5
+6 9810
+7 0
+8 -1.47007
+9 0
+End Values
+Result "DENSITY" "Kratos" 1.6 Scalar OnNodes
+Values
+1 1000
+2 1002.62
+3 1000.68
+4 1000
+5 1004.03
+6 1032.03
+7 1000
+8 1001.67
+9 1070.07
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 1.6 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 1.8 Scalar OnNodes
+Values
+1 0
+2 0.0038477
+3 0.00127565
+4 0
+5 0.00593627
+6 0.046244
+7 0
+8 0.00237074
+9 0.100332
+End Values
+Result "PRESSURE" "Kratos" 1.8 Scalar OnNodes
+Values
+1 19620
+2 19619.5
+3 19620
+4 9810
+5 9809.5
+6 9810
+7 0
+8 -0.493371
+9 0
+End Values
+Result "DENSITY" "Kratos" 1.8 Scalar OnNodes
+Values
+1 1000
+2 1002.69
+3 1000.89
+4 1000
+5 1004.16
+6 1032.37
+7 1000
+8 1001.66
+9 1070.23
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 1.8 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 2 Scalar OnNodes
+Values
+1 0
+2 0.00395938
+3 0.00159033
+4 0
+5 0.00611692
+6 0.0467251
+7 0
+8 0.00235125
+9 0.100453
+End Values
+Result "PRESSURE" "Kratos" 2 Scalar OnNodes
+Values
+1 19620
+2 19619.8
+3 19620
+4 9810
+5 9809.83
+6 9810
+7 0
+8 -0.165127
+9 0
+End Values
+Result "DENSITY" "Kratos" 2 Scalar OnNodes
+Values
+1 1000
+2 1002.77
+3 1001.11
+4 1000
+5 1004.28
+6 1032.71
+7 1000
+8 1001.65
+9 1070.32
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 2.2 Scalar OnNodes
+Values
+1 0
+2 0.00407352
+3 0.00191169
+4 0
+5 0.00629641
+6 0.0472074
+7 0
+8 0.00233043
+9 0.100516
+End Values
+Result "PRESSURE" "Kratos" 2.2 Scalar OnNodes
+Values
+1 19620
+2 19619.9
+3 19620
+4 9810
+5 9809.94
+6 9810
+7 0
+8 -0.055176
+9 0
+End Values
+Result "DENSITY" "Kratos" 2.2 Scalar OnNodes
+Values
+1 1000
+2 1002.85
+3 1001.34
+4 1000
+5 1004.41
+6 1033.05
+7 1000
+8 1001.63
+9 1070.36
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 2.2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 2.4 Scalar OnNodes
+Values
+1 0
+2 0.00419018
+3 0.00223978
+4 0
+5 0.00647468
+6 0.0476905
+7 0
+8 0.00230842
+9 0.100547
+End Values
+Result "PRESSURE" "Kratos" 2.4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9809.98
+6 9810
+7 0
+8 -0.0184188
+9 0
+End Values
+Result "DENSITY" "Kratos" 2.4 Scalar OnNodes
+Values
+1 1000
+2 1002.93
+3 1001.57
+4 1000
+5 1004.53
+6 1033.38
+7 1000
+8 1001.62
+9 1070.38
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 2.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 2.6 Scalar OnNodes
+Values
+1 0
+2 0.0043094
+3 0.00257464
+4 0
+5 0.00665169
+6 0.0481744
+7 0
+8 0.00228526
+9 0.100561
+End Values
+Result "PRESSURE" "Kratos" 2.6 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9809.99
+6 9810
+7 0
+8 -0.00614494
+9 0
+End Values
+Result "DENSITY" "Kratos" 2.6 Scalar OnNodes
+Values
+1 1000
+2 1003.02
+3 1001.8
+4 1000
+5 1004.66
+6 1033.72
+7 1000
+8 1001.6
+9 1070.39
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 2.6 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 2.8 Scalar OnNodes
+Values
+1 0
+2 0.00443119
+3 0.00291634
+4 0
+5 0.00682737
+6 0.0486589
+7 0
+8 0.00226096
+9 0.100566
+End Values
+Result "PRESSURE" "Kratos" 2.8 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -0.00204938
+9 0
+End Values
+Result "DENSITY" "Kratos" 2.8 Scalar OnNodes
+Values
+1 1000
+2 1003.1
+3 1002.04
+4 1000
+5 1004.78
+6 1034.06
+7 1000
+8 1001.58
+9 1070.4
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 2.8 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 3 Scalar OnNodes
+Values
+1 0
+2 0.00455556
+3 0.00326491
+4 0
+5 0.00700169
+6 0.0491441
+7 0
+8 0.00223553
+9 0.100567
+End Values
+Result "PRESSURE" "Kratos" 3 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -0.000683341
+9 0
+End Values
+Result "DENSITY" "Kratos" 3 Scalar OnNodes
+Values
+1 1000
+2 1003.19
+3 1002.29
+4 1000
+5 1004.9
+6 1034.4
+7 1000
+8 1001.56
+9 1070.4
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 3 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 3.2 Scalar OnNodes
+Values
+1 0
+2 0.00468253
+3 0.00362041
+4 0
+5 0.00717461
+6 0.0496298
+7 0
+8 0.00220896
+9 0.100565
+End Values
+Result "PRESSURE" "Kratos" 3.2 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -0.000227823
+9 0
+End Values
+Result "DENSITY" "Kratos" 3.2 Scalar OnNodes
+Values
+1 1000
+2 1003.28
+3 1002.53
+4 1000
+5 1005.02
+6 1034.74
+7 1000
+8 1001.55
+9 1070.4
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 3.2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 3.4 Scalar OnNodes
+Values
+1 0
+2 0.00481209
+3 0.00398288
+4 0
+5 0.00734611
+6 0.050116
+7 0
+8 0.00218126
+9 0.100562
+End Values
+Result "PRESSURE" "Kratos" 3.4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -7.59494e-05
+9 0
+End Values
+Result "DENSITY" "Kratos" 3.4 Scalar OnNodes
+Values
+1 1000
+2 1003.37
+3 1002.79
+4 1000
+5 1005.14
+6 1035.08
+7 1000
+8 1001.53
+9 1070.39
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 3.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 3.6 Scalar OnNodes
+Values
+1 0
+2 0.00494426
+3 0.00435237
+4 0
+5 0.00751616
+6 0.0506026
+7 0
+8 0.00215242
+9 0.100558
+End Values
+Result "PRESSURE" "Kratos" 3.6 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -2.53182e-05
+9 0
+End Values
+Result "DENSITY" "Kratos" 3.6 Scalar OnNodes
+Values
+1 1000
+2 1003.46
+3 1003.05
+4 1000
+5 1005.26
+6 1035.42
+7 1000
+8 1001.51
+9 1070.39
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 3.6 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 3.8 Scalar OnNodes
+Values
+1 0
+2 0.00507904
+3 0.00472891
+4 0
+5 0.00768473
+6 0.0510898
+7 0
+8 0.00212243
+9 0.100553
+End Values
+Result "PRESSURE" "Kratos" 3.8 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -8.43972e-06
+9 0
+End Values
+Result "DENSITY" "Kratos" 3.8 Scalar OnNodes
+Values
+1 1000
+2 1003.56
+3 1003.31
+4 1000
+5 1005.38
+6 1035.76
+7 1000
+8 1001.49
+9 1070.39
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 3.8 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 4 Scalar OnNodes
+Values
+1 0
+2 0.00521643
+3 0.00511254
+4 0
+5 0.0078518
+6 0.0515773
+7 0
+8 0.00209131
+9 0.100548
+End Values
+Result "PRESSURE" "Kratos" 4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -2.8133e-06
+9 0
+End Values
+Result "DENSITY" "Kratos" 4 Scalar OnNodes
+Values
+1 1000
+2 1003.65
+3 1003.58
+4 1000
+5 1005.5
+6 1036.1
+7 1000
+8 1001.46
+9 1070.38
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 4.2 Scalar OnNodes
+Values
+1 0
+2 0.00535643
+3 0.0055033
+4 0
+5 0.00801735
+6 0.0520652
+7 0
+8 0.00205904
+9 0.100543
+End Values
+Result "PRESSURE" "Kratos" 4.2 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -9.37781e-07
+9 0
+End Values
+Result "DENSITY" "Kratos" 4.2 Scalar OnNodes
+Values
+1 1000
+2 1003.75
+3 1003.85
+4 1000
+5 1005.61
+6 1036.45
+7 1000
+8 1001.44
+9 1070.38
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 4.2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 4.4 Scalar OnNodes
+Values
+1 0
+2 0.00549905
+3 0.00590121
+4 0
+5 0.00818134
+6 0.0525535
+7 0
+8 0.00202563
+9 0.100538
+End Values
+Result "PRESSURE" "Kratos" 4.4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -3.12596e-07
+9 0
+End Values
+Result "DENSITY" "Kratos" 4.4 Scalar OnNodes
+Values
+1 1000
+2 1003.85
+3 1004.13
+4 1000
+5 1005.73
+6 1036.79
+7 1000
+8 1001.42
+9 1070.38
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 4.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 4.600000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00564427
+3 0.00630631
+4 0
+5 0.00834376
+6 0.053042
+7 0
+8 0.00199107
+9 0.100533
+End Values
+Result "PRESSURE" "Kratos" 4.600000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.04199e-07
+9 0
+End Values
+Result "DENSITY" "Kratos" 4.600000000000001 Scalar OnNodes
+Values
+1 1000
+2 1003.95
+3 1004.41
+4 1000
+5 1005.84
+6 1037.13
+7 1000
+8 1001.39
+9 1070.37
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 4.600000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 4.800000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00579209
+3 0.00671861
+4 0
+5 0.00850459
+6 0.0535309
+7 0
+8 0.00195537
+9 0.100528
+End Values
+Result "PRESSURE" "Kratos" 4.800000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -3.47333e-08
+9 0
+End Values
+Result "DENSITY" "Kratos" 4.800000000000001 Scalar OnNodes
+Values
+1 1000
+2 1004.05
+3 1004.7
+4 1000
+5 1005.95
+6 1037.47
+7 1000
+8 1001.37
+9 1070.37
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 4.800000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 5 Scalar OnNodes
+Values
+1 0
+2 0.00594251
+3 0.00713815
+4 0
+5 0.00866379
+6 0.0540199
+7 0
+8 0.00191852
+9 0.100522
+End Values
+Result "PRESSURE" "Kratos" 5 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.15776e-08
+9 0
+End Values
+Result "DENSITY" "Kratos" 5 Scalar OnNodes
+Values
+1 1000
+2 1004.16
+3 1005
+4 1000
+5 1006.06
+6 1037.81
+7 1000
+8 1001.34
+9 1070.37
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 5 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 5.2 Scalar OnNodes
+Values
+1 0
+2 0.00609552
+3 0.00756493
+4 0
+5 0.00882134
+6 0.0545091
+7 0
+8 0.00188053
+9 0.100517
+End Values
+Result "PRESSURE" "Kratos" 5.2 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -3.85918e-09
+9 0
+End Values
+Result "DENSITY" "Kratos" 5.2 Scalar OnNodes
+Values
+1 1000
+2 1004.27
+3 1005.3
+4 1000
+5 1006.17
+6 1038.16
+7 1000
+8 1001.32
+9 1070.36
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 5.2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 5.4 Scalar OnNodes
+Values
+1 0
+2 0.0062511
+3 0.00799898
+4 0
+5 0.00897723
+6 0.0549985
+7 0
+8 0.00184139
+9 0.100512
+End Values
+Result "PRESSURE" "Kratos" 5.4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.28664e-09
+9 0
+End Values
+Result "DENSITY" "Kratos" 5.4 Scalar OnNodes
+Values
+1 1000
+2 1004.38
+3 1005.6
+4 1000
+5 1006.28
+6 1038.5
+7 1000
+8 1001.29
+9 1070.36
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 5.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 5.600000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00640926
+3 0.0084403
+4 0
+5 0.00913142
+6 0.055488
+7 0
+8 0.00180111
+9 0.100506
+End Values
+Result "PRESSURE" "Kratos" 5.600000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -4.28969e-10
+9 0
+End Values
+Result "DENSITY" "Kratos" 5.600000000000001 Scalar OnNodes
+Values
+1 1000
+2 1004.49
+3 1005.91
+4 1000
+5 1006.39
+6 1038.84
+7 1000
+8 1001.26
+9 1070.35
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 5.600000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 5.800000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00656997
+3 0.0088889
+4 0
+5 0.00928389
+6 0.0559776
+7 0
+8 0.00175969
+9 0.100501
+End Values
+Result "PRESSURE" "Kratos" 5.800000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.43375e-10
+9 0
+End Values
+Result "DENSITY" "Kratos" 5.800000000000001 Scalar OnNodes
+Values
+1 1000
+2 1004.6
+3 1006.22
+4 1000
+5 1006.5
+6 1039.18
+7 1000
+8 1001.23
+9 1070.35
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 5.800000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 6 Scalar OnNodes
+Values
+1 0
+2 0.00673321
+3 0.00934479
+4 0
+5 0.00943461
+6 0.0564672
+7 0
+8 0.00171713
+9 0.100495
+End Values
+Result "PRESSURE" "Kratos" 6 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -4.75245e-11
+9 0
+End Values
+Result "DENSITY" "Kratos" 6 Scalar OnNodes
+Values
+1 1000
+2 1004.71
+3 1006.54
+4 1000
+5 1006.6
+6 1039.53
+7 1000
+8 1001.2
+9 1070.35
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 6 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 6.2 Scalar OnNodes
+Values
+1 0
+2 0.00689897
+3 0.00980797
+4 0
+5 0.00958357
+6 0.0569567
+7 0
+8 0.00167343
+9 0.100489
+End Values
+Result "PRESSURE" "Kratos" 6.2 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.53295e-11
+9 0
+End Values
+Result "DENSITY" "Kratos" 6.2 Scalar OnNodes
+Values
+1 1000
+2 1004.83
+3 1006.87
+4 1000
+5 1006.71
+6 1039.87
+7 1000
+8 1001.17
+9 1070.34
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 6.2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 6.4 Scalar OnNodes
+Values
+1 0
+2 0.00706724
+3 0.0102784
+4 0
+5 0.00973074
+6 0.0574462
+7 0
+8 0.00162859
+9 0.100484
+End Values
+Result "PRESSURE" "Kratos" 6.4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -5.03166e-12
+9 0
+End Values
+Result "DENSITY" "Kratos" 6.4 Scalar OnNodes
+Values
+1 1000
+2 1004.95
+3 1007.19
+4 1000
+5 1006.81
+6 1040.21
+7 1000
+8 1001.14
+9 1070.34
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 6.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 6.600000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00723798
+3 0.0107561
+4 0
+5 0.00987608
+6 0.0579355
+7 0
+8 0.00158262
+9 0.100478
+End Values
+Result "PRESSURE" "Kratos" 6.600000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -2.22185e-12
+9 0
+End Values
+Result "DENSITY" "Kratos" 6.600000000000001 Scalar OnNodes
+Values
+1 1000
+2 1005.07
+3 1007.53
+4 1000
+5 1006.91
+6 1040.55
+7 1000
+8 1001.11
+9 1070.33
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 6.600000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 6.800000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00741117
+3 0.0112411
+4 0
+5 0.0100196
+6 0.0584247
+7 0
+8 0.00153552
+9 0.100472
+End Values
+Result "PRESSURE" "Kratos" 6.800000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.02204e-12
+9 0
+End Values
+Result "DENSITY" "Kratos" 6.800000000000001 Scalar OnNodes
+Values
+1 1000
+2 1005.19
+3 1007.87
+4 1000
+5 1007.01
+6 1040.9
+7 1000
+8 1001.07
+9 1070.33
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 6.800000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 7 Scalar OnNodes
+Values
+1 0
+2 0.0075868
+3 0.0117334
+4 0
+5 0.0101612
+6 0.0589137
+7 0
+8 0.00148729
+9 0.100466
+End Values
+Result "PRESSURE" "Kratos" 7 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -2.5523e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 7 Scalar OnNodes
+Values
+1 1000
+2 1005.31
+3 1008.21
+4 1000
+5 1007.11
+6 1041.24
+7 1000
+8 1001.04
+9 1070.33
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 7 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 7.2 Scalar OnNodes
+Values
+1 0
+2 0.00776482
+3 0.0122328
+4 0
+5 0.010301
+6 0.0594023
+7 0
+8 0.00143794
+9 0.10046
+End Values
+Result "PRESSURE" "Kratos" 7.2 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.23019e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 7.2 Scalar OnNodes
+Values
+1 1000
+2 1005.44
+3 1008.56
+4 1000
+5 1007.21
+6 1041.58
+7 1000
+8 1001.01
+9 1070.32
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 7.2 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 7.4 Scalar OnNodes
+Values
+1 0
+2 0.00794521
+3 0.0127394
+4 0
+5 0.0104388
+6 0.0598906
+7 0
+8 0.00138747
+9 0.100454
+End Values
+Result "PRESSURE" "Kratos" 7.4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.80242e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 7.4 Scalar OnNodes
+Values
+1 1000
+2 1005.56
+3 1008.92
+4 1000
+5 1007.31
+6 1041.92
+7 1000
+8 1000.97
+9 1070.32
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 7.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 7.600000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00812794
+3 0.0132532
+4 0
+5 0.0105747
+6 0.0603786
+7 0
+8 0.00133588
+9 0.100448
+End Values
+Result "PRESSURE" "Kratos" 7.600000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -2.30328e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 7.600000000000001 Scalar OnNodes
+Values
+1 1000
+2 1005.69
+3 1009.28
+4 1000
+5 1007.4
+6 1042.26
+7 1000
+8 1000.94
+9 1070.31
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 7.600000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 7.800000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00831297
+3 0.0137742
+4 0
+5 0.0107087
+6 0.060866
+7 0
+8 0.00128318
+9 0.100442
+End Values
+Result "PRESSURE" "Kratos" 7.800000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -2.9872e-14
+9 0
+End Values
+Result "DENSITY" "Kratos" 7.800000000000001 Scalar OnNodes
+Values
+1 1000
+2 1005.82
+3 1009.64
+4 1000
+5 1007.5
+6 1042.61
+7 1000
+8 1000.9
+9 1070.31
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 7.800000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 8 Scalar OnNodes
+Values
+1 0
+2 0.00850027
+3 0.0143022
+4 0
+5 0.0108406
+6 0.061353
+7 0
+8 0.00122938
+9 0.100436
+End Values
+Result "PRESSURE" "Kratos" 8 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 2.82764e-14
+9 0
+End Values
+Result "DENSITY" "Kratos" 8 Scalar OnNodes
+Values
+1 1000
+2 1005.95
+3 1010.01
+4 1000
+5 1007.59
+6 1042.95
+7 1000
+8 1000.86
+9 1070.31
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 8 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 8.200000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00868979
+3 0.0148373
+4 0
+5 0.0109705
+6 0.0618394
+7 0
+8 0.00117447
+9 0.10043
+End Values
+Result "PRESSURE" "Kratos" 8.200000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.84479e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 8.200000000000001 Scalar OnNodes
+Values
+1 1000
+2 1006.08
+3 1010.39
+4 1000
+5 1007.68
+6 1043.29
+7 1000
+8 1000.82
+9 1070.3
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 8.200000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 8.4 Scalar OnNodes
+Values
+1 0
+2 0.0088815
+3 0.0153793
+4 0
+5 0.0110984
+6 0.0623251
+7 0
+8 0.00111847
+9 0.100424
+End Values
+Result "PRESSURE" "Kratos" 8.4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.0705e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 8.4 Scalar OnNodes
+Values
+1 1000
+2 1006.22
+3 1010.77
+4 1000
+5 1007.77
+6 1043.63
+7 1000
+8 1000.78
+9 1070.3
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 8.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 8.6 Scalar OnNodes
+Values
+1 0
+2 0.00907535
+3 0.0159283
+4 0
+5 0.0112243
+6 0.0628102
+7 0
+8 0.00106138
+9 0.100418
+End Values
+Result "PRESSURE" "Kratos" 8.6 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -3.92771e-14
+9 0
+End Values
+Result "DENSITY" "Kratos" 8.6 Scalar OnNodes
+Values
+1 1000
+2 1006.35
+3 1011.15
+4 1000
+5 1007.86
+6 1043.97
+7 1000
+8 1000.74
+9 1070.29
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 8.6 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 8.800000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00927129
+3 0.0164841
+4 0
+5 0.0113481
+6 0.0632944
+7 0
+8 0.00100321
+9 0.100411
+End Values
+Result "PRESSURE" "Kratos" 8.800000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -2.43608e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 8.800000000000001 Scalar OnNodes
+Values
+1 1000
+2 1006.49
+3 1011.54
+4 1000
+5 1007.94
+6 1044.31
+7 1000
+8 1000.7
+9 1070.29
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 8.800000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 9 Scalar OnNodes
+Values
+1 0
+2 0.00946928
+3 0.0170468
+4 0
+5 0.0114697
+6 0.0637779
+7 0
+8 0.000943965
+9 0.100405
+End Values
+Result "PRESSURE" "Kratos" 9 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 1.41415e-14
+9 0
+End Values
+Result "DENSITY" "Kratos" 9 Scalar OnNodes
+Values
+1 1000
+2 1006.63
+3 1011.93
+4 1000
+5 1008.03
+6 1044.64
+7 1000
+8 1000.66
+9 1070.28
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 9 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 9.200000000000001 Scalar OnNodes
+Values
+1 0
+2 0.00966927
+3 0.0176162
+4 0
+5 0.0115893
+6 0.0642604
+7 0
+8 0.00088365
+9 0.100399
+End Values
+Result "PRESSURE" "Kratos" 9.200000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.96851e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 9.200000000000001 Scalar OnNodes
+Values
+1 1000
+2 1006.77
+3 1012.33
+4 1000
+5 1008.11
+6 1044.98
+7 1000
+8 1000.62
+9 1070.28
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 9.200000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 9.4 Scalar OnNodes
+Values
+1 0
+2 0.0098712
+3 0.0181923
+4 0
+5 0.0117067
+6 0.064742
+7 0
+8 0.000822273
+9 0.100392
+End Values
+Result "PRESSURE" "Kratos" 9.4 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -1.17879e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 9.4 Scalar OnNodes
+Values
+1 1000
+2 1006.91
+3 1012.73
+4 1000
+5 1008.19
+6 1045.32
+7 1000
+8 1000.58
+9 1070.27
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 9.4 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 9.600000000000001 Scalar OnNodes
+Values
+1 0
+2 0.010075
+3 0.0187749
+4 0
+5 0.0118219
+6 0.0652225
+7 0
+8 0.000759843
+9 0.100386
+End Values
+Result "PRESSURE" "Kratos" 9.600000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -3.12408e-13
+9 0
+End Values
+Result "DENSITY" "Kratos" 9.600000000000001 Scalar OnNodes
+Values
+1 1000
+2 1007.05
+3 1013.14
+4 1000
+5 1008.28
+6 1045.66
+7 1000
+8 1000.53
+9 1070.27
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 9.600000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 9.800000000000001 Scalar OnNodes
+Values
+1 0
+2 0.0102807
+3 0.0193641
+4 0
+5 0.0119349
+6 0.0657019
+7 0
+8 0.000696367
+9 0.10038
+End Values
+Result "PRESSURE" "Kratos" 9.800000000000001 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 -4.60787e-14
+9 0
+End Values
+Result "DENSITY" "Kratos" 9.800000000000001 Scalar OnNodes
+Values
+1 1000
+2 1007.2
+3 1013.55
+4 1000
+5 1008.35
+6 1045.99
+7 1000
+8 1000.49
+9 1070.27
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 9.800000000000001 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values
+Result "CONCENTRATION" "Kratos" 10 Scalar OnNodes
+Values
+1 0
+2 0.0104881
+3 0.0199596
+4 0
+5 0.0120457
+6 0.0661802
+7 0
+8 0.000631856
+9 0.100373
+End Values
+Result "PRESSURE" "Kratos" 10 Scalar OnNodes
+Values
+1 19620
+2 19620
+3 19620
+4 9810
+5 9810
+6 9810
+7 0
+8 1.40907e-14
+9 0
+End Values
+Result "DENSITY" "Kratos" 10 Scalar OnNodes
+Values
+1 1000
+2 1007.34
+3 1013.97
+4 1000
+5 1008.43
+6 1046.33
+7 1000
+8 1000.44
+9 1070.26
+End Values
+Result "DARCY_FLOW_BALANCE" "Kratos" 10 Scalar OnNodes
+Values
+1 0.5
+2 0.999999
+3 0.5
+4 0
+5 0
+6 0
+7 -0.5
+8 -0.999999
+9 -0.5
+End Values

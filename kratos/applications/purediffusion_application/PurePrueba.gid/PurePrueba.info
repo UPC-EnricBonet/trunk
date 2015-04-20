@@ -1,0 +1,2893 @@
+ |  /           |             
+ ' /   __| _` | __|  _ \   __|
+ . \  |   (   | |   (   |\__ \ 
+_|\_\_|  \__,_|\__|\___/ ____/
+           Multi-Physics 3.3.11098
+Importing    KratosPureDiffusionApplication
+Initializing KratosPureDiffusionApplication... 
+[ "PurePrueba" ] 
+[ Opened for IO: .node, .prop, .elem, .cond, .init  ]
+  [Reading Nodes    : 206 nodes read]
+  [Reading Elements : 358 elements read] [Type: Poisson2D]
+  [Total Lines Read : 606]
+PureDiffusionPart model part
+    Buffer Size : 1
+    Number of tables : 0
+    Current solution step index : 0
+
+    Mesh 0 : 
+    Number of Nodes      : 206
+    Number of Properties : 1
+    Number of Elements   : 358
+    Number of Conditions : 1
+
+variables for the Poisson solver added correctly
+about to solve!
+rRightHandSideVectorrRightHandSideVectorrRightHandSideVector :  :  : rRightHandSideVector : [0]()
+[0]()
+[0]()
+rLeftHandSideMatrix : rLeftHandSideMatrix : rLeftHandSideMatrix : [0]()
+[3,3]((0.55439,-0.283362,-0.271029),(-0.283362,0.595779,-0.312417),(-0.271029,-0.312417,0.583446))
+rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))[3,3]((0.589267,-0.311892,-0.277374),(-0.311892,0.589337,-0.277445),(-0.277374,-0.277445,0.554819))[3](-0,-0,-0)
+
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector : 
+rRightHandSideVector : [3](0,0,0)[3,3]((0.587687,-0.278676,-0.309011),(-0.278676,0.557542,-0.278866),(-0.309011,-0.278866,0.587877))
+
+[3](-0,-0,-0)rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : 
+rRightHandSideVectorms_temp : [3](0,0,0) : 
+[3](0,0,0)[3](0,0,0)
+
+[3](-0,-0,-0)
+rRightHandSideVectorrRightHandSideVector :  : rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.588458,-0.310259,-0.2782),(-0.310259,0.588419,-0.278161),(-0.2782,-0.278161,0.556361))
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3,3]((0.585923,-0.305344,-0.280579),(-0.305344,0.585802,-0.280458),(-0.280579,-0.280458,0.561037))[3,3]((0.589467,-0.31199,-0.277477),(-0.31199,0.589241,-0.277251),(-0.277477,-0.277251,0.554727))
+[3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : rRightHandSideVector[3](0,0,0) : 
+[3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : 
+rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : [3](0,0,0)[3,3]((0.579866,-0.293769,-0.286097),(-0.293769,0.579962,-0.286193),(-0.286097,-0.286193,0.57229))
+rRightHandSideVector : 
+rRightHandSideVector : [3,3]((0.516962,-0.271755,-0.245208),(-0.271755,0.626449,-0.354694),(-0.245208,-0.354694,0.599902))rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rLeftHandSideMatrix : 
+rRightHandSideVector[3,3]((0.589467,-0.31199,-0.277477),(-0.31199,0.589241,-0.277251),(-0.277477,-0.277251,0.554727))
+rRightHandSideVector :  : [3](0,0,0)[3](-0,-0,-0)
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+
+rLeftHandSideMatrixrRightHandSideVector :  : ms_temp : [3](-0,-0,-0)
+rRightHandSideVector : [3,3]((0.579235,-0.292745,-0.286489),(-0.292745,0.579558,-0.286812),(-0.286489,-0.286812,0.573302))[3](0,0,0)
+rRightHandSideVector : 
+rLeftHandSideMatrix : [3](-0,-0,-0)
+[3](-0,-0,-0)[3,3]((0.589381,-0.312092,-0.277288),(-0.312092,0.589435,-0.277343),(-0.277288,-0.277343,0.554631))
+rRightHandSideVector : 
+ms_temp : rRightHandSideVector : [3](-0,-0,-0)[3](0,0,0)
+ms_temp : 
+[3](-0,-0,-0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.583297,-0.300231,-0.283066),(-0.300231,0.583132,-0.282901),(-0.283066,-0.282901,0.565966))[3](-0,-0,-0)
+
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.561687,-0.285353,-0.276334),(-0.285353,0.590055,-0.304702),(-0.276334,-0.304702,0.581036))
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.574589,-0.289992,-0.284597),(-0.289992,0.581451,-0.291459),(-0.284597,-0.291459,0.576056))[3](-0,-0,-0)
+rRightHandSideVector : 
+ms_temp : [3,3]((0.589476,-0.312165,-0.277311),(-0.312165,0.589416,-0.277251),(-0.277311,-0.277251,0.554563))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)[3](-0,-0,-0)
+[3](0,0,0)
+
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3,3]((0.589476,-0.312165,-0.277311),(-0.312165,0.589416,-0.277251),(-0.277311,-0.277251,0.554563))
+rRightHandSideVector : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)[3](-0,-0,-0)
+rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : [3](0,0,0)
+rLeftHandSideMatrixrLeftHandSideMatrix :  : [3,3]((0.509769,-0.284229,-0.22554),(-0.284229,0.648894,-0.364665),(-0.22554,-0.364665,0.590205))
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+[3](-0,-0,-0)rRightHandSideVector : [3,3]((0.584838,-0.303554,-0.281283),(-0.303554,0.585026,-0.281472),(-0.281283,-0.281472,0.562755))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rLeftHandSideMatrix : 
+ms_temp : 
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+rRightHandSideVector : [3](0,0,0)
+[3,3]((0.589391,-0.312268,-0.277123),(-0.312268,0.589611,-0.277343),(-0.277123,-0.277343,0.554466))
+rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : [3](-0,-0,-0)[3](-0,-0,-0)
+
+[3](-0,-0,-0)ms_temp : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : [3](0,0,0)rLeftHandSideMatrix : 
+rLeftHandSideMatrix : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+[3,3]((0.580536,-0.293834,-0.286702),(-0.293834,0.579359,-0.285525),(-0.286702,-0.285525,0.572227))rRightHandSideVector : rRightHandSideVector : 
+rRightHandSideVector : [3,3]((0.647148,-0.382119,-0.265029),(-0.382119,0.611938,-0.22982),(-0.265029,-0.22982,0.494849))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)[3](0,0,0)
+
+ms_temp : [3,3]((0.617473,-0.320872,-0.296601),(-0.320872,0.571618,-0.250746),(-0.296601,-0.250746,0.547347))
+rRightHandSideVector : rRightHandSideVector : [3](0,0,0)[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](0,0,0)
+
+rRightHandSideVector : ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)[3](0,0,0)
+
+[3,3]((0.578097,-0.28989,-0.288207),(-0.28989,0.57782,-0.28793),(-0.288207,-0.28793,0.576137))
+rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.539316,-0.510579,-0.0287372),(-0.510579,0.946923,-0.436344),(-0.0287372,-0.436344,0.465082))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](0,0,0)
+[3,3]((0.527527,-0.26897,-0.258556),(-0.26897,0.61105,-0.342079),(-0.258556,-0.342079,0.600636))
+rRightHandSideVector : [3](0,0,0)
+[3,3]((0.579233,-0.292442,-0.286791),(-0.292442,0.579253,-0.28681),(-0.286791,-0.28681,0.573601))
+rRightHandSideVectorrRightHandSideVector :  : rRightHandSideVector[3](-0,-0,-0) : 
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)[3,3]((0.59001,-0.276857,-0.313153),(-0.276857,0.553634,-0.276777),(-0.313153,-0.276777,0.58993))
+
+rRightHandSideVector : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrixrLeftHandSideMatrix :  : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.640154,-0.352059,-0.288095),(-0.352059,0.584149,-0.23209),(-0.288095,-0.23209,0.520185))rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.589454,-0.278967,-0.310487),(-0.278967,0.556146,-0.277179),(-0.310487,-0.277179,0.587666))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3,3]((0.575483,-0.290766,-0.284717),(-0.290766,0.581328,-0.290563),(-0.284717,-0.290563,0.57528))[3,3]((0.589847,-0.31296,-0.276887),(-0.31296,0.589888,-0.276928),(-0.276887,-0.276928,0.553816))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp[3](-0,-0,-0) : 
+[3](0,0,0)
+[3,3]((0.584822,-0.303323,-0.281499),(-0.303323,0.584802,-0.281479),(-0.281499,-0.281479,0.562977))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : [3,3]((0.579252,-0.292263,-0.286989),(-0.292263,0.579053,-0.28679),(-0.286989,-0.28679,0.573779))
+rRightHandSideVector : rLeftHandSideMatrix[3,3]((0.586246,-0.305981,-0.280266),(-0.305981,0.586143,-0.280162),(-0.280266,-0.280162,0.560428))
+[3](0,0,0)rRightHandSideVector :  : 
+[3](-0,-0,-0)[3,3]((0.853639,-0.632693,-0.220946),(-0.632693,0.761798,-0.129105),(-0.220946,-0.129105,0.350051))
+rRightHandSideVector : 
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp[3](-0,-0,-0) : 
+[3](0,0,0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](0,0,0)
+[3](0,0,0)[3,3]((0.589416,-0.277251,-0.312165),(-0.277251,0.554563,-0.277311),(-0.312165,-0.277311,0.589476))
+
+rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : [3](-0,-0,-0)[3](-0,-0,-0)
+
+ms_temp : [3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : [3](0,0,0)rLeftHandSideMatrix : 
+rLeftHandSideMatrix : [3,3]((0.584132,-0.282803,-0.301329),(-0.282803,0.564902,-0.282099),(-0.301329,-0.282099,0.583429))[3,3]((0.669587,-0.488456,-0.181131),(-0.488456,0.729687,-0.241231),(-0.181131,-0.241231,0.422362))
+rRightHandSideVector : rRightHandSideVector : 
+rRightHandSideVector : [3,3]((0.589831,-0.276737,-0.313094),(-0.276737,0.55369,-0.276953),(-0.313094,-0.276953,0.590046))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)[3](0,0,0)
+
+ms_temp : [3,3]((0.589476,-0.312165,-0.277311),(-0.312165,0.589416,-0.277251),(-0.277311,-0.277251,0.554563))
+rRightHandSideVector : rRightHandSideVector : [3](0,0,0)[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](0,0,0)
+
+ms_temp : rLeftHandSideMatrixrRightHandSideVector :  : [3](0,0,0)
+[3](-0,-0,-0)[3,3]((0.590064,-0.313096,-0.276968),(-0.313096,0.589816,-0.27672),(-0.276968,-0.27672,0.553688))
+rRightHandSideVector : rRightHandSideVector
+ : [3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](0,0,0)
+[3,3]((0.582904,-0.299693,-0.283212),(-0.299693,0.58297,-0.283277),(-0.283212,-0.283277,0.566489))
+rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.589513,-0.277446,-0.312067),(-0.277446,0.554655,-0.277209),(-0.312067,-0.277209,0.589276))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+
+ms_temp : [3](0,0,0)
+[3,3]((0.579523,-0.29283,-0.286693),(-0.29283,0.579355,-0.286525),(-0.286693,-0.286525,0.573218))
+rRightHandSideVector : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : ms_temp : rLeftHandSideMatrix : [3](0,0,0)
+[3,3]((0.589891,-0.276913,-0.312978),(-0.276913,0.553798,-0.276885),(-0.312978,-0.276885,0.589864))
+rRightHandSideVector : [3](0,0,0)
+[3,3]((0.578754,-0.29133,-0.287423),(-0.29133,0.578611,-0.287281),(-0.287423,-0.287281,0.574704))
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)rLeftHandSideMatrix
+ms_temp :  : rLeftHandSideMatrix : ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3,3]((0.589276,-0.312067,-0.277209),(-0.312067,0.589513,-0.277446),(-0.277209,-0.277446,0.554655))
+rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : [3,3]((0.577987,-0.289852,-0.288135),(-0.289852,0.577892,-0.28804),(-0.288135,-0.28804,0.576175))[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)[3](-0,-0,-0)
+
+[3](0,0,0)
+
+rRightHandSideVector : rLeftHandSideMatrixrRightHandSideVector :  : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3,3]((0.589864,-0.312978,-0.276885),(-0.312978,0.589891,-0.276913),(-0.276885,-0.276913,0.553798))
+rRightHandSideVector : [3,3]((0.578724,-0.291381,-0.287343),(-0.291381,0.578692,-0.287311),(-0.287343,-0.287311,0.574654))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+rLeftHandSideMatrixms_temp : ms_temp :  : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3,3]((0.589241,-0.277251,-0.31199),(-0.277251,0.554727,-0.277477),(-0.31199,-0.277477,0.589467))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : [3,3]((0.569893,-0.285267,-0.284626),(-0.285267,0.581473,-0.296205),(-0.284626,-0.296205,0.580831))rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.580398,-0.294505,-0.285894),(-0.294505,0.580176,-0.285671),(-0.285894,-0.285671,0.571565))
+rRightHandSideVector : [3,3]((0.586182,-0.281592,-0.30459),(-0.281592,0.561761,-0.280169),(-0.30459,-0.280169,0.584758))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rLeftHandSideMatrix : 
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3,3]((0.589467,-0.31199,-0.277477),(-0.31199,0.589241,-0.277251),(-0.277477,-0.277251,0.554727))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.58943,-0.289766,-0.299663),(-0.289766,0.566589,-0.276823),(-0.299663,-0.276823,0.576486))rLeftHandSideMatrix : 
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.583872,-0.301359,-0.282513),(-0.301359,0.583719,-0.28236),(-0.282513,-0.28236,0.564873))
+rRightHandSideVector : [3](0,0,0)
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3,3]((0.461825,-0.275412,-0.186412),(-0.275412,0.705575,-0.430163),(-0.186412,-0.430163,0.616575))
+rRightHandSideVector : [3](0,0,0)rLeftHandSideMatrix : 
+rRightHandSideVector[3,3]((0.589435,-0.277343,-0.312092),(-0.277343,0.554631,-0.277288),(-0.312092,-0.277288,0.589381))
+rRightHandSideVector :  : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)[3](-0,-0,-0)
+
+[3](0,0,0)
+rLeftHandSideMatrix : [3](-0,-0,-0)rLeftHandSideMatrix : 
+ms_temp : [3,3]((0.578832,-0.291715,-0.287117),(-0.291715,0.578921,-0.287205),(-0.287117,-0.287205,0.574322))rRightHandSideVector : 
+[3](-0,-0,-0)rRightHandSideVector[3](0,0,0) : 
+
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.58353,-0.300819,-0.282712),(-0.300819,0.583503,-0.282685),(-0.282712,-0.282685,0.565396))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](0,0,0)[3](0,0,0)
+rRightHandSideVector : 
+[3](-0,-0,-0)
+rRightHandSideVector : [3,3]((0.643087,-0.273692,-0.369395),(-0.273692,0.50523,-0.231539),(-0.369395,-0.231539,0.600934))
+rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrixrLeftHandSideMatrix :  : [3](-0,-0,-0)[3](0,0,0)
+
+[3,3]((0.632102,-0.481202,-0.150901),(-0.481202,0.761831,-0.280629),(-0.150901,-0.280629,0.43153))
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.580276,-0.294598,-0.285678),(-0.294598,0.580392,-0.285794),(-0.285678,-0.285794,0.571473))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : 
+[3,3]((0.48471,-0.293537,-0.191174),(-0.293537,0.693536,-0.399999),(-0.191174,-0.399999,0.591172))ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+[3](0,0,0)
+rLeftHandSideMatrixrRightHandSideVector :  : 
+[3](-0,-0,-0)rRightHandSideVector : 
+[3,3]((0.516662,-0.330986,-0.185676),(-0.330986,0.695913,-0.364927),(-0.185676,-0.364927,0.550603))
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : [3](-0,-0,-0)
+ms_temp : [3,3]((0.589895,-0.276916,-0.312978),(-0.276916,0.553799,-0.276882),(-0.312978,-0.276882,0.58986))
+[3](0,0,0)
+rRightHandSideVector : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : rRightHandSideVector : [3](0,0,0)
+[3,3]((0.559303,-0.279208,-0.280095),(-0.279208,0.586367,-0.307159),(-0.280095,-0.307159,0.587254))
+[3](-0,-0,-0)rRightHandSideVector : 
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrixrLeftHandSideMatrix :  : [3](0,0,0)
+[3,3]((0.69185,-0.415701,-0.27615),(-0.415701,0.611125,-0.195424),(-0.27615,-0.195424,0.471574))
+[3,3]((0.563543,-0.304855,-0.258689),(-0.304855,0.608536,-0.303681),(-0.258689,-0.303681,0.56237))rRightHandSideVector : rRightHandSideVector : 
+rRightHandSideVector : [3,3]((0.630691,-0.384204,-0.246487),(-0.384204,0.63044,-0.246236),(-0.246487,-0.246236,0.492723))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)[3](-0,-0,-0)
+
+rLeftHandSideMatrix : [3,3]((0.611787,-0.478268,-0.133519),(-0.478268,0.782528,-0.30426),(-0.133519,-0.30426,0.437779))rLeftHandSideMatrix : 
+rRightHandSideVector : [3,3]((0.74925,-0.506023,-0.243226),(-0.506023,0.675422,-0.169398),(-0.243226,-0.169398,0.412625))
+rRightHandSideVector : [3,3]((0.754061,-0.297647,-0.456414),(-0.297647,0.449027,-0.15138),(-0.456414,-0.15138,0.607794))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVectorrRightHandSideVector :  : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.733259,-0.262619,-0.47064),(-0.262619,0.435001,-0.172382),(-0.47064,-0.172382,0.643023))rLeftHandSideMatrix : 
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.682961,-0.441664,-0.241296),(-0.441664,0.651674,-0.210009),(-0.241296,-0.210009,0.451306))
+rLeftHandSideMatrixrRightHandSideVector :  : [3,3]((0.579206,-0.29179,-0.287417),(-0.29179,0.578621,-0.286832),(-0.287417,-0.286832,0.574249))[3](-0,-0,-0)[3](-0,-0,-0)
+
+ms_temp : rRightHandSideVector : 
+ms_temp : [3,3]((0.484076,-0.236386,-0.24769),(-0.236386,0.631881,-0.395495),(-0.24769,-0.395495,0.643185))
+[3](0,0,0)rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+
+rLeftHandSideMatrix : [3](0,0,0)
+rRightHandSideVector[3,3]((0.577903,-0.289659,-0.288244),(-0.289659,0.577782,-0.288123),(-0.288244,-0.288123,0.576368)) : 
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)rRightHandSideVector
+ms_temp :  : rRightHandSideVector[3](0,0,0) : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+rLeftHandSideMatrix : rLeftHandSideMatrix : [3,3]((0.587871,-0.309186,-0.278685),(-0.309186,0.587878,-0.278691),(-0.278685,-0.278691,0.557376))
+rRightHandSideVector : [3,3]((0.519686,-0.199331,-0.320355),(-0.199331,0.557515,-0.358184),(-0.320355,-0.358184,0.678539))rLeftHandSideMatrix
+ : [3,3]((0.630346,-0.323075,-0.307271),(-0.323075,0.562195,-0.23912),(-0.307271,-0.23912,0.546391))rRightHandSideVector : 
+[3,3]((0.50156,-0.28462,-0.21694),(-0.28462,0.659959,-0.375338),(-0.21694,-0.375338,0.592278))
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.580019,-0.294354,-0.285665),(-0.294354,0.580402,-0.286048),(-0.285665,-0.286048,0.571713))rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.669059,-0.393967,-0.275092),(-0.393967,0.605642,-0.211675),(-0.275092,-0.211675,0.486767))rLeftHandSideMatrix : 
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3,3]((0.642857,-0.17126,-0.471597),(-0.17126,0.434513,-0.263253),(-0.471597,-0.263253,0.73485))
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : rLeftHandSideMatrix
+[3](0,0,0)
+ : [3](0,0,0)
+[3,3]((0.589981,-0.27694,-0.313041),(-0.27694,0.553739,-0.276799),(-0.313041,-0.276799,0.589841))
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.580111,-0.294255,-0.285856),(-0.294255,0.58021,-0.285955),(-0.285856,-0.285955,0.571811))
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector[3](-0,-0,-0)
+ms_temp :  : [3,3]((0.470567,-0.237906,-0.232661),(-0.237906,0.651553,-0.413647),(-0.232661,-0.413647,0.646308))[3](0,0,0)[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+
+
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVectorrRightHandSideVector : [3](0,0,0) : 
+[3](-0,-0,-0)[3](-0,-0,-0)
+
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.757822,-0.341201,-0.416621),(-0.341201,0.483515,-0.142314),(-0.416621,-0.142314,0.558935))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.608498,-0.304868,-0.303629),(-0.304868,0.563593,-0.258724),(-0.303629,-0.258724,0.562353))
+rRightHandSideVector : rLeftHandSideMatrix[3,3]((0.554727,-0.277477,-0.277251),(-0.277477,0.589467,-0.31199),(-0.277251,-0.31199,0.589241)) : 
+rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.560065,-0.280894,-0.27917),(-0.280894,0.587257,-0.306362),(-0.27917,-0.306362,0.585532))ms_temp : [3](-0,-0,-0)
+ms_temp : 
+rRightHandSideVector : [3](0,0,0)
+[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3](0,0,0)[3,3]((0.591118,-0.317373,-0.273745),(-0.317373,0.593326,-0.275953),(-0.273745,-0.275953,0.549698))
+rRightHandSideVector : 
+rLeftHandSideMatrix : [3](-0,-0,-0)
+rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.589381,-0.312092,-0.277288),(-0.312092,0.589435,-0.277343),(-0.277288,-0.277343,0.554631))
+rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)[3](0,0,0)
+
+[3,3]((0.584454,-0.302696,-0.281758),(-0.302696,0.58452,-0.281824),(-0.281758,-0.281824,0.563582))rRightHandSideVector : 
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.580346,-0.294397,-0.285949),(-0.294397,0.580119,-0.285722),(-0.285949,-0.285722,0.571671))
+rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.929309,-0.649277,-0.280032),(-0.649277,0.722645,-0.073368),(-0.280032,-0.073368,0.3534))
+rRightHandSideVector : [3,3]((0.691001,-0.45709,-0.233911),(-0.45709,0.664154,-0.207064),(-0.233911,-0.207064,0.440975))rLeftHandSideMatrix : [3](-0,-0,-0)
+rRightHandSideVector : 
+[3,3]((0.698607,-0.431061,-0.267546),(-0.431061,0.623833,-0.192771),(-0.267546,-0.192771,0.460317))ms_temp : 
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)rLeftHandSideMatrix
+ : ms_temp : rRightHandSideVectorrRightHandSideVector :  : [3,3]((0.580276,-0.294253,-0.286023),(-0.294253,0.580042,-0.28579),(-0.286023,-0.28579,0.571813))
+[3](-0,-0,-0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3](0,0,0)
+[3,3]((0.5799,-0.293952,-0.285947),(-0.293952,0.580114,-0.286162),(-0.285947,-0.286162,0.572109))[3](-0,-0,-0)
+rRightHandSideVector : 
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector[3](0,0,0)
+ : [3,3]((0.750427,-0.44078,-0.309647),(-0.44078,0.592046,-0.151266),(-0.309647,-0.151266,0.460912))[3](-0,-0,-0)
+[3](-0,-0,-0)
+rRightHandSideVector : rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)[3](0,0,0)
+ms_temp : 
+[3,3]((0.610873,-0.389342,-0.221531),(-0.389342,0.657399,-0.268057),(-0.221531,-0.268057,0.489588))
+rRightHandSideVector : rRightHandSideVector[3](0,0,0) : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.589416,-0.277251,-0.312165),(-0.277251,0.554563,-0.277311),(-0.312165,-0.277311,0.589476))rRightHandSideVector : 
+[3](-0,-0,-0)rRightHandSideVector : 
+[3,3]((0.486363,-0.162125,-0.324238),(-0.162125,0.568062,-0.405937),(-0.324238,-0.405937,0.730175))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix[3](0,0,0)
+ : [3,3]((0.502472,-0.327283,-0.175189),(-0.327283,0.710714,-0.383431),(-0.175189,-0.383431,0.55862))[3](-0,-0,-0)
+rRightHandSideVector : rRightHandSideVector : 
+ms_temp : [3,3]((0.578151,-0.290105,-0.288046),(-0.290105,0.577982,-0.287877),(-0.288046,-0.287877,0.575923))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)rLeftHandSideMatrix
+ms_temp :  : rRightHandSideVector : [3](-0,-0,-0)
+[3](0,0,0)ms_temp : 
+[3,3]((0.589391,-0.312268,-0.277123),(-0.312268,0.589611,-0.277343),(-0.277123,-0.277343,0.554466))
+rRightHandSideVector : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+rLeftHandSideMatrix[3](-0,-0,-0) : 
+[3,3]((0.479649,-0.254195,-0.225455),(-0.254195,0.655927,-0.401732),(-0.225455,-0.401732,0.627187))
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.469287,-0.118583,-0.350704),(-0.118583,0.562687,-0.444105),(-0.350704,-0.444105,0.794809))rLeftHandSideMatrix : [3](-0,-0,-0)
+rRightHandSideVector : 
+[3,3]((0.526872,-0.230664,-0.296207),(-0.230664,0.575484,-0.344819),(-0.296207,-0.344819,0.641027))ms_temp : 
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)
+rLeftHandSideMatrixrRightHandSideVector :  : rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.377348,-0.168865,-0.208483),(-0.168865,0.738086,-0.569221),(-0.208483,-0.569221,0.777704))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : 
+[3,3]((0.582332,-0.251016,-0.331316),(-0.251016,0.53751,-0.286494),(-0.331316,-0.286494,0.61781))
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](0,0,0)[3](-0,-0,-0)
+
+ms_temp : [3,3]((0.591199,-0.460801,-0.130399),(-0.460801,0.782032,-0.321232),(-0.130399,-0.321232,0.451631))
+rRightHandSideVector : [3,3]((0.741877,-0.381439,-0.360438),(-0.381439,0.533101,-0.151662),(-0.360438,-0.151662,0.512101))
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+rRightHandSideVectorrLeftHandSideMatrix :  : ms_temp : [3](0,0,0)[3](-0,-0,-0)
+
+[3,3]((0.56302,-0.303196,-0.259824),(-0.303196,0.60731,-0.304114),(-0.259824,-0.304114,0.563938))rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+[3](-0,-0,-0)
+
+rLeftHandSideMatrix : ms_temp : [3,3]((0.869778,-0.465173,-0.404606),(-0.465173,0.536212,-0.0710394),(-0.404606,-0.0710394,0.475645))
+rRightHandSideVector : [3,3]((0.448379,-0.333703,-0.114676),(-0.333703,0.80592,-0.472218),(-0.114676,-0.472218,0.586894))rLeftHandSideMatrix
+rRightHandSideVector :  : [3](0,0,0)[3](-0,-0,-0)
+ms_temp : 
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.494388,-0.110189,-0.384199),(-0.110189,0.530234,-0.420045),(-0.384199,-0.420045,0.804244))rRightHandSideVector : 
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : [3](0,0,0)
+[3](0,0,0)
+rLeftHandSideMatrix : [3,3]((0.602071,-0.335304,-0.266767),(-0.335304,0.60197,-0.266666),(-0.266767,-0.266666,0.533433))
+[3,3]((0.493675,-0.152805,-0.34087),(-0.152805,0.553703,-0.400898),(-0.34087,-0.400898,0.741768))rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrixrLeftHandSideMatrix :  : [3](-0,-0,-0)[3](0,0,0)
+
+[3,3]((0.589467,-0.31199,-0.277477),(-0.31199,0.589241,-0.277251),(-0.277477,-0.277251,0.554727))rRightHandSideVector : 
+[3,3]((0.702443,-0.349487,-0.352956),(-0.349487,0.529781,-0.180295),(-0.352956,-0.180295,0.533251))[3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : 
+[3,3]((0.582326,-0.285032,-0.297294),(-0.285032,0.568828,-0.283796),(-0.297294,-0.283796,0.58109))
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)[3](-0,-0,-0)
+[3](-0,-0,-0)ms_temp : 
+
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](0,0,0)
+rLeftHandSideMatrix : ms_temp : [3](0,0,0)
+rRightHandSideVector : [3,3]((0.5789,-0.287108,-0.291792),(-0.287108,0.574246,-0.287138),(-0.291792,-0.287138,0.57893))
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+rRightHandSideVector : rRightHandSideVectorrLeftHandSideMatrix :  : [3](-0,-0,-0)[3](-0,-0,-0)rLeftHandSideMatrix
+ : ms_temp : 
+[3](0,0,0)
+[3,3]((0.608554,-0.285511,-0.323043),(-0.285511,0.544761,-0.25925),(-0.323043,-0.25925,0.582293))
+rRightHandSideVector : [3,3]((0.565243,-0.289464,-0.27578),(-0.289464,0.590523,-0.301059),(-0.27578,-0.301059,0.576839))rRightHandSideVector : 
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : 
+ms_temp : [3,3]((0.611353,-0.675098,0.0637456),(-0.675098,1.15442,-0.479322),(0.0637456,-0.479322,0.415576))
+rRightHandSideVector : [3](0,0,0)
+[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVectorrLeftHandSideMatrix :  : [3](-0,-0,-0)
+[3](-0,-0,-0)rLeftHandSideMatrix : [3,3]((0.53588,-0.255602,-0.280278),(-0.255602,0.588438,-0.332836),(-0.280278,-0.332836,0.613114))
+
+rRightHandSideVector : [3,3]((0.538901,-0.290035,-0.248866),(-0.290035,0.620003,-0.329968),(-0.248866,-0.329968,0.578834))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : 
+ms_temp : rLeftHandSideMatrix : [3,3]((0.584121,-0.302051,-0.282071),(-0.302051,0.584184,-0.282134),(-0.282071,-0.282134,0.564204))[3](0,0,0)
+
+rRightHandSideVector : [3,3]((0.583302,-0.282901,-0.300401),(-0.282901,0.565801,-0.282901),(-0.300401,-0.282901,0.583302))rRightHandSideVector : 
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+rRightHandSideVector : ms_temp : rLeftHandSideMatrix : [3,3]((0.604516,-0.339633,-0.264883),(-0.339633,0.604369,-0.264735),(-0.264883,-0.264735,0.529619))
+rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.545211,-0.197206,-0.348005),(-0.197206,0.529868,-0.332662),(-0.348005,-0.332662,0.680668))
+
+rLeftHandSideMatrix : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+[3](0,0,0)rLeftHandSideMatrix
+ : [3,3]((0.528693,-0.335949,-0.192744),(-0.335949,0.686338,-0.350389),(-0.192744,-0.350389,0.543132))
+[3](-0,-0,-0)rRightHandSideVector : rLeftHandSideMatrix
+ : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3,3]((0.745123,-0.569164,-0.175959),(-0.569164,0.770272,-0.201108),(-0.175959,-0.201108,0.377067))
+rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.659886,-0.386192,-0.273695),(-0.386192,0.604868,-0.218676),(-0.273695,-0.218676,0.492371))[3](0,0,0)
+
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : 
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrixrRightHandSideVector :  : [3](-0,-0,-0)
+[3,3]((0.607376,-0.303367,-0.304009),(-0.303367,0.56313,-0.259763),(-0.304009,-0.259763,0.563772))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)rLeftHandSideMatrix
+ms_temp :  : [3](0,0,0)[3,3]((0.583302,-0.282901,-0.300401),(-0.282901,0.565801,-0.282901),(-0.300401,-0.282901,0.583302))rLeftHandSideMatrix
+
+rRightHandSideVector : [3](-0,-0,-0)
+ : ms_temp : [3,3]((0.578947,-0.291965,-0.286982),(-0.291965,0.579057,-0.287092),(-0.286982,-0.287092,0.574074))
+rRightHandSideVector : [3](0,0,0)
+[3,3]((0.77349,-0.362706,-0.410785),(-0.362706,0.493291,-0.130585),(-0.410785,-0.130585,0.541369))
+rRightHandSideVectorrRightHandSideVector :  : [3](-0,-0,-0)rRightHandSideVector
+[3](-0,-0,-0)[3](-0,-0,-0)ms_temp
+ : [3](0,0,0)
+ : 
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+[3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))[3,3]((0.608451,-0.358735,-0.249716),(-0.358735,0.622385,-0.26365),(-0.249716,-0.26365,0.513366))
+rRightHandSideVector : 
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector[3](0,0,0)
+ : [3,3]((0.578872,-0.291992,-0.28688),(-0.291992,0.579159,-0.287167),(-0.28688,-0.287167,0.574048))[3](-0,-0,-0)
+[3](-0,-0,-0)
+rRightHandSideVector : rRightHandSideVector : 
+[3](-0,-0,-0)rLeftHandSideMatrixms_temp[3](-0,-0,-0) :  : 
+
+[3](0,0,0)ms_temp : 
+[3](0,0,0)
+[3,3]((0.578988,-0.291979,-0.287009),(-0.291979,0.579031,-0.287051),(-0.287009,-0.287051,0.57406))
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3,3]((0.583402,-0.300465,-0.282937),(-0.300465,0.583267,-0.282802),(-0.282937,-0.282802,0.565739))
+[3](0,0,0)
+rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.743862,-0.26299,-0.480872),(-0.26299,0.429063,-0.166073),(-0.480872,-0.166073,0.646945))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](-0,-0,-0)[3](0,0,0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : 
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.578815,-0.291628,-0.287188),(-0.291628,0.578849,-0.287221),(-0.287188,-0.287221,0.574409))
+rRightHandSideVector : [3](0,0,0)[3,3]((0.578916,-0.291774,-0.287142),(-0.291774,0.578896,-0.287122),(-0.287142,-0.287122,0.574264))
+rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.647232,-0.489741,-0.157492),(-0.489741,0.756832,-0.267091),(-0.157492,-0.267091,0.424583))
+[3,3]((0.589276,-0.312067,-0.277209),(-0.312067,0.589513,-0.277446),(-0.277209,-0.277446,0.554655))rRightHandSideVector : 
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](0,0,0)ms_temp
+[3](-0,-0,-0)
+rLeftHandSideMatrix :  : rRightHandSideVector : [3](-0,-0,-0)[3](0,0,0)
+
+[3,3]((0.578914,-0.287126,-0.291788),(-0.287126,0.57425,-0.287124),(-0.291788,-0.287124,0.578912))rLeftHandSideMatrix : 
+rRightHandSideVector : rLeftHandSideMatrixrRightHandSideVector :  : [3,3]((0.457676,-0.287122,-0.170553),(-0.287122,0.726365,-0.439242),(-0.170553,-0.439242,0.609795))
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)[3,3]((0.583302,-0.282901,-0.300401),(-0.282901,0.565801,-0.282901),(-0.300401,-0.282901,0.583302))
+ms_temp : 
+rLeftHandSideMatrixrRightHandSideVector[3](0,0,0) : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp :  : [3](0,0,0)
+ms_temp : 
+rRightHandSideVector : [3,3]((0.398182,-0.287184,-0.110998),(-0.287184,0.834982,-0.547798),(-0.110998,-0.547798,0.658796))
+rRightHandSideVector : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.824929,-0.638556,-0.186372),(-0.638556,0.797347,-0.158791),(-0.186372,-0.158791,0.345163))
+rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.578912,-0.291788,-0.287124),(-0.291788,0.578914,-0.287126),(-0.287124,-0.287126,0.57425))
+rRightHandSideVector : [3](-0,-0,-0)rLeftHandSideMatrix
+ : ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)[3,3]((0.472104,-0.146308,-0.325795),(-0.146308,0.574887,-0.428578),(-0.325795,-0.428578,0.754373))[3](0,0,0)
+
+ms_temp : rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.583301,-0.300399,-0.282902),(-0.300399,0.583301,-0.282902),(-0.282902,-0.282902,0.565803))
+rRightHandSideVector : [3](0,0,0)
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)rRightHandSideVector
+ms_temp :  : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.751415,-0.287665,-0.46375),(-0.287665,0.442833,-0.155168),(-0.46375,-0.155168,0.618918))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3,3]((0.578896,-0.287122,-0.291774),(-0.287122,0.574264,-0.287142),(-0.291774,-0.287142,0.578916))ms_temp : 
+[3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.559827,-0.280062,-0.279765),(-0.280062,0.586672,-0.30661),(-0.279765,-0.30661,0.586374))rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)rLeftHandSideMatrix : 
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.578849,-0.291628,-0.287221),(-0.291628,0.578815,-0.287188),(-0.287221,-0.287188,0.574409))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : rRightHandSideVectorrLeftHandSideMatrix :  : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3,3]((0.576156,-0.301723,-0.274433),(-0.301723,0.591917,-0.290195),(-0.274433,-0.290195,0.564628))
+[3,3]((0.563532,-0.255279,-0.308253),(-0.255279,0.559272,-0.303992),(-0.308253,-0.303992,0.612245))rRightHandSideVector : 
+rLeftHandSideMatrix : rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.578814,-0.291628,-0.287186),(-0.291628,0.578851,-0.287222),(-0.287186,-0.287222,0.574408))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3,3]((0.836334,-0.47308,-0.363254),(-0.47308,0.566525,-0.0934457),(-0.363254,-0.0934457,0.4567))
+rRightHandSideVector : rRightHandSideVectorrLeftHandSideMatrix :  : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.567805,0.0024595,-0.570264),(0.0024595,0.440303,-0.442762),(-0.570264,-0.442762,1.01303))rRightHandSideVector : 
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3](-0,-0,-0)[3,3]((0.579805,-0.309674,-0.270131),(-0.309674,0.596576,-0.286902),(-0.270131,-0.286902,0.557033))
+[3,3]((0.583132,-0.282901,-0.300231),(-0.282901,0.565966,-0.283066),(-0.300231,-0.283066,0.583297))ms_temp : 
+rRightHandSideVector : 
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : [3](0,0,0)
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.592155,-0.297415,-0.294739),(-0.297415,0.571567,-0.274151),(-0.294739,-0.274151,0.568891))
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.569838,-0.357073,-0.212765),(-0.357073,0.662471,-0.305398),(-0.212765,-0.305398,0.518163))
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.592058,-0.296044,-0.296014),(-0.296044,0.570285,-0.274241),(-0.296014,-0.274241,0.570256))[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.517351,-0.197972,-0.31938),(-0.197972,0.558987,-0.361016),(-0.31938,-0.361016,0.680395))
+rRightHandSideVector : 
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)
+rRightHandSideVectorrLeftHandSideMatrix :  : rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.68339,-0.466149,-0.217241),(-0.466149,0.683789,-0.217641),(-0.217241,-0.217641,0.434882))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : 
+[3](0,0,0)[3,3]((0.69689,-0.514412,-0.182478),(-0.514412,0.738452,-0.22404),(-0.182478,-0.22404,0.406518))[3,3]((0.584187,-0.295795,-0.288392),(-0.295795,0.577717,-0.281922),(-0.288392,-0.281922,0.570314))
+rRightHandSideVector : 
+rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : [3](0,0,0)
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.573631,-0.361319,-0.212312),(-0.361319,0.663407,-0.302089),(-0.212312,-0.302089,0.514401))
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.583132,-0.282901,-0.300231),(-0.282901,0.565966,-0.283066),(-0.300231,-0.283066,0.583297))[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : 
+rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.765771,-0.32912,-0.436651),(-0.32912,0.467921,-0.1388),(-0.436651,-0.1388,0.575451))rRightHandSideVector
+ : rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3](0,0,0)
+[3](-0,-0,-0)rLeftHandSideMatrix : [3,3]((0.665179,-0.436916,-0.228264),(-0.436916,0.662822,-0.225906),(-0.228264,-0.225906,0.45417))
+ms_temp : 
+rRightHandSideVector : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : [3,3]((0.730422,-0.25975,-0.470672),(-0.25975,0.43464,-0.174889),(-0.470672,-0.174889,0.645561))
+[3,3]((0.570285,-0.296044,-0.274241),(-0.296044,0.592058,-0.296014),(-0.274241,-0.296014,0.570256))
+rRightHandSideVectorrRightHandSideVector :  : rRightHandSideVector[3](-0,-0,-0) : 
+ms_temp : [3](-0,-0,-0)[3](0,0,0)
+
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVector : [3,3]((0.678375,-0.542471,-0.135904),(-0.542471,0.802321,-0.25985),(-0.135904,-0.25985,0.395754))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.838387,-0.427949,-0.410438),(-0.427949,0.516635,-0.0886861),(-0.410438,-0.0886861,0.499124))
+rRightHandSideVector : [3,3]((0.583183,-0.300106,-0.283077),(-0.300106,0.583116,-0.28301),(-0.283077,-0.28301,0.566088))
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](0,0,0)rLeftHandSideMatrix : 
+[3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.589208,-0.277866,-0.311342),(-0.277866,0.555338,-0.277471),(-0.311342,-0.277471,0.588813))rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : [3](0,0,0)[3](-0,-0,-0)
+[3](-0,-0,-0)ms_temp : 
+
+[3](-0,-0,-0)[3](0,0,0)
+
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.500546,-0.120476,-0.38007),(-0.120476,0.528452,-0.407976),(-0.38007,-0.407976,0.788046))rLeftHandSideMatrix : 
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3,3]((1.05196,-0.417594,-0.634364),(-0.417594,0.403424,0.0141701),(-0.634364,0.0141701,0.620194))[3](0,0,0)rLeftHandSideMatrix
+ : 
+[3,3]((0.600088,-0.301131,-0.298957),(-0.301131,0.567717,-0.266586),(-0.298957,-0.266586,0.565542))rRightHandSideVector : rRightHandSideVector : 
+[3](-0,-0,-0)rRightHandSideVector : [3,3]((0.579059,-0.269777,-0.309282),(-0.269777,0.557421,-0.287644),(-0.309282,-0.287644,0.596925))
+[3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : 
+rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : ms_temp : [3](0,0,0)
+rRightHandSideVector : [3,3]((0.42395,-0.227019,-0.196931),(-0.227019,0.711258,-0.484238),(-0.196931,-0.484238,0.681169))[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : 
+[3](0,0,0)rLeftHandSideMatrix : [3](-0,-0,-0)
+
+rRightHandSideVector : [3,3]((0.604579,-0.373565,-0.231014),(-0.373565,0.644334,-0.270769),(-0.231014,-0.270769,0.501783))
+rRightHandSideVector : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](0,0,0)
+[3,3]((0.568751,-0.330411,-0.238341),(-0.330411,0.631508,-0.301098),(-0.238341,-0.301098,0.539438))
+rRightHandSideVector : [3,3]((0.589084,-0.311612,-0.277472),(-0.311612,0.589224,-0.277612),(-0.277472,-0.277612,0.555083))
+rRightHandSideVectorrRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3,3]((0.663166,-0.435919,-0.227247),(-0.435919,0.663523,-0.227604),(-0.227247,-0.227604,0.45485))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+ : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix[3,3]((0.57893,-0.291792,-0.287138),(-0.291792,0.5789,-0.287108),(-0.287138,-0.287108,0.574246)) : 
+rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.545144,-0.109091,-0.436053),(-0.109091,0.480425,-0.371334),(-0.436053,-0.371334,0.807387))
+rRightHandSideVector : [3](-0,-0,-0)rLeftHandSideMatrix : 
+[3,3]((0.711557,-0.284459,-0.427098),(-0.284459,0.465061,-0.180602),(-0.427098,-0.180602,0.607699))ms_temprLeftHandSideMatrix :  : 
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVector : ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : rLeftHandSideMatrix[3](0,0,0) : 
+rRightHandSideVector : [3,3]((0.578912,-0.291788,-0.287124),(-0.291788,0.578914,-0.287126),(-0.287124,-0.287126,0.57425))
+rRightHandSideVector : rRightHandSideVector : [3,3]((1.08214,-0.546317,-0.535826),(-0.546317,0.50683,0.0394874),(-0.535826,0.0394874,0.496339))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.587349,-0.267304,-0.320045),(-0.267304,0.547292,-0.279988),(-0.320045,-0.279988,0.600033))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : 
+[3,3]((0.578916,-0.291774,-0.287142),(-0.291774,0.578896,-0.287122),(-0.287142,-0.287122,0.574264))
+rRightHandSideVector : [3](0,0,0)
+[3,3]((0.491539,-0.252049,-0.23949),(-0.252049,0.637851,-0.385802),(-0.23949,-0.385802,0.625292))
+rRightHandSideVector : [3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+rRightHandSideVector : ms_temp : rLeftHandSideMatrix : [3,3]((0.711987,-0.436493,-0.275494),(-0.436493,0.618727,-0.182235),(-0.275494,-0.182235,0.457729))
+rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.594342,-0.321293,-0.273049),(-0.321293,0.59432,-0.273026),(-0.273049,-0.273026,0.546075))
+rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](0,0,0)[3](0,0,0)
+[3,3]((0.537529,-0.389485,-0.148044),(-0.389485,0.747305,-0.357821),(-0.148044,-0.357821,0.505865))
+rRightHandSideVector : rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)[3](0,0,0)
+
+rLeftHandSideMatrix : rLeftHandSideMatrixrRightHandSideVector :  : [3](-0,-0,-0)
+rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.740071,-0.598226,-0.141845),(-0.598226,0.821372,-0.223147),(-0.141845,-0.223147,0.364992))
+[3,3]((0.578988,-0.291979,-0.287009),(-0.291979,0.579031,-0.287051),(-0.287009,-0.287051,0.57406))
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)[3](-0,-0,-0)
+ms_temp : 
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVector : [3](-0,-0,-0)[3](-0,-0,-0)
+
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rLeftHandSideMatrixrLeftHandSideMatrix :  : rLeftHandSideMatrix : [3,3]((0.577767,-0.289431,-0.288336),(-0.289431,0.577691,-0.288259),(-0.288336,-0.288259,0.576595))
+rRightHandSideVector : [3,3]((0.578916,-0.291774,-0.287142),(-0.291774,0.578896,-0.287122),(-0.287142,-0.287122,0.574264))[3,3]((0.624878,-0.252231,-0.372647),(-0.252231,0.501891,-0.24966),(-0.372647,-0.24966,0.622307))
+rRightHandSideVector : 
+rRightHandSideVector : [3,3]((0.580099,-0.294119,-0.285979),(-0.294119,0.580085,-0.285965),(-0.285979,-0.285965,0.571944))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : rRightHandSideVectorrLeftHandSideMatrix :  : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.762954,-0.575663,-0.187291),(-0.575663,0.762022,-0.186359),(-0.187291,-0.186359,0.37365))
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3,3]((0.584429,-0.221772,-0.362656),(-0.221772,0.511924,-0.290152),(-0.362656,-0.290152,0.652808))[3](-0,-0,-0)
+rRightHandSideVector : 
+rLeftHandSideMatrix : [3](0,0,0)
+rLeftHandSideMatrix : [3](-0,-0,-0)[3,3]((0.593742,-0.266154,-0.327588),(-0.266154,0.540366,-0.274212),(-0.327588,-0.274212,0.601799))
+ms_temp : 
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.578912,-0.291788,-0.287124),(-0.291788,0.578914,-0.287126),(-0.287124,-0.287126,0.57425))[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](0,0,0)
+
+rRightHandSideVector : ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.659316,-0.497944,-0.161372),(-0.497944,0.755249,-0.257305),(-0.161372,-0.257305,0.418678))
+rRightHandSideVector : [3](0,0,0)
+ms_temp : [3](-0,-0,-0)
+rRightHandSideVector : ms_temp : rLeftHandSideMatrix : [3](0,0,0)
+[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3,3]((0.598012,-0.32794,-0.270072),(-0.32794,0.597889,-0.269949),(-0.270072,-0.269949,0.540021))[3,3]((0.50886,-0.290887,-0.217973),(-0.290887,0.657579,-0.366692),(-0.217973,-0.366692,0.584664))
+rLeftHandSideMatrixrRightHandSideVector :  : 
+rLeftHandSideMatrix[3](-0,-0,-0) : rRightHandSideVector : [3,3]((0.577794,-0.289512,-0.288282),(-0.289512,0.577744,-0.288232),(-0.288282,-0.288232,0.576514))
+rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : ms_temp : [3,3]((0.758235,-0.268547,-0.489687),(-0.268547,0.424826,-0.156279),(-0.489687,-0.156279,0.645966))
+rRightHandSideVector : [3](0,0,0)
+[3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.583297,-0.300231,-0.283066),(-0.300231,0.583132,-0.282901),(-0.283066,-0.282901,0.565966))
+rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.551447,-0.282751,-0.268696),(-0.282751,0.598331,-0.315581),(-0.268696,-0.315581,0.584277))
+
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3,3]((0.534612,-0.268848,-0.265764),(-0.268848,0.602828,-0.33398),(-0.265764,-0.33398,0.599744))ms_temp : 
+rRightHandSideVector : [3](0,0,0)
+[3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3,3]((0.569915,-0.296079,-0.273836),(-0.296079,0.59248,-0.296401),(-0.273836,-0.296401,0.570236))rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)
+rRightHandSideVectorrRightHandSideVector :  : rLeftHandSideMatrix : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3,3]((0.887502,-0.562907,-0.324595),(-0.562907,0.638719,-0.0758121),(-0.324595,-0.0758121,0.400407))[3,3]((0.597769,-0.265598,-0.332171),(-0.265598,0.536231,-0.270633),(-0.332171,-0.270633,0.602804))
+rRightHandSideVector : 
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+rLeftHandSideMatrix : [3](0,0,0)
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.596476,-0.325284,-0.271192),(-0.325284,0.59652,-0.271236),(-0.271192,-0.271236,0.542428))
+rRightHandSideVector : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : [3,3]((0.697213,-0.199331,-0.497881),(-0.199331,0.415559,-0.216228),(-0.497881,-0.216228,0.714109))
+rRightHandSideVector : [3,3]((0.6205,-0.577095,-0.043405),(-0.577095,0.939627,-0.362532),(-0.043405,-0.362532,0.405937))
+[3](-0,-0,-0)rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)ms_temp : rLeftHandSideMatrix
+ms_temp : 
+[3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+ : rRightHandSideVector : [3](0,0,0)[3](-0,-0,-0)rLeftHandSideMatrix
+
+ : [3,3]((0.581638,-0.297365,-0.284273),(-0.297365,0.58185,-0.284485),(-0.284273,-0.284485,0.568758))
+rRightHandSideVector : [3,3]((0.600463,-0.332554,-0.267909),(-0.332554,0.600524,-0.26797),(-0.267909,-0.26797,0.535878))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3,3]((0.861677,-0.512274,-0.349403),(-0.512274,0.594683,-0.0824091),(-0.349403,-0.0824091,0.431812))
+rRightHandSideVector : [3](0,0,0)
+[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.557077,-0.285934,-0.271144),(-0.285934,0.595533,-0.3096),(-0.271144,-0.3096,0.580743))
+rRightHandSideVector : rLeftHandSideMatrixrLeftHandSideMatrix :  : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3,3]((0.577329,-0.2888,-0.288529),(-0.2888,0.577496,-0.288696),(-0.288529,-0.288696,0.577225))
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.582058,-0.298022,-0.284036),(-0.298022,0.582102,-0.28408),(-0.284036,-0.28408,0.568116))
+rRightHandSideVector : [3,3]((0.742985,-0.721799,-0.0211862),(-0.721799,1.0377,-0.315898),(-0.0211862,-0.315898,0.337084))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rLeftHandSideMatrix
+ms_temp :  : [3](-0,-0,-0)[3](0,0,0)
+
+ms_temp : [3,3]((0.58807,-0.309541,-0.278529),(-0.309541,0.588052,-0.278511),(-0.278529,-0.278511,0.55704))
+rRightHandSideVector : [3](0,0,0)
+[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+rRightHandSideVector[3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector :  : [3](-0,-0,-0)[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : 
+rLeftHandSideMatrix : [3](0,0,0)
+[3,3]((0.592772,-0.421352,-0.17142),(-0.421352,0.721251,-0.299899),(-0.17142,-0.299899,0.471319))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+
+ms_temp : [3,3]((0.577759,-0.28942,-0.28834),(-0.28942,0.577686,-0.288267),(-0.28834,-0.288267,0.576607))
+[3,3]((0.579948,-0.293691,-0.286258),(-0.293691,0.5798,-0.286109),(-0.286258,-0.286109,0.572367))rRightHandSideVector : rLeftHandSideMatrix : [3](0,0,0)[3](-0,-0,-0)
+ms_temp : 
+
+rRightHandSideVector : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.965284,-0.524005,-0.441279),(-0.524005,0.543448,-0.0194426),(-0.441279,-0.0194426,0.460721))
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector[3](-0,-0,-0)
+ms_temp :  : [3,3]((0.585336,-0.294797,-0.290539),(-0.294797,0.575576,-0.280779),(-0.290539,-0.280779,0.571318))[3](0,0,0)
+[3](0,0,0)[3](-0,-0,-0)
+
+
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3,3]((0.578814,-0.287186,-0.291628),(-0.287186,0.574408,-0.287222),(-0.291628,-0.287222,0.578851))[3](-0,-0,-0)
+rRightHandSideVector : 
+[3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVectorrRightHandSideVector :  : rLeftHandSideMatrix : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.582466,-0.298874,-0.283592),(-0.298874,0.582567,-0.283693),(-0.283592,-0.283693,0.567286))
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)rLeftHandSideMatrix : [3](0,0,0)
+
+[3,3]((0.579697,-0.293543,-0.286154),(-0.293543,0.579902,-0.286359),(-0.286154,-0.286359,0.572513))
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.479245,-0.296059,-0.183185),(-0.296059,0.704548,-0.408489),(-0.183185,-0.408489,0.591674))
+[3,3]((0.64965,-0.375698,-0.273951),(-0.375698,0.602093,-0.226394),(-0.273951,-0.226394,0.500346))rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](0,0,0)rRightHandSideVector
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp :  : rRightHandSideVectorrLeftHandSideMatrix :  : [3](-0,-0,-0)[3](0,0,0)
+[3](-0,-0,-0)ms_temp
+[3,3]((0.581186,-0.29632,-0.284866),(-0.29632,0.581235,-0.284915),(-0.284866,-0.284915,0.569781)) : [3](0,0,0)
+
+rRightHandSideVectorrLeftHandSideMatrix :  : 
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](0,0,0)[3,3]((0.713865,-0.426339,-0.287526),(-0.426339,0.604827,-0.178488),(-0.287526,-0.178488,0.466014))
+rRightHandSideVector[3](-0,-0,-0)
+
+rRightHandSideVector :  : rRightHandSideVectorrLeftHandSideMatrix :  : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)[3](-0,-0,-0)
+
+[3](0,0,0)
+[3,3]((0.977211,-0.424024,-0.553187),(-0.424024,0.43982,-0.0157954),(-0.553187,-0.0157954,0.568982))
+rLeftHandSideMatrixrRightHandSideVector : rLeftHandSideMatrix :  : [3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3,3]((0.57875,-0.291608,-0.287142),(-0.291608,0.578894,-0.287287),(-0.287142,-0.287287,0.574429))
+[3](-0,-0,-0)
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3,3]((0.543539,-0.271785,-0.271753),(-0.271785,0.59585,-0.324064),(-0.271753,-0.324064,0.595818))
+rRightHandSideVector : rLeftHandSideMatrix[3](0,0,0) : [3](0,0,0)
+
+[3,3]((0.636621,-0.478026,-0.158595),(-0.478026,0.751639,-0.273613),(-0.158595,-0.273613,0.432208))
+[3](-0,-0,-0)rRightHandSideVectorrRightHandSideVector : rRightHandSideVector :  : 
+ms_temp[3](-0,-0,-0) : [3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : 
+rRightHandSideVector : ms_temp : [3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.662599,-0.320565,-0.342033),(-0.320565,0.532392,-0.211827),(-0.342033,-0.211827,0.55386))
+rRightHandSideVector : [3,3]((0.592576,-0.317845,-0.274731),(-0.317845,0.592372,-0.274527),(-0.274731,-0.274527,0.549258))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3,3]((0.611795,-0.451098,-0.160697),(-0.451098,0.741244,-0.290146),(-0.160697,-0.290146,0.450843))
+[3](-0,-0,-0)[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector[3](-0,-0,-0) : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+
+[3](0,0,0)
+rLeftHandSideMatrix : rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.792782,-0.450036,-0.342746),(-0.450036,0.570816,-0.12078),(-0.342746,-0.12078,0.463526))[3,3]((0.836849,-0.492315,-0.344534),(-0.492315,0.588367,-0.0960518),(-0.344534,-0.0960518,0.440586))
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : 
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3,3]((0.57169,-0.125456,-0.446234),(-0.125456,0.464831,-0.339374),(-0.446234,-0.339374,0.785608))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVector : [3,3]((0.657497,-0.488906,-0.168591),(-0.488906,0.743774,-0.254868),(-0.168591,-0.254868,0.423459))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.586268,-0.293596,-0.292673),(-0.293596,0.573455,-0.279859),(-0.292673,-0.279859,0.572532))
+rRightHandSideVector : [3,3]((0.578851,-0.291628,-0.287222),(-0.291628,0.578814,-0.287186),(-0.287222,-0.287186,0.574408))[3](-0,-0,-0)
+rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : [3](0,0,0)
+rRightHandSideVector : [3](0,0,0)[3,3]((0.579319,-0.293757,-0.285562),(-0.293757,0.580497,-0.28674),(-0.285562,-0.28674,0.572302))
+
+rRightHandSideVector : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](-0,-0,-0)[3](0,0,0)
+[3](-0,-0,-0)
+
+rLeftHandSideMatrix : rRightHandSideVectorrLeftHandSideMatrix :  : [3](-0,-0,-0)
+[3,3]((0.580749,-0.295582,-0.285168),(-0.295582,0.580919,-0.285338),(-0.285168,-0.285338,0.570505))
+rRightHandSideVector : [3,3]((0.49302,-0.467902,-0.0251183),(-0.467902,0.951142,-0.48324),(-0.0251183,-0.48324,0.508359))rLeftHandSideMatrix : rLeftHandSideMatrix
+rRightHandSideVector :  : [3,3]((0.878883,-0.677976,-0.200907),(-0.677976,0.807447,-0.129471),(-0.200907,-0.129471,0.330378))
+[3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3,3]((0.61969,-0.255383,-0.364307),(-0.255383,0.508674,-0.253292),(-0.364307,-0.253292,0.617599))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrixrRightHandSideVector :  : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.425662,-0.176352,-0.249311),(-0.176352,0.660383,-0.484031),(-0.249311,-0.484031,0.733342))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVectorrLeftHandSideMatrix :  : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.714936,-0.303269,-0.411667),(-0.303269,0.478326,-0.175056),(-0.411667,-0.175056,0.586723))rRightHandSideVector : 
+rLeftHandSideMatrixrRightHandSideVector :  : [3,3]((0.578851,-0.287222,-0.291628),(-0.287222,0.574408,-0.287186),(-0.291628,-0.287186,0.578814))[3](-0,-0,-0)
+rRightHandSideVector : 
+[3,3]((0.456103,-0.468259,0.0121565),(-0.468259,1.02886,-0.560603),(0.0121565,-0.560603,0.548446))
+rRightHandSideVector : [3](-0,-0,-0)[3](-0,-0,-0)rLeftHandSideMatrix : 
+ms_temp : [3](-0,-0,-0)
+ms_temp : 
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3,3]((0.680933,-0.527151,-0.153782),(-0.527151,0.775242,-0.248091),(-0.153782,-0.248091,0.401874))
+rRightHandSideVector : rRightHandSideVectorrLeftHandSideMatrix :  : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](0,0,0)rLeftHandSideMatrix : 
+[3,3]((0.9714,-0.607942,-0.363459),(-0.607942,0.637835,-0.0298933),(-0.363459,-0.0298933,0.393352))
+rRightHandSideVector : [3,3]((0.653675,-0.410063,-0.243612),(-0.410063,0.639693,-0.22963),(-0.243612,-0.22963,0.473243))rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.578142,-0.289959,-0.288183),(-0.289959,0.577844,-0.287886),(-0.288183,-0.287886,0.576069))
+rRightHandSideVectorrRightHandSideVector :  : [3,3]((0.578672,-0.291723,-0.286949),(-0.291723,0.579089,-0.287366),(-0.286949,-0.287366,0.574314))[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](0,0,0)
+
+rRightHandSideVector : rLeftHandSideMatrixrRightHandSideVector :  : ms_temp : [3](-0,-0,-0)
+[3](0,0,0)ms_temp
+ : [3](0,0,0)
+[3,3]((0.455339,-0.36776,-0.0875784),(-0.36776,0.846068,-0.478308),(-0.0875784,-0.478308,0.565886))
+rRightHandSideVector : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)rRightHandSideVector
+ : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](0,0,0)
+rLeftHandSideMatrix : [3,3]((0.566275,-0.283309,-0.282966),(-0.283309,0.583222,-0.299913),(-0.282966,-0.299913,0.582879))
+[3,3]((0.431453,-0.173452,-0.258001),(-0.173452,0.649168,-0.475717),(-0.258001,-0.475717,0.733718))rRightHandSideVector
+ : [3,3]((0.901212,-0.480158,-0.421054),(-0.480158,0.533228,-0.0530703),(-0.421054,-0.0530703,0.474124))[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : rRightHandSideVector[3](0,0,0) : 
+[3](-0,-0,-0)
+
+ms_temp : rRightHandSideVector : [3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrixrRightHandSideVector :  : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)
+[3,3]((0.819211,-0.527135,-0.292076),(-0.527135,0.644365,-0.117231),(-0.292076,-0.117231,0.409307))rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.582862,-0.299535,-0.283326),(-0.299535,0.582851,-0.283316),(-0.283326,-0.283316,0.566642))
+[3](-0,-0,-0)
+[3,3]((0.578123,-0.290404,-0.287719),(-0.290404,0.57831,-0.287906),(-0.287719,-0.287906,0.575625))
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.663882,-0.514879,-0.149003),(-0.514879,0.775892,-0.261012),(-0.149003,-0.261012,0.410015))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector[3](0,0,0) : 
+[3](-0,-0,-0)
+[3](0,0,0)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.641032,-0.484209,-0.156823),(-0.484209,0.755748,-0.271539),(-0.156823,-0.271539,0.428362))rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3](-0,-0,-0)
+
+[3,3]((0.680222,-0.271082,-0.40914),(-0.271082,0.475559,-0.204476),(-0.40914,-0.204476,0.613616))
+rRightHandSideVector : ms_temp : [3](-0,-0,-0)[3](-0,-0,-0)rLeftHandSideMatrix : 
+
+ms_temp : [3](0,0,0)
+[3,3]((0.550979,-0.276137,-0.274842),(-0.276137,0.592131,-0.315994),(-0.274842,-0.315994,0.590836))
+rRightHandSideVector : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3,3]((0.725499,-0.680873,-0.0446254),(-0.680873,0.983583,-0.30271),(-0.0446254,-0.30271,0.347336))[3](0,0,0)
+
+rLeftHandSideMatrix : rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.578694,-0.291366,-0.287328),(-0.291366,0.578707,-0.287341),(-0.287328,-0.287341,0.574669))
+[3](-0,-0,-0)
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3,3]((0.645026,-0.493825,-0.151201),(-0.493825,0.765648,-0.271823),(-0.151201,-0.271823,0.423024))
+rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.588619,-0.310666,-0.277953),(-0.310666,0.588689,-0.278023),(-0.277953,-0.278023,0.555976))
+rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+rRightHandSideVector : [3](0,0,0)[3](-0,-0,-0)
+
+[3](0,0,0)rRightHandSideVector
+ : rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+rRightHandSideVector : [3,3]((0.566985,-0.283884,-0.283102),(-0.283884,0.583066,-0.299182),(-0.283102,-0.299182,0.582284))[3](-0,-0,-0)
+[3](-0,-0,-0)rRightHandSideVector : 
+rLeftHandSideMatrix : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : ms_temp : [3,3]((0.65276,-0.51905,-0.13371),(-0.51905,0.795719,-0.276668),(-0.13371,-0.276668,0.410378))
+rRightHandSideVector : [3](0,0,0)[3,3]((0.580099,-0.294093,-0.286006),(-0.294093,0.580057,-0.285964),(-0.286006,-0.285964,0.571971))
+rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+rLeftHandSideMatrix[3](0,0,0)
+[3](0,0,0)
+rLeftHandSideMatrix :  : rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.591108,-0.29393,-0.297178),(-0.29393,0.569092,-0.275162),(-0.297178,-0.275162,0.57234))
+[3,3]((0.418046,-0.324836,-0.0932101),(-0.324836,0.850429,-0.525592),(-0.0932101,-0.525592,0.618802))
+rRightHandSideVector : rRightHandSideVector : 
+[3](-0,-0,-0)[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : 
+[3](0,0,0)ms_temp : 
+[3,3]((0.58021,-0.294069,-0.286141),(-0.294069,0.579922,-0.285853),(-0.286141,-0.285853,0.571994))
+rRightHandSideVector : rRightHandSideVector : [3](0,0,0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.602897,-0.481829,-0.121068),(-0.481829,0.799737,-0.317908),(-0.121068,-0.317908,0.438976))
+
+rRightHandSideVector : [3](-0,-0,-0)
+[3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector : rLeftHandSideMatrix : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.583311,-0.300414,-0.282897),(-0.300414,0.583306,-0.282891),(-0.282897,-0.282891,0.565788))
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.685457,-0.483909,-0.201548),(-0.483909,0.706343,-0.222434),(-0.201548,-0.222434,0.423982))
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)[3,3]((0.580235,-0.285883,-0.294352),(-0.285883,0.571715,-0.285832),(-0.294352,-0.285832,0.580184))
+ms_temp : 
+rRightHandSideVector : [3,3]((0.642107,-0.481593,-0.160514),(-0.481593,0.750548,-0.268955),(-0.160514,-0.268955,0.429469))
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)[3](0,0,0)
+
+[3](0,0,0)
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)[3](-0,-0,-0)rLeftHandSideMatrix
+
+[3,3]((1.08071,-0.557391,-0.523317),(-0.557391,0.518812,0.0385787),(-0.523317,0.0385787,0.484739))rLeftHandSideMatrix : 
+rRightHandSideVector :  : rLeftHandSideMatrix[3,3]((0.838609,-0.502641,-0.335967),(-0.502641,0.599384,-0.0967422),(-0.335967,-0.0967422,0.43271)) : 
+rRightHandSideVector : [3](-0,-0,-0)[3,3]((0.57878,-0.291492,-0.287288),(-0.291492,0.578748,-0.287256),(-0.287288,-0.287256,0.574544))
+ms_temp : 
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+[3](0,0,0)
+rRightHandSideVector : [3,3]((0.588335,-0.286949,-0.301386),(-0.286949,0.564882,-0.277933),(-0.301386,-0.277933,0.579319))rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.637691,-0.503731,-0.13396),(-0.503731,0.789952,-0.286221),(-0.13396,-0.286221,0.420181))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3](-0,-0,-0)[3](0,0,0)
+
+[3,3]((0.872529,-0.467644,-0.404885),(-0.467644,0.537164,-0.0695195),(-0.404885,-0.0695195,0.474405))rRightHandSideVector : 
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+[3,3]((0.556056,-0.272624,-0.283432),(-0.272624,0.583258,-0.310634),(-0.283432,-0.310634,0.594065))
+rRightHandSideVector : ms_temp : [3](-0,-0,-0)[3](-0,-0,-0)
+[3](0,0,0)ms_temp : 
+[3](0,0,0)
+
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)[3,3]((0.534192,-0.29486,-0.239332),(-0.29486,0.630751,-0.335891),(-0.239332,-0.335891,0.575223))
+
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)[3](-0,-0,-0)
+
+[3](0,0,0)rLeftHandSideMatrix : 
+[3,3]((0.588737,-0.310801,-0.277937),(-0.310801,0.588713,-0.277912),(-0.277937,-0.277912,0.555849))
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.590031,-0.313059,-0.276973),(-0.313059,0.589809,-0.27675),(-0.276973,-0.27675,0.553723))rRightHandSideVector : 
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3,3]((0.74738,-0.476761,-0.270619),(-0.476761,0.638632,-0.161871),(-0.270619,-0.161871,0.43249))[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+rLeftHandSideMatrix : 
+rRightHandSideVector : ms_temp : [3](-0,-0,-0)
+ms_temp : [3,3]((0.624613,-0.359477,-0.265136),(-0.359477,0.607134,-0.247657),(-0.265136,-0.247657,0.512793))
+rRightHandSideVector : [3](0,0,0)
+[3](0,0,0)
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+[3](-0,-0,-0)rLeftHandSideMatrix : 
+rRightHandSideVector : [3,3]((0.582268,-0.297347,-0.284921),(-0.297347,0.581202,-0.283855),(-0.284921,-0.283855,0.568776))
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)[3,3]((0.589847,-0.312963,-0.276884),(-0.312963,0.589892,-0.276929),(-0.276884,-0.276929,0.553813))
+ms_temp : 
+[3,3]((0.711634,-0.660439,-0.0511956),(-0.660439,0.96423,-0.303791),(-0.0511956,-0.303791,0.354987))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](0,0,0)
+[3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)ms_temp : 
+[3](0,0,0)
+[3,3]((0.555908,-0.285374,-0.270534),(-0.285374,0.596211,-0.310837),(-0.270534,-0.310837,0.581371))
+rRightHandSideVector : [3](0,0,0)rRightHandSideVector : 
+rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+[3](0,0,0)
+rLeftHandSideMatrix : [3,3]((0.580026,-0.293992,-0.286033),(-0.293992,0.580028,-0.286036),(-0.286033,-0.286036,0.57207))
+rRightHandSideVector : [3,3]((0.509899,-0.344432,-0.165467),(-0.344432,0.722953,-0.378522),(-0.165467,-0.378522,0.543989))rLeftHandSideMatrix
+rRightHandSideVector :  : [3](-0,-0,-0)rRightHandSideVector : 
+ms_temp : [3](-0,-0,-0)[3](-0,-0,-0)
+
+ms_temp : [3,3]((0.634289,-0.474624,-0.159665),(-0.474624,0.749292,-0.274668),(-0.159665,-0.274668,0.434333))
+rRightHandSideVector : rLeftHandSideMatrix : [3](0,0,0)[3](0,0,0)[3](-0,-0,-0)
+
+[3,3]((0.596358,-0.32621,-0.270148),(-0.32621,0.597649,-0.271439),(-0.270148,-0.271439,0.541587))
+rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : ms_temp[3](-0,-0,-0) : 
+[3](-0,-0,-0)[3](0,0,0)
+
+[3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVectorrLeftHandSideMatrix :  : [3](0,0,0)
+[3](-0,-0,-0)
+[3,3]((0.723279,-0.377519,-0.34576),(-0.377519,0.542696,-0.165177),(-0.34576,-0.165177,0.510937))
+rRightHandSideVector : [3,3]((0.549053,-0.274927,-0.274126),(-0.274927,0.592993,-0.318066),(-0.274126,-0.318066,0.592192))
+rLeftHandSideMatrix : rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+[3,3]((0.555447,-0.518141,-0.0373069),(-0.518141,0.933427,-0.415286),(-0.0373069,-0.415286,0.452593))ms_temp[3](0,0,0) : 
+[3](0,0,0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : 
+rRightHandSideVector : [3](0,0,0)
+[3](-0,-0,-0)
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)[3](-0,-0,-0)
+
+rLeftHandSideMatrix : rLeftHandSideMatrix : [3,3]((0.591488,-0.316144,-0.275344),(-0.316144,0.591639,-0.275495),(-0.275344,-0.275495,0.550838))rLeftHandSideMatrix : 
+rRightHandSideVector : [3,3]((0.698337,-0.668383,-0.0299542),(-0.668383,0.997707,-0.329324),(-0.0299542,-0.329324,0.359278))
+rRightHandSideVector : [3,3]((0.589929,-0.313169,-0.27676),(-0.313169,0.590029,-0.276859),(-0.27676,-0.276859,0.553619))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+[3](0,0,0)
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+[3,3]((0.580625,-0.295295,-0.28533),(-0.295295,0.580752,-0.285457),(-0.28533,-0.285457,0.570787))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-0,-0,-0)
+ms_temp : rLeftHandSideMatrix : [3,3]((0.634205,-0.483284,-0.15092),(-0.483284,0.762473,-0.279188),(-0.15092,-0.279188,0.430109))[3](0,0,0)
+
+rRightHandSideVector : [3,3]((0.58986,-0.312975,-0.276886),(-0.312975,0.589891,-0.276916),(-0.276886,-0.276916,0.553802))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+rRightHandSideVector : rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+rLeftHandSideMatrix : rLeftHandSideMatrix : [3,3]((0.718339,-0.376028,-0.342312),(-0.376028,0.544863,-0.168836),(-0.342312,-0.168836,0.511147))
+rRightHandSideVector : [3,3]((0.51449,-0.574039,0.0595488),(-0.574039,1.1264,-0.55236),(0.0595488,-0.55236,0.492811))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+[3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.719834,-0.661952,-0.0578821),(-0.661952,0.956026,-0.294075),(-0.0578821,-0.294075,0.351957))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.583297,-0.300231,-0.283066),(-0.300231,0.583132,-0.282901),(-0.283066,-0.282901,0.565966))
+rRightHandSideVector : [3](-0,-0,-0)
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.571389,-0.276937,-0.294453),(-0.276937,0.571754,-0.294817),(-0.294453,-0.294817,0.58927))[3](-0,-0,-0)
+rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.583297,-0.300231,-0.283066),(-0.300231,0.583132,-0.282901),(-0.283066,-0.282901,0.565966))
+[3](-0,-0,-0)rRightHandSideVector : 
+[3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rLeftHandSideMatrix : [3,3]((0.824727,-0.381566,-0.443161),(-0.381566,0.479665,-0.0980987),(-0.443161,-0.0980987,0.54126))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.475642,-0.375858,-0.0997838),(-0.375858,0.822613,-0.446755),(-0.0997838,-0.446755,0.546539))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.72256,-0.477436,-0.245124),(-0.477436,0.661461,-0.184025),(-0.245124,-0.184025,0.429149))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.487851,-0.249755,-0.238096),(-0.249755,0.640313,-0.390558),(-0.238096,-0.390558,0.628654))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.697611,-0.203991,-0.493619),(-0.203991,0.418016,-0.214025),(-0.493619,-0.214025,0.707644))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.870177,-0.43804,-0.432137),(-0.43804,0.507804,-0.0697636),(-0.432137,-0.0697636,0.501901))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.476931,-0.346269,-0.130662),(-0.346269,0.775589,-0.42932),(-0.130662,-0.42932,0.559982))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+rRightHandSideVector : [3](-0,-0,-0)
+rLeftHandSideMatrix : [3,3]((0.879847,-0.622188,-0.257659),(-0.622188,0.724124,-0.101935),(-0.257659,-0.101935,0.359594))
+rRightHandSideVector : [3](-0,-0,-0)
+ms_temp : [3](0,0,0)
+fist iteration is done
+rRightHandSideVectorrRightHandSideVector :  : rRightHandSideVector : rRightHandSideVector[0]()[0]() : 
+[0]()
+[0]()rLeftHandSideMatrix : 
+
+[3,3]((0.587687,-0.278676,-0.309011),(-0.278676,0.557542,-0.278866),(-0.309011,-0.278866,0.587877))
+rRightHandSideVector : [3](-28.1741,17.8501,10.324)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](539.746,486.255,496.81)
+rLeftHandSideMatrix : [3,3]((0.589267,-0.311892,-0.277374),(-0.311892,0.589337,-0.277445),(-0.277374,-0.277445,0.554819))
+rRightHandSideVector : [3,3]((0.55439,-0.283362,-0.271029),(-0.283362,0.595779,-0.312417),(-0.271029,-0.312417,0.583446))
+rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3](-250.481,130.564,119.917)
+[3](10.2483,10.2483,-20.4966)ms_temp : 
+ms_temp : [3](10.6929,-21.0596,10.3667)[3](1248.2,825.364,820.619)
+
+ms_temp : [3](0,0,36.2258)
+[3](108.115,144.308,109.727)rRightHandSideVector
+ : rRightHandSideVector : [3](-250.481,130.564,119.917)
+rRightHandSideVector[3](-28.1741,17.8501,10.324) : 
+rRightHandSideVector : [3](10.2483,10.2483,-20.4966)
+[3](10.6929,-21.0596,10.3667)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rLeftHandSideMatrix : [3,3]((0.585923,-0.305344,-0.280579),(-0.305344,0.585802,-0.280458),(-0.280579,-0.280458,0.561037))
+rLeftHandSideMatrix[3,3]((0.589467,-0.31199,-0.277477),(-0.31199,0.589241,-0.277251),(-0.277477,-0.277251,0.554727))rRightHandSideVector :  : 
+[3](-13.5127,24.7492,-11.2365)
+[3,3]((0.588458,-0.310259,-0.2782),(-0.310259,0.588419,-0.278161),(-0.2782,-0.278161,0.556361))
+rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : rRightHandSideVector : ms_temp : [3](9.62844,9.62844,-19.2569)
+[3](-51.7517,40.8163,10.9354)
+ms_temp : ms_temp : [3](539.746,496.81,538.311)[3](655.114,552.419,584.074)
+
+[3](0,0,34.0347)rRightHandSideVector : 
+[3](20.9799,-10.0988,-10.8811)[3](-13.5127,24.7492,-11.2365)
+rRightHandSideVector : 
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](9.62844,9.62844,-19.2569)
+[3](-51.7517,40.8163,10.9354)
+[3](109.727,144.308,146.574)
+[3,3]((0.579235,-0.292745,-0.286489),(-0.292745,0.579558,-0.286812),(-0.286489,-0.286812,0.573302))
+rRightHandSideVector : rLeftHandSideMatrixrRightHandSideVector :  : rLeftHandSideMatrix : [3](-25.1565,11.0297,14.1268)
+ms_temp : [3](20.9799,-10.0988,-10.8811)[3,3]((0.516962,-0.271755,-0.245208),(-0.271755,0.626449,-0.354694),(-0.245208,-0.354694,0.599902))
+
+rRightHandSideVector : [3](538.311,496.81,492.908)
+[3](9.10732,13.1738,-22.2811)[3,3]((0.589467,-0.31199,-0.277477),(-0.31199,0.589241,-0.277251),(-0.277477,-0.277251,0.554727))
+ms_temp : 
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](0,0,37.1412)[3](-28.2243,24.5421,3.68223)
+ms_temp : [3](-25.1565,11.0297,14.1268)
+[3](477.962,419.422,442.066)
+
+rLeftHandSideMatrix : [3,3]((0.579866,-0.293769,-0.286097),(-0.293769,0.579962,-0.286193),(-0.286097,-0.286193,0.57229))
+rRightHandSideVector : [3,3]((0.574589,-0.289992,-0.284597),(-0.289992,0.581451,-0.291459),(-0.284597,-0.291459,0.576056))rRightHandSideVector : 
+rRightHandSideVector : [3](9.10732,13.1738,-22.2811)rRightHandSideVector
+[3](17.3321,19.0106,-36.3427)
+ms_temp :  : [3](539.746,538.311,602.108)
+[3](-28.2243,24.5421,3.68223)
+rLeftHandSideMatrix : [3](9.53676,11.52,-21.0567)rRightHandSideVector : 
+ms_temp : [3](17.3321,19.0106,-36.3427)
+[3](146.574,144.308,182.235)rLeftHandSideMatrix
+ : [3,3]((0.583297,-0.300231,-0.283066),(-0.300231,0.583132,-0.282901),(-0.283066,-0.282901,0.565966))rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector[3,3]((0.589381,-0.312092,-0.277288),(-0.312092,0.589435,-0.277343),(-0.277288,-0.277343,0.554631)) : [3,3]((0.509769,-0.284229,-0.22554),(-0.284229,0.648894,-0.364665),(-0.22554,-0.364665,0.590205))
+rRightHandSideVector : 
+rRightHandSideVector : [3](9.53676,11.52,-21.0567)
+[3](-18.3978,15.5637,2.83404)
+ms_temp : [3](-25.4468,29.5729,-4.12613)
+[3](372.041,334.368,348.093)ms_temp : [3](10.3831,10.3771,-20.7602)
+[3](602.108,538.311,569.681)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3,3]((0.561687,-0.285353,-0.276334),(-0.285353,0.590055,-0.304702),(-0.276334,-0.304702,0.581036))[3](-18.3978,15.5637,2.83404)
+rRightHandSideVector : 
+[3](-25.4468,29.5729,-4.12613)
+[3](10.9491,-21.2625,10.3134)
+ms_temp : 
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](109.727,146.574,111.3)
+[3,3]((0.647148,-0.382119,-0.265029),(-0.382119,0.611938,-0.22982),(-0.265029,-0.22982,0.494849))
+rRightHandSideVector : [3](0,0,36.681)
+[3,3]((0.589476,-0.312165,-0.277311),(-0.312165,0.589416,-0.277251),(-0.277311,-0.277251,0.554563))
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](-26.9783,6.19744,20.7808)
+ms_temp : [3](10.9491,-21.2625,10.3134)
+[3](569.681,538.311,513.118)
+[3](-91.1974,62.3048,28.8926)
+rLeftHandSideMatrix : ms_temp : [3](10.3831,10.3771,-20.7602)rRightHandSideVector : 
+[3](825.364,655.114,688.148)
+[3](-26.9783,6.19744,20.7808)
+rLeftHandSideMatrix : [3,3]((0.584838,-0.303554,-0.281283),(-0.303554,0.585026,-0.281472),(-0.281283,-0.281472,0.562755))rRightHandSideVector : 
+rRightHandSideVector : [3](-91.1974,62.3048,28.8926)
+[3](21.218,-10.1187,-11.0993)
+ms_temp : rLeftHandSideMatrix : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3](111.3,146.574,148.666)[3,3]((0.578097,-0.28989,-0.288207),(-0.28989,0.57782,-0.28793),(-0.288207,-0.28793,0.576137))
+rRightHandSideVector : 
+[3](9.82039,9.82039,-19.6408)
+ms_temp : [3](-17.5853,14.4915,3.09375)rRightHandSideVector : 
+ms_temp : rLeftHandSideMatrix[3](21.218,-10.1187,-11.0993)
+[3](456.678,419.718,432.837)
+[3](0,0,34.7132)
+rLeftHandSideMatrix :  : rRightHandSideVector : [3](-17.5853,14.4915,3.09375)rRightHandSideVector : 
+[3,3]((0.589476,-0.312165,-0.277311),(-0.312165,0.589416,-0.277251),(-0.277311,-0.277251,0.554563))
+rRightHandSideVector : [3](9.82039,9.82039,-19.6408)
+[3,3]((0.580536,-0.293834,-0.286702),(-0.293834,0.579359,-0.285525),(-0.286702,-0.285525,0.572227))
+rRightHandSideVector : [3](-36.4177,30.7137,5.70404)rLeftHandSideMatrix : 
+ms_temp : rLeftHandSideMatrix : [3](-9.49763,-11.1106,20.6083)[3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+ms_temp : 
+[3,3]((0.589454,-0.278967,-0.310487),(-0.278967,0.556146,-0.277179),(-0.310487,-0.277179,0.587666))rRightHandSideVector : 
+[3](10.66,10.66,-21.32)
+ms_temp : [3](552.419,477.962,504.909)
+[3](106.22,108.115,71.1515)
+[3](0,0,37.6811)rRightHandSideVector : 
+[3](-36.4177,30.7137,5.70404)rRightHandSideVector : 
+rRightHandSideVector : [3](-0.203943,-17.5029,17.7069)rRightHandSideVector
+ms_temp : [3](10.66,10.66,-21.32) : 
+[3](419.718,441.23,399.734)
+[3](-9.49763,-11.1106,20.6083)
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-0.203943,-17.5029,17.7069)
+rLeftHandSideMatrix : [3,3]((0.589391,-0.312268,-0.277123),(-0.312268,0.589611,-0.277343),(-0.277123,-0.277343,0.554466))
+rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.579233,-0.292442,-0.286791),(-0.292442,0.579253,-0.28681),(-0.286791,-0.28681,0.573601))[3](10.1165,10.1165,-20.233)
+
+[3](-22.8089,19.9169,2.89195)[3,3]((0.586246,-0.305981,-0.280266),(-0.305981,0.586143,-0.280162),(-0.280266,-0.280162,0.560428))
+rRightHandSideVector : [3](-15.7285,2.10381,13.6247)
+ms_temp : rRightHandSideVector : ms_temp : 
+ms_temp : [3](9.71918,11.5435,-21.2627)
+[3](419.422,372.041,390.506)
+ms_temp : [3](0,0,35.7599)
+[3](148.666,146.574,184.689)
+rRightHandSideVectorrRightHandSideVector :  : [3](419.718,399.734,385.417)
+[3](10.1165,10.1165,-20.233)
+rRightHandSideVector : rRightHandSideVector : [3](-22.8089,19.9169,2.89195)
+[3](9.71918,11.5435,-21.2627)
+rLeftHandSideMatrix : [3](-15.7285,2.10381,13.6247)rLeftHandSideMatrix : 
+rLeftHandSideMatrix : [3,3]((0.539316,-0.510579,-0.0287372),(-0.510579,0.946923,-0.436344),(-0.0287372,-0.436344,0.465082))
+rRightHandSideVector : [3,3]((0.617473,-0.320872,-0.296601),(-0.320872,0.571618,-0.250746),(-0.296601,-0.250746,0.547347))[3,3]((0.575483,-0.290766,-0.284717),(-0.290766,0.581328,-0.290563),(-0.284717,-0.290563,0.57528))
+rRightHandSideVector : 
+rRightHandSideVector : [3](1.13599,17.2488,-18.3848)
+ms_temp : [3](-13.8905,9.61938,4.27115)
+ms_temp : [3](11.1691,-21.4114,10.2423)
+ms_temp : [3](0,0,39.5303)
+[3](334.368,309.024,314.954)
+rRightHandSideVector : [3](111.3,148.666,112.369)
+rLeftHandSideMatrixrRightHandSideVector :  : [3](1.13599,17.2488,-18.3848)
+rRightHandSideVector : [3](-13.8905,9.61938,4.27115)
+[3](11.1691,-21.4114,10.2423)
+rLeftHandSideMatrix : [3,3]((0.669587,-0.488456,-0.181131),(-0.488456,0.729687,-0.241231),(-0.181131,-0.241231,0.422362))
+rRightHandSideVectorrLeftHandSideMatrix :  : [3,3]((0.59001,-0.276857,-0.313153),(-0.276857,0.553634,-0.276777),(-0.313153,-0.276777,0.58993))
+[3](0.708371,-18.8173,18.1089)rRightHandSideVector : 
+ms_temp : [3](-17.4911,0.367883,17.1233)
+ms_temp : [3](385.417,399.734,350.719)
+[3](233.606,213.78,195.278)
+[3,3]((0.527527,-0.26897,-0.258556),(-0.26897,0.61105,-0.342079),(-0.258556,-0.342079,0.600636))
+rRightHandSideVector : rLeftHandSideMatrixrRightHandSideVector :  : rRightHandSideVector : [3](-1.67319,16.5578,-14.8846)
+ms_temp : [3](0.708371,-18.8173,18.1089)
+[3](334.368,314.954,348.093)
+[3,3]((0.579252,-0.292263,-0.286989),(-0.292263,0.579053,-0.28679),(-0.286989,-0.28679,0.573779))
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3](-17.4911,0.367883,17.1233)
+[3](-1.67319,16.5578,-14.8846)[3](21.4713,-10.1625,-11.3088)
+
+rLeftHandSideMatrix : ms_temp : [3,3]((0.579523,-0.29283,-0.286693),(-0.29283,0.579355,-0.286525),(-0.286693,-0.286525,0.573218))
+[3](112.369,148.666,150.221)
+rRightHandSideVector : [3,3]((0.589847,-0.31296,-0.276887),(-0.31296,0.589888,-0.276928),(-0.276887,-0.276928,0.553816))
+rLeftHandSideMatrixrRightHandSideVector :  : [3](-14.5396,15.3805,-0.840922)
+ms_temp : [3](-16.5963,18.0068,-1.41048)[3,3]((0.640154,-0.352059,-0.288095),(-0.352059,0.584149,-0.23209),(-0.288095,-0.23209,0.520185))
+
+rRightHandSideVector : [3](-19.3233,13.1897,6.13357)
+ms_temp : ms_temp : rRightHandSideVector[3](419.718,385.417,404.04) : 
+[3](233.606,195.278,216.987)
+[3](348.093,314.954,321.516)
+[3](21.4713,-10.1625,-11.3088)rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : [3](-16.5963,18.0068,-1.41048)
+[3](-14.5396,15.3805,-0.840922)
+rLeftHandSideMatrix : [3](-19.3233,13.1897,6.13357)
+rLeftHandSideMatrix : [3,3]((0.584132,-0.282803,-0.301329),(-0.282803,0.564902,-0.282099),(-0.301329,-0.282099,0.583429))
+[3,3]((0.853639,-0.632693,-0.220946),(-0.632693,0.761798,-0.129105),(-0.220946,-0.129105,0.350051))rLeftHandSideMatrix : rRightHandSideVector : 
+rRightHandSideVector : [3](-11.3769,20.451,-9.0741)
+[3,3]((0.584822,-0.303323,-0.281499),(-0.303323,0.584802,-0.281479),(-0.281499,-0.281479,0.562977))
+rRightHandSideVector : [3](-23.6244,3.51741,20.107)
+ms_temp : rLeftHandSideMatrix : ms_temp : [3](63.0864,47.7776,0)
+[3](-3.69941,19.9035,-16.2041)
+[3](179.535,142.047,176.962)ms_temp : 
+[3](348.093,321.516,363.588)
+[3,3]((0.577987,-0.289852,-0.288135),(-0.289852,0.577892,-0.28804),(-0.288135,-0.28804,0.576175))
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : [3](-11.3769,20.451,-9.0741)[3](-21.2044,13.6233,7.58111)
+
+ms_temp : [3](-23.6244,3.51741,20.107)
+[3](-3.69941,19.9035,-16.2041)
+[3](496.81,456.678,463.59)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.582904,-0.299693,-0.283212),(-0.299693,0.58297,-0.283277),(-0.283212,-0.283277,0.566489))[3,3]((0.589416,-0.277251,-0.312165),(-0.277251,0.554563,-0.277311),(-0.312165,-0.277311,0.589476))
+rRightHandSideVector : 
+rRightHandSideVector : [3](-21.2044,13.6233,7.58111)
+[3](-40.0375,-39.3668,79.4042)
+ms_temp : [3](9.10832,11.3816,-20.49)
+ms_temp : rLeftHandSideMatrix : [3,3]((0.589831,-0.276737,-0.313094),(-0.276737,0.55369,-0.276953),(-0.313094,-0.276953,0.590046))
+[3](820.619,825.364,688.148)[3](179.535,176.962,214.418)rRightHandSideVector : [3,3]((0.586182,-0.281592,-0.30459),(-0.281592,0.561761,-0.280169),(-0.30459,-0.280169,0.584758))
+[3](-18.1461,0.252975,17.8931)rRightHandSideVector : 
+ms_temp : [3](-7.83097,-10.4063,18.2373)
+ms_temp : [3](195.278,174.859,155.369)
+[3](492.908,496.81,463.59)
+
+rRightHandSideVector : 
+[3](-40.0375,-39.3668,79.4042)
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](9.10832,11.3816,-20.49)
+[3](-18.1461,0.252975,17.8931)rLeftHandSideMatrix : 
+[3](-7.83097,-10.4063,18.2373)
+[3,3]((0.589476,-0.312165,-0.277311),(-0.312165,0.589416,-0.277251),(-0.277311,-0.277251,0.554563))
+rLeftHandSideMatrixrRightHandSideVector :  : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-87.2226,32.2208,55.0018)
+ms_temp : [3,3]((0.583872,-0.301359,-0.282513),(-0.301359,0.583719,-0.28236),(-0.282513,-0.28236,0.564873))[3,3]((0.590064,-0.313096,-0.276968),(-0.313096,0.589816,-0.27672),(-0.276968,-0.27672,0.553688))
+rRightHandSideVector : 
+rRightHandSideVector : [3](820.619,688.148,655.21)
+[3](-17.4799,18.559,-1.07916)
+ms_temp : [3](-17.8618,8.09165,9.7702)
+ms_temp : [3,3]((0.578754,-0.29133,-0.287423),(-0.29133,0.578611,-0.287281),(-0.287423,-0.287281,0.574704))
+rRightHandSideVector : [3](195.278,155.369,177.282)
+[3](492.908,463.59,460.957)
+[3](-11.911,20.6744,-8.76331)rRightHandSideVector : 
+ms_temp[3](-17.4799,18.559,-1.07916) : rRightHandSideVector
+[3](214.418,176.962,210.943) : 
+rRightHandSideVector : [3](-87.2226,32.2208,55.0018)
+[3](-17.8618,8.09165,9.7702)
+rLeftHandSideMatrix : rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix[3](-11.911,20.6744,-8.76331) : [3,3]((0.589891,-0.276913,-0.312978),(-0.276913,0.553798,-0.276885),(-0.312978,-0.276885,0.589864))
+
+rRightHandSideVector : [3,3]((0.578832,-0.291715,-0.287117),(-0.291715,0.578921,-0.287205),(-0.287117,-0.287205,0.574322))[3,3]((0.589513,-0.277446,-0.312067),(-0.277446,0.554655,-0.277209),(-0.312067,-0.277209,0.589276))rLeftHandSideMatrix
+ : rRightHandSideVector : 
+rRightHandSideVector : [3](-18.4386,1.02855,17.41)
+ms_temp : [3](-5.4709,-7.76552,13.2364)
+ms_temp : [3](-22.3727,-1.7332,24.1059)
+ms_temp : [3](216.987,195.278,177.282)
+[3](460.957,463.59,439.226)
+[3](442.066,419.422,390.506)rRightHandSideVector : 
+[3](-18.4386,1.02855,17.41)[3,3]((0.578724,-0.291381,-0.287343),(-0.291381,0.578692,-0.287311),(-0.287343,-0.287311,0.574654))
+rRightHandSideVector : rRightHandSideVector : 
+rRightHandSideVector : [3](-5.4709,-7.76552,13.2364)
+[3](21.0247,-9.32776,-11.6969)rLeftHandSideMatrix : 
+ms_temp : [3](179.535,214.418,217.33)[3,3]((0.589864,-0.312978,-0.276885),(-0.312978,0.589891,-0.276913),(-0.276885,-0.276913,0.553798))
+rLeftHandSideMatrix
+rRightHandSideVector : [3](-17.0991,18.7495,-1.65042)
+ms_temp : [3](-22.3727,-1.7332,24.1059) : 
+[3](216.987,177.282,200.114)
+[3,3]((0.48471,-0.293537,-0.191174),(-0.293537,0.693536,-0.399999),(-0.191174,-0.399999,0.591172))
+rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : rLeftHandSideMatrix : [3](-12.9501,14.6871,-1.73704)
+[3](21.0247,-9.32776,-11.6969)
+[3,3]((0.589276,-0.312067,-0.277209),(-0.312067,0.589513,-0.277446),(-0.277209,-0.277446,0.554655))
+rRightHandSideVector : [3](-17.0991,18.7495,-1.65042)
+rLeftHandSideMatrix : ms_temp : [3](-26.9525,19.5237,7.42873)
+[3,3]((0.569893,-0.285267,-0.284626),(-0.285267,0.581473,-0.296205),(-0.284626,-0.296205,0.580831))ms_temp : 
+[3](492.908,460.957,474.227)rRightHandSideVector : [3](442.066,390.506,402.882)
+[3](20.8438,-9.24902,-11.5947)
+ms_temp : rLeftHandSideMatrix : 
+[3](144.308,179.535,182.235)
+rRightHandSideVector : [3,3]((0.580398,-0.294505,-0.285894),(-0.294505,0.580176,-0.285671),(-0.285894,-0.285671,0.571565))rRightHandSideVector : 
+rRightHandSideVector : [3](-12.9501,14.6871,-1.73704)
+rRightHandSideVector[3](-26.9525,19.5237,7.42873) : 
+[3](20.8438,-9.24902,-11.5947)
+[3](-18.5611,0.614824,17.9463)rLeftHandSideMatrix : 
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3,3]((0.589241,-0.277251,-0.31199),(-0.277251,0.554727,-0.277477),(-0.31199,-0.277477,0.589467))
+rRightHandSideVector : [3](177.282,155.369,134.931)[3,3]((0.69185,-0.415701,-0.27615),(-0.415701,0.611125,-0.195424),(-0.27615,-0.195424,0.471574))
+
+rRightHandSideVector : [3](-41.6289,-10.5531,52.182)rRightHandSideVector : 
+ms_temp : [3](-18.5611,0.614824,17.9463)
+[3,3]((0.58943,-0.289766,-0.299663),(-0.289766,0.566589,-0.276823),(-0.299663,-0.276823,0.576486))[3](688.148,655.114,584.074)
+
+rRightHandSideVector : [3](-12.9156,2.87397,10.0417)rRightHandSideVector : 
+[3](-41.6289,-10.5531,52.182)ms_temp : 
+[3](474.227,460.957,447.434)[3](9.73423,11.2451,-20.9793)
+
+rLeftHandSideMatrix : ms_temp : rRightHandSideVector : [3](182.235,179.535,217.33)
+[3](-12.9156,2.87397,10.0417)
+[3,3]((0.589467,-0.31199,-0.277477),(-0.31199,0.589241,-0.277251),(-0.277477,-0.277251,0.554727))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-61.1134,32.7047,28.4087)
+ms_temp : [3,3]((0.733259,-0.262619,-0.47064),(-0.262619,0.435001,-0.172382),(-0.47064,-0.172382,0.643023))[3](9.73423,11.2451,-20.9793)
+rRightHandSideVector : 
+[3](688.148,584.074,584.92)
+rLeftHandSideMatrixrLeftHandSideMatrix :  : rRightHandSideVector : [3,3]((0.58353,-0.300819,-0.282712),(-0.300819,0.583503,-0.282685),(-0.282712,-0.282685,0.565396))
+rRightHandSideVector : [3](-61.1134,32.7047,28.4087)
+[3](21.2264,-9.80999,-11.4164)[3](17.8086,-19.5136,1.70502)
+ms_temp : 
+[3](182.235,217.33,219.973)ms_temp : 
+rLeftHandSideMatrix : [3](350.719,399.734,361.207)
+rRightHandSideVector : [3,3]((0.589435,-0.277343,-0.312092),(-0.277343,0.554631,-0.277288),(-0.312092,-0.277288,0.589381))
+[3](21.2264,-9.80999,-11.4164)rRightHandSideVector : 
+[3](-18.3582,-1.51918,19.8774)
+ms_temp : [3,3]((0.461825,-0.275412,-0.186412),(-0.275412,0.705575,-0.430163),(-0.186412,-0.430163,0.616575))
+rRightHandSideVector : [3](390.506,372.041,348.093)
+rLeftHandSideMatrix[3](-14.5997,-3.06966,17.6693)
+ms_temp :  : rRightHandSideVector : rRightHandSideVector : [3](200.114,177.282,155.527)
+[3](-18.3582,-1.51918,19.8774)
+[3](17.8086,-19.5136,1.70502)
+[3,3]((0.632102,-0.481202,-0.150901),(-0.481202,0.761831,-0.280629),(-0.150901,-0.280629,0.43153))rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.643087,-0.273692,-0.369395),(-0.273692,0.50523,-0.231539),(-0.369395,-0.231539,0.600934))
+rRightHandSideVector : [3](-14.5997,-3.06966,17.6693)
+[3](5.98847,15.5162,-21.5046)
+ms_temp : [3](-21.5517,15.1959,6.35576)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](390.506,348.093,363.588)
+[3](219.973,217.33,268.088)[3,3]((0.577903,-0.289659,-0.288244),(-0.289659,0.577782,-0.288123),(-0.288244,-0.288123,0.576368))
+
+rRightHandSideVector : [3](-21.5517,15.1959,6.35576)rRightHandSideVector : 
+[3](-13.5366,2.62112,10.9155)
+ms_temp : rRightHandSideVector : [3](404.04,385.417,375.792)
+[3](5.98847,15.5162,-21.5046)rLeftHandSideMatrix
+[3,3]((0.580276,-0.294598,-0.285678),(-0.294598,0.580392,-0.285794),(-0.285678,-0.285794,0.571473)) : 
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.516662,-0.330986,-0.185676),(-0.330986,0.695913,-0.364927),(-0.185676,-0.364927,0.550603))
+[3](2.10172,16.8689,-18.9706)
+[3](-13.5366,2.62112,10.9155)rRightHandSideVector : ms_temp : [3](-6.61174,23.2489,-16.6372)
+ms_temp : [3](216.987,200.114,241.745)
+[3](390.506,363.588,402.882)
+rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.559303,-0.279208,-0.280095),(-0.279208,0.586367,-0.307159),(-0.280095,-0.307159,0.587254))
+[3](2.10172,16.8689,-18.9706)
+rRightHandSideVector : [3](-6.61174,23.2489,-16.6372)
+rLeftHandSideMatrixrLeftHandSideMatrix :  : [3](11.2243,-21.3748,10.1505)
+ms_temp : [3,3]((0.589895,-0.276916,-0.312978),(-0.276916,0.553799,-0.276882),(-0.312978,-0.276882,0.58986))rLeftHandSideMatrix : 
+rRightHandSideVector : [3,3]((0.50156,-0.28462,-0.21694),(-0.28462,0.659959,-0.375338),(-0.21694,-0.375338,0.592278))
+rRightHandSideVector : [3,3]((0.630691,-0.384204,-0.246487),(-0.384204,0.63044,-0.246236),(-0.246487,-0.246236,0.492723))
+rRightHandSideVector : [3](-18.7557,0.250353,18.5053)
+ms_temp : [3](-18.3879,20.5082,-2.12026)
+ms_temp : [3](-24.8969,14.9824,9.9145)
+[3](538.311,492.908,513.118)ms_temp : 
+[3](402.882,363.588,363.123)
+[3](155.369,134.283,114.099)
+[3](182.235,219.973,184.689)rRightHandSideVector : 
+[3](-24.8969,14.9824,9.9145)
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](-18.3879,20.5082,-2.12026)
+rLeftHandSideMatrix : [3](-18.7557,0.250353,18.5053)
+rLeftHandSideMatrix : [3,3]((0.754061,-0.297647,-0.456414),(-0.297647,0.449027,-0.15138),(-0.456414,-0.15138,0.607794))[3](11.2243,-21.3748,10.1505)
+rRightHandSideVector : 
+rLeftHandSideMatrix : [3,3]((0.669059,-0.393967,-0.275092),(-0.393967,0.605642,-0.211675),(-0.275092,-0.211675,0.486767))[3](-16.4477,-5.70992,22.1576)
+rRightHandSideVector : 
+ms_temp[3](-18.6606,4.0079,14.6527) : [3,3]((0.563543,-0.304855,-0.258689),(-0.304855,0.608536,-0.303681),(-0.258689,-0.303681,0.56237))
+ms_temp : 
+[3](363.123,363.588,326.783)
+[3](513.118,492.908,474.227)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3,3]((0.611787,-0.478268,-0.133519),(-0.478268,0.782528,-0.30426),(-0.133519,-0.30426,0.437779))
+[3](-16.4477,-5.70992,22.1576)
+[3](-17.8685,18.9077,-1.03928)
+ms_temp : [3](-18.6606,4.0079,14.6527)rLeftHandSideMatrix : 
+rRightHandSideVector : [3,3]((0.682961,-0.441664,-0.241296),(-0.441664,0.651674,-0.210009),(-0.241296,-0.210009,0.451306))
+[3](155.369,114.099,134.931)[3](23.5787,-12.3357,-11.2429)rRightHandSideVector : 
+[3](-24.3561,16.4527,7.90338)ms_temp : 
+
+ms_temp : [3](184.689,219.973,234.894)
+[3](363.123,326.783,328.7)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3](23.5787,-12.3357,-11.2429)
+rRightHandSideVector : [3,3]((0.470567,-0.237906,-0.232661),(-0.237906,0.651553,-0.413647),(-0.232661,-0.413647,0.646308))
+rLeftHandSideMatrix : rRightHandSideVector : [3](-24.3561,16.4527,7.90338)
+[3,3]((0.579206,-0.29179,-0.287417),(-0.29179,0.578621,-0.286832),(-0.287417,-0.286832,0.574249))[3](-17.8685,18.9077,-1.03928)
+rRightHandSideVector : 
+rLeftHandSideMatrix : [3](-18.6428,4.13898,14.5038)
+ms_temp : [3](-9.53339,-11.6486,21.182)rLeftHandSideMatrix[3,3]((0.587871,-0.309186,-0.278685),(-0.309186,0.587878,-0.278691),(-0.278685,-0.278691,0.557376)) : 
+rRightHandSideVector : 
+ms_temp : [3,3]((0.74925,-0.506023,-0.243226),(-0.506023,0.675422,-0.169398),(-0.243226,-0.169398,0.412625))
+rRightHandSideVector : [3](-10.6333,25.0329,-14.3997)
+[3](-23.2992,5.18533,18.1138)ms_temp : 
+ms_temp : [3](402.882,363.123,408.837)
+[3](182.235,184.689,146.574)[3](134.931,114.099,82.4798)
+
+[3](385.417,350.719,340.768)rRightHandSideVector : 
+[3](-10.6333,25.0329,-14.3997)
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](-9.53339,-11.6486,21.182)
+rLeftHandSideMatrix : [3](-23.2992,5.18533,18.1138)
+[3](-18.6428,4.13898,14.5038)[3,3]((0.580019,-0.294354,-0.285665),(-0.294354,0.580402,-0.286048),(-0.285665,-0.286048,0.571713))rLeftHandSideMatrix : 
+rRightHandSideVector : 
+[3,3]((0.630346,-0.323075,-0.307271),(-0.323075,0.562195,-0.23912),(-0.307271,-0.23912,0.546391))
+rRightHandSideVector : [3](-85.2433,59.4001,25.8432)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](820.619,655.21,692.656)
+[3](6.70635,17.3584,-24.0647)[3,3]((0.484076,-0.236386,-0.24769),(-0.236386,0.631881,-0.395495),(-0.24769,-0.395495,0.643185))
+ms_temp : 
+rRightHandSideVectorrRightHandSideVector :  : [3,3]((0.560065,-0.280894,-0.27917),(-0.280894,0.587257,-0.306362),(-0.27917,-0.306362,0.585532))
+rRightHandSideVector : [3](234.894,219.973,272.407)
+[3](-85.2433,59.4001,25.8432)
+[3](-0.741702,13.2266,-12.4849)rRightHandSideVector : 
+ms_temp : [3](6.70635,17.3584,-24.0647)[3](-16.5572,-0.57297,17.1302)
+[3](419.718,404.04,432.837)
+rLeftHandSideMatrix : 
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.580111,-0.294255,-0.285856),(-0.294255,0.58021,-0.285955),(-0.285856,-0.285955,0.571811))
+rRightHandSideVector : [3](275.996,250.371,233.606)
+[3,3]((0.642857,-0.17126,-0.471597),(-0.17126,0.434513,-0.263253),(-0.471597,-0.263253,0.73485))
+rRightHandSideVector : [3](-7.08,27.1869,-20.1069)rRightHandSideVector : 
+ms_temp[3](-16.5572,-0.57297,17.1302) : [3](-0.741702,13.2266,-12.4849)
+[3](442.066,402.882,457.634)
+
+[3](9.01339,-21.5828,12.5694)
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-7.08,27.1869,-20.1069)[3](184.689,234.894,185.57)
+[3,3]((0.519686,-0.199331,-0.320355),(-0.199331,0.557515,-0.358184),(-0.320355,-0.358184,0.678539))
+rRightHandSideVector : 
+[3,3]((0.584454,-0.302696,-0.281758),(-0.302696,0.58452,-0.281824),(-0.281758,-0.281824,0.563582))
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3](-13.3763,12.1724,1.20384)
+ms_temp : [3](9.01339,-21.5828,12.5694)
+[3,3]((0.554727,-0.277477,-0.277251),(-0.277477,0.589467,-0.31199),(-0.277251,-0.31199,0.589241))
+rRightHandSideVector : [3](432.837,404.04,416.301)rLeftHandSideMatrix : 
+[3](-14.9931,16.3174,-1.32427)
+[3](-37.7753,50.5732,-12.7978)[3,3]((0.757822,-0.341201,-0.416621),(-0.341201,0.483515,-0.142314),(-0.416621,-0.142314,0.558935))rRightHandSideVectorms_temp
+ :  : ms_temp : 
+[3](-13.3763,12.1724,1.20384)[3](688.148,584.92,655.21)
+rRightHandSideVector
+[3](275.996,233.606,255.571)
+rRightHandSideVector :  : rLeftHandSideMatrix : [3](-37.7753,50.5732,-12.7978)
+[3,3]((0.698607,-0.431061,-0.267546),(-0.431061,0.623833,-0.192771),(-0.267546,-0.192771,0.460317))
+rRightHandSideVector : rRightHandSideVector : [3](-1.15823,-13.4496,14.6079)[3](-12.2144,2.65635,9.55803)
+[3](-14.9931,16.3174,-1.32427)ms_temp : 
+[3](155.527,177.282,134.931)
+
+rLeftHandSideMatrix : ms_temp : rLeftHandSideMatrix : rRightHandSideVector : [3](416.301,404.04,390.402)
+[3,3]((0.589381,-0.312092,-0.277288),(-0.312092,0.589435,-0.277343),(-0.277288,-0.277343,0.554631))
+rRightHandSideVector : [3](-1.15823,-13.4496,14.6079)rRightHandSideVector : 
+[3](-12.2144,2.65635,9.55803)[3,3]((0.589981,-0.27694,-0.313041),(-0.27694,0.553739,-0.276799),(-0.313041,-0.276799,0.589841))
+
+rRightHandSideVector : [3](-48.946,14.4172,34.5288)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](655.21,584.92,557.807)[3](-18.1613,1.48313,16.6782)
+
+[3,3]((0.5799,-0.293952,-0.285947),(-0.293952,0.580114,-0.286162),(-0.285947,-0.286162,0.572109))ms_temp : 
+[3](255.571,233.606,216.987)rRightHandSideVector : [3,3]((0.691001,-0.45709,-0.233911),(-0.45709,0.664154,-0.207064),(-0.233911,-0.207064,0.440975))rRightHandSideVector : 
+rRightHandSideVector : [3](-48.946,14.4172,34.5288)
+
+[3](-18.9202,5.26423,13.656)
+ms_temp : [3](-3.03405,11.4214,-8.38735)
+rLeftHandSideMatrix : ms_temp : [3](432.837,416.301,439.226)[3](155.527,134.931,114.889)
+
+[3,3]((0.580346,-0.294397,-0.285949),(-0.294397,0.580119,-0.285722),(-0.285949,-0.285722,0.571671))rRightHandSideVector : 
+[3](-3.03405,11.4214,-8.38735)
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](-6.59496,-30.2948,36.8897)
+[3](-18.9202,5.26423,13.656)
+[3](-18.1613,1.48313,16.6782)
+rLeftHandSideMatrix : ms_temprLeftHandSideMatrix :  : rLeftHandSideMatrix[3](557.807,584.92,506.828) : [3,3]((0.486363,-0.162125,-0.324238),(-0.162125,0.568062,-0.405937),(-0.324238,-0.405937,0.730175))
+
+rRightHandSideVector : [3,3]((0.608498,-0.304868,-0.303629),(-0.304868,0.563593,-0.258724),(-0.303629,-0.258724,0.562353))rRightHandSideVector : 
+[3](-6.59496,-30.2948,36.8897)rRightHandSideVector : 
+[3](-15.9609,18.1683,-2.20736)
+[3](-2.52622,-13.6779,16.2041)ms_temp : 
+ms_temp : [3,3]((0.750427,-0.44078,-0.309647),(-0.44078,0.592046,-0.151266),(-0.309647,-0.151266,0.460912))
+rRightHandSideVector : rLeftHandSideMatrix : [3](255.571,216.987,241.745)
+[3](390.402,404.04,375.792)[3,3]((0.580276,-0.294253,-0.286023),(-0.294253,0.580042,-0.28579),(-0.286023,-0.28579,0.571813))
+
+rRightHandSideVector : [3](-46.0181,39.1559,6.86219)
+ms_temp : rRightHandSideVector : [3](-26.4645,13.2378,13.2267)
+[3](-15.9609,18.1683,-2.20736)
+ms_temprRightHandSideVector :  : [3](655.21,557.807,594.528)
+[3](-2.52622,-13.6779,16.2041)
+[3](114.889,82.4798,75.5557)rRightHandSideVector : 
+rLeftHandSideMatrix[3](-46.0181,39.1559,6.86219) : 
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.591118,-0.317373,-0.273745),(-0.317373,0.593326,-0.275953),(-0.273745,-0.275953,0.549698))
+rRightHandSideVector : [3,3]((0.469287,-0.118583,-0.350704),(-0.118583,0.562687,-0.444105),(-0.350704,-0.444105,0.794809))rLeftHandSideMatrix : 
+rRightHandSideVector : [3](-26.4645,13.2378,13.2267)
+[3,3]((0.589416,-0.277251,-0.312165),(-0.277251,0.554563,-0.277311),(-0.312165,-0.277311,0.589476))
+rRightHandSideVector : [3](-9.46751,-1.57395,11.0415)rLeftHandSideMatrix : 
+ms_temp : [3](3.09527,15.747,-18.8423)
+ms_temp : [3](-33.489,-4.39856,37.8876)
+[3](255.571,241.745,282.908)ms_temp : 
+[3,3]((0.578151,-0.290105,-0.288046),(-0.290105,0.577982,-0.287877),(-0.288046,-0.287877,0.575923))[3](584.074,552.419,504.909)
+
+rRightHandSideVector : [3](390.402,375.792,368.346)rRightHandSideVector : 
+[3](-16.8865,19.2558,-2.36934)[3](-33.489,-4.39856,37.8876)
+
+ms_temp : [3](241.745,200.114,225.049)rRightHandSideVector
+ : rRightHandSideVector : rLeftHandSideMatrix[3](-9.46751,-1.57395,11.0415) : 
+[3](3.09527,15.747,-18.8423)
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.589391,-0.312268,-0.277123),(-0.312268,0.589611,-0.277343),(-0.277123,-0.277343,0.554466))
+rRightHandSideVector : [3](-16.8865,19.2558,-2.36934)
+[3](-43.6414,27.7409,15.9004)
+ms_temp : rLeftHandSideMatrix : [3,3]((0.741877,-0.381439,-0.360438),(-0.381439,0.533101,-0.151662),(-0.360438,-0.151662,0.512101))
+rRightHandSideVector : [3](584.074,504.909,515.799)[3,3]((0.929309,-0.649277,-0.280032),(-0.649277,0.722645,-0.073368),(-0.280032,-0.073368,0.3534))
+rRightHandSideVector : 
+[3](-4.93543,-7.24073,12.1762)
+ms_temp : [3](-0.514616,18.0999,-17.5853)rRightHandSideVector : 
+ms_temp : rLeftHandSideMatrix[3](-43.6414,27.7409,15.9004) : 
+[3](368.346,375.792,346.775)
+[3](275.996,255.571,321.516)
+[3,3]((0.479649,-0.254195,-0.225455),(-0.254195,0.655927,-0.401732),(-0.225455,-0.401732,0.627187))rRightHandSideVector : 
+[3](-4.93543,-7.24073,12.1762)rRightHandSideVector : 
+[3](-19.9242,1.85713,18.0671)
+rLeftHandSideMatrixms_temp :  : rRightHandSideVector : rLeftHandSideMatrix : [3](275.437,241.745,225.049)
+[3](-0.514616,18.0999,-17.5853)
+[3,3]((0.582332,-0.251016,-0.331316),(-0.251016,0.53751,-0.286494),(-0.331316,-0.286494,0.61781))rRightHandSideVector : 
+[3](-19.9242,1.85713,18.0671)
+rRightHandSideVector : [3,3]((0.448379,-0.333703,-0.114676),(-0.333703,0.80592,-0.472218),(-0.114676,-0.472218,0.586894))
+rLeftHandSideMatrix : rRightHandSideVector : rLeftHandSideMatrix : [3](-22.0043,-10.8104,32.8148)
+[3,3]((0.377348,-0.168865,-0.208483),(-0.168865,0.738086,-0.569221),(-0.208483,-0.569221,0.777704))ms_temp : 
+rRightHandSideVector : [3](515.799,504.909,457.634)[3](-4.62487,13.4275,-8.80259)
+
+ms_temp : [3](-11.4574,28.5465,-17.0891)rRightHandSideVector : 
+ms_temp : [3](-22.0043,-10.8104,32.8148)[3,3]((0.610873,-0.389342,-0.221531),(-0.389342,0.657399,-0.268057),(-0.221531,-0.268057,0.489588))
+[3](200.114,150.221,185.57)
+[3](390.402,375.507,393.416)
+rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.56302,-0.303196,-0.259824),(-0.303196,0.60731,-0.304114),(-0.259824,-0.304114,0.563938))
+[3](-19.8627,0.78215,19.0805)rRightHandSideVector : 
+ms_temp : [3](10.2886,-33.4449,23.1563)
+ms_temp : [3](114.099,92.1087,63.0864)
+[3](457.634,504.909,442.066)
+rRightHandSideVector : [3](-11.4574,28.5465,-17.0891)rRightHandSideVector : 
+rRightHandSideVector[3](-19.8627,0.78215,19.0805)
+ : [3](-4.62487,13.4275,-8.80259)
+[3](10.2886,-33.4449,23.1563)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rLeftHandSideMatrix : rLeftHandSideMatrix : [3,3]((0.502472,-0.327283,-0.175189),(-0.327283,0.710714,-0.383431),(-0.175189,-0.383431,0.55862))
+rRightHandSideVector : [3,3]((0.869778,-0.465173,-0.404606),(-0.465173,0.536212,-0.0710394),(-0.404606,-0.0710394,0.475645))[3,3]((0.602071,-0.335304,-0.266767),(-0.335304,0.60197,-0.266666),(-0.266767,-0.266666,0.533433))
+rRightHandSideVector : 
+rRightHandSideVector : [3](-22.2349,24.1317,-1.89672)
+ms_temp : [3](-35.1648,19.3573,15.8075)
+ms_temp : [3](14.2768,7.12301,-21.3998)
+ms_temp : [3](114.099,63.0864,82.4798)
+[3](515.799,457.634,457.088)
+[3](282.908,275.437,326.783)rRightHandSideVector : 
+[3](-22.2349,24.1317,-1.89672)[3,3]((0.493675,-0.152805,-0.34087),(-0.152805,0.553703,-0.400898),(-0.34087,-0.400898,0.741768))
+rRightHandSideVector : rRightHandSideVector : 
+rRightHandSideVector : [3](-35.1648,19.3573,15.8075)
+[3](-7.61192,10.0422,-2.43026)
+ms_temp : rLeftHandSideMatrix : [3](14.2768,7.12301,-21.3998)
+[3](416.301,390.402,405.58)[3,3]((0.526872,-0.230664,-0.296207),(-0.230664,0.575484,-0.344819),(-0.296207,-0.344819,0.641027))
+rRightHandSideVector : 
+rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-17.903,-4.473,22.376)
+[3,3]((0.589467,-0.31199,-0.277477),(-0.31199,0.589241,-0.277251),(-0.277477,-0.277251,0.554727))ms_temp : 
+rRightHandSideVector : [3](82.4798,63.0864,37.1412)
+[3](29.5666,-27.0773,-2.48937)
+ms_temp : rRightHandSideVector : [3,3]((0.582326,-0.285032,-0.297294),(-0.285032,0.568828,-0.283796),(-0.297294,-0.283796,0.58109))[3](442.066,504.909,477.962)rRightHandSideVector : 
+[3](-17.903,-4.473,22.376)rRightHandSideVector : 
+[3](-11.1736,20.3148,-9.14123)[3](-7.61192,10.0422,-2.43026)
+ms_temp : 
+
+[3](176.962,140.12,174.7)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.591199,-0.460801,-0.130399),(-0.460801,0.782032,-0.321232),(-0.130399,-0.321232,0.451631))
+[3](-11.1736,20.3148,-9.14123)
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.5789,-0.287108,-0.291792),(-0.287108,0.574246,-0.287138),(-0.291792,-0.287138,0.57893))[3](29.5666,-27.0773,-2.48937)
+
+rRightHandSideVector : [3](0.750791,15.8889,-16.6397)
+ms_temp : [3](12.6186,1.43883,-14.0575)
+ms_temp : [3](283.319,275.996,314.954)
+rLeftHandSideMatrix[3](320.716,333.529,351.353)
+rLeftHandSideMatrix :  : rRightHandSideVector : rRightHandSideVector : [3](0.750791,15.8889,-16.6397)
+[3](12.6186,1.43883,-14.0575)
+[3,3]((0.608554,-0.285511,-0.323043),(-0.285511,0.544761,-0.25925),(-0.323043,-0.25925,0.582293))
+rRightHandSideVector : [3,3]((0.565243,-0.289464,-0.27578),(-0.289464,0.590523,-0.301059),(-0.27578,-0.301059,0.576839))rLeftHandSideMatrix : 
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.538901,-0.290035,-0.248866),(-0.290035,0.620003,-0.329968),(-0.248866,-0.329968,0.578834))
+rRightHandSideVector : [3](-15.4315,-12.8065,28.238)
+ms_temp : [3](8.71659,11.5661,-20.2827)
+ms_temp : [3](15.371,-10.3965,-4.97449)
+[3](176.962,174.7,210.943)
+[3,3]((0.494388,-0.110189,-0.384199),(-0.110189,0.530234,-0.420045),(-0.384199,-0.420045,0.804244))
+ms_temprRightHandSideVector :  : rRightHandSideVector : [3](457.088,457.634,408.837)
+[3](8.71659,11.5661,-20.2827)[3](320.716,351.353,346.775)
+
+[3](-13.4799,19.3927,-5.91281)rRightHandSideVector : 
+[3](15.371,-10.3965,-4.97449)ms_temp : 
+rLeftHandSideMatrix : rRightHandSideVector[3](134.931,82.4798,114.889) : 
+[3,3]((0.584121,-0.302051,-0.282071),(-0.302051,0.584184,-0.282134),(-0.282071,-0.282134,0.564204))[3](-15.4315,-12.8065,28.238)
+rRightHandSideVector : 
+rRightHandSideVector : rLeftHandSideMatrix : [3](-11.824,20.2957,-8.4717)
+rLeftHandSideMatrix : ms_temp : [3](-13.4799,19.3927,-5.91281)[3,3]((0.545211,-0.197206,-0.348005),(-0.197206,0.529868,-0.332662),(-0.348005,-0.332662,0.680668))
+[3](210.943,174.7,207.835)
+
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.53588,-0.255602,-0.280278),(-0.255602,0.588438,-0.332836),(-0.280278,-0.332836,0.613114))
+rRightHandSideVector : rRightHandSideVector[3,3]((0.702443,-0.349487,-0.352956),(-0.349487,0.529781,-0.180295),(-0.352956,-0.180295,0.533251))
+[3](-17.5207,31.5618,-14.0411)
+ms_temp : rRightHandSideVector :  : [3](515.799,457.088,506.828)
+[3](8.41,4.75029,-13.1603)[3](-17.0228,20.4603,-3.43742)
+ms_temp : 
+ms_temp : [3](-11.824,20.2957,-8.4717)
+[3](346.775,351.353,368.346)
+rRightHandSideVector : [3](282.908,241.745,275.437)
+[3](-17.5207,31.5618,-14.0411)
+rRightHandSideVector : rRightHandSideVector : [3](8.41,4.75029,-13.1603)
+rLeftHandSideMatrixrLeftHandSideMatrix :  : rLeftHandSideMatrix : [3,3]((0.578947,-0.291965,-0.286982),(-0.291965,0.579057,-0.287092),(-0.286982,-0.287092,0.574074))
+rRightHandSideVector : [3,3]((0.659886,-0.386192,-0.273695),(-0.386192,0.604868,-0.218676),(-0.273695,-0.218676,0.492371))
+rRightHandSideVector : [3](-20.1877,8.66949,11.5182)
+ms_temp : [3](-17.0228,20.4603,-3.43742)[3](-4.603,11.8448,-7.24176)
+
+ms_temp : [3](207.835,174.7,171.2)
+[3](368.346,351.353,375.507)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3,3]((0.611353,-0.675098,0.0637456),(-0.675098,1.15442,-0.479322),(0.0637456,-0.479322,0.415576))
+rRightHandSideVector[3](-20.1877,8.66949,11.5182)[3,3]((0.604516,-0.339633,-0.264883),(-0.339633,0.604369,-0.264735),(-0.264883,-0.264735,0.529619))
+ : [3](14.2513,0.050892,-14.3022)
+[3](-4.603,11.8448,-7.24176)ms_temp : 
+[3](255.571,282.908,321.516)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.77349,-0.362706,-0.410785),(-0.362706,0.493291,-0.130585),(-0.410785,-0.130585,0.541369))
+rRightHandSideVector : [3](14.2513,0.050892,-14.3022)
+[3](11.6573,-0.652118,-11.0051)
+ms_temp : [3](368.346,375.507,390.402)
+rLeftHandSideMatrix : [3,3]((0.583302,-0.282901,-0.300401),(-0.282901,0.565801,-0.282901),(-0.300401,-0.282901,0.583302))
+rRightHandSideVector : rRightHandSideVector : [3](-10.6503,20.8866,-10.2364)
+ms_temp : [3](11.6573,-0.652118,-11.0051)
+[3](37.1494,0,36.681)
+rLeftHandSideMatrix : rRightHandSideVector : [3](-10.6503,20.8866,-10.2364)
+[3,3]((0.578988,-0.291979,-0.287009),(-0.291979,0.579031,-0.287051),(-0.287009,-0.287051,0.57406))
+rRightHandSideVector : [3,3]((0.578872,-0.291992,-0.28688),(-0.291992,0.579159,-0.287167),(-0.28688,-0.287167,0.574048))rLeftHandSideMatrix : 
+
+[3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3](-11.0245,10.0135,1.01105)
+ms_temp : rRightHandSideVector : rRightHandSideVector : [3](10.2279,10.6418,-20.8697)
+ms_temp : [3](-32.6741,14.2894,18.3847)[3](8.69803,11.4154,-20.1135)[3](375.507,351.353,361.668)
+[3](37.1494,36.681,73.8003)ms_temp : 
+
+[3](210.943,207.835,244.426)
+rRightHandSideVector : rRightHandSideVector : 
+ms_temp : [3](10.2279,10.6418,-20.8697)[3](-11.0245,10.0135,1.01105)
+[3](506.828,457.088,447.252)
+rRightHandSideVector : 
+[3](8.69803,11.4154,-20.1135)
+rLeftHandSideMatrix : rRightHandSideVectorrLeftHandSideMatrix :  : [3,3]((0.745123,-0.569164,-0.175959),(-0.569164,0.770272,-0.201108),(-0.175959,-0.201108,0.377067))[3](-32.6741,14.2894,18.3847)
+rRightHandSideVector : 
+[3,3]((0.578916,-0.291774,-0.287142),(-0.291774,0.578896,-0.287122),(-0.287142,-0.287122,0.574264))
+rRightHandSideVector : [3](-18.4043,27.3212,-8.91685)
+rLeftHandSideMatrixms_temp :  : rLeftHandSideMatrix : [3](-8.24812,7.34494,0.90318)
+[3](34.0347,0,39.5303)ms_temp : 
+[3,3]((0.528693,-0.335949,-0.192744),(-0.335949,0.686338,-0.350389),(-0.192744,-0.350389,0.543132))
+rRightHandSideVector : [3,3]((0.743862,-0.26299,-0.480872),(-0.26299,0.429063,-0.166073),(-0.480872,-0.166073,0.646945))rRightHandSideVector : [3](393.416,375.507,382.889)
+rRightHandSideVector : 
+[3](-15.8666,21.7801,-5.91346)
+ms_temp : [3](-27.3966,12.7807,14.616)
+ms_temp : [3](-18.4043,27.3212,-8.91685)
+[3](272.407,219.973,268.088)
+rLeftHandSideMatrix : [3](457.088,408.837,399.05)
+rRightHandSideVector[3,3]((0.583302,-0.282901,-0.300401),(-0.282901,0.565801,-0.282901),(-0.300401,-0.282901,0.583302)) : 
+rRightHandSideVector : rRightHandSideVector[3](-8.24812,7.34494,0.90318) : 
+[3](-15.8666,21.7801,-5.91346)
+[3](-10.8198,21.1696,-10.3498)
+rLeftHandSideMatrix : ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](37.6811,0,37.1494)
+[3,3]((0.578914,-0.287126,-0.291788),(-0.287126,0.57425,-0.287124),(-0.291788,-0.287124,0.578912))[3,3]((0.647232,-0.489741,-0.157492),(-0.489741,0.756832,-0.267091),(-0.157492,-0.267091,0.424583))
+rRightHandSideVector : rRightHandSideVector
+ : rRightHandSideVector : [3](-10.8198,21.1696,-10.3498)
+[3](2.53605,0.711779,-3.24783)
+ms_temp : [3](-27.3966,12.7807,14.616)
+[3](5.78757,16.6716,-22.4592)
+ms_temp : rLeftHandSideMatrix : [3](405.27,407.352,411.913)rLeftHandSideMatrix : 
+[3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))[3,3]((0.607376,-0.303367,-0.304009),(-0.303367,0.56313,-0.259763),(-0.304009,-0.259763,0.563772))
+rRightHandSideVector : 
+rRightHandSideVector : [3](272.407,268.088,322.587)
+[3](18.2923,23.0067,-41.299)rRightHandSideVector
+ms_temp :  : [3](10.3213,10.7913,-21.1126)rRightHandSideVector : 
+[3](2.53605,0.711779,-3.24783)
+ms_temp : [3](515.799,506.828,584.92)
+[3](5.78757,16.6716,-22.4592)rLeftHandSideMatrix : 
+[3](37.6811,37.1494,74.7298)[3,3]((0.578912,-0.291788,-0.287124),(-0.291788,0.578914,-0.287126),(-0.287124,-0.287126,0.57425))
+rRightHandSideVector : rRightHandSideVector : 
+[3](4.85047,-0.933403,-3.91707)[3](18.2923,23.0067,-41.299)
+
+ms_temp : rLeftHandSideMatrixrRightHandSideVector :  : [3](405.27,411.913,415.413)
+[3](10.3213,10.7913,-21.1126)[3,3]((0.398182,-0.287184,-0.110998),(-0.287184,0.834982,-0.547798),(-0.110998,-0.547798,0.658796))
+
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](4.85047,-0.933403,-3.91707)
+rLeftHandSideMatrix : [3](19.8919,-22.5419,2.65003)[3,3]((0.608451,-0.358735,-0.249716),(-0.358735,0.622385,-0.26365),(-0.249716,-0.26365,0.513366))
+ms_temp : [3,3]((0.578815,-0.291628,-0.287188),(-0.291628,0.578849,-0.287221),(-0.287188,-0.287221,0.574409))
+
+rRightHandSideVector : [3](234.894,288.489,275.437)
+[3](-11.1641,21.1474,-9.9833)
+rLeftHandSideMatrixms_temp :  : [3](73.8003,36.681,72.6197)
+[3,3]((0.578896,-0.287122,-0.291774),(-0.287122,0.574264,-0.287142),(-0.291774,-0.287142,0.578916))rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : [3](19.8919,-22.5419,2.65003)
+[3](-8.50838,-18.8305,27.3389)
+ms_temp : rRightHandSideVector : [3](4.75203,0.816988,-5.56902)
+rLeftHandSideMatrix[3](-11.1641,21.1474,-9.9833) : ms_temp
+ : [3](447.252,457.088,399.05)[3,3]((0.472104,-0.146308,-0.325795),(-0.146308,0.574887,-0.428578),(-0.325795,-0.428578,0.754373))
+[3](393.416,397.921,405.27)
+rRightHandSideVector : 
+[3](20.0789,-11.4356,-8.64326)
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](185.57,234.894,225.049)
+[3](4.75203,0.816988,-5.56902)
+rRightHandSideVector : [3,3]((0.583302,-0.282901,-0.300401),(-0.282901,0.565801,-0.282901),(-0.300401,-0.282901,0.583302))rRightHandSideVector : 
+rRightHandSideVector : [3](-8.50838,-18.8305,27.3389)[3](20.0789,-11.4356,-8.64326)
+[3](-10.9108,21.0001,-10.0894)
+ms_temp : rLeftHandSideMatrix : 
+rLeftHandSideMatrix : [3](74.7298,37.1494,73.8003)
+[3,3]((0.836334,-0.47308,-0.363254),(-0.47308,0.566525,-0.0934457),(-0.363254,-0.0934457,0.4567))[3,3]((0.583402,-0.300465,-0.282937),(-0.300465,0.583267,-0.282802),(-0.282937,-0.282802,0.565739))
+rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](10.0264,-5.57893,-4.44747)
+[3](-10.9108,21.0001,-10.0894)
+[3,3]((0.559827,-0.280062,-0.279765),(-0.280062,0.586672,-0.30661),(-0.279765,-0.30661,0.586374))ms_temp
+rRightHandSideVector :  : [3](-22.4277,30.2238,-7.79612)
+[3](393.416,405.27,405.58)
+[3](-9.83126,-11.5616,21.3928)
+ms_temp : rLeftHandSideMatrixrRightHandSideVector :  : ms_temp : [3](184.689,185.57,148.666)
+[3](506.828,447.252,490.828)
+[3](10.0264,-5.57893,-4.44747)
+[3,3]((0.583301,-0.300399,-0.282902),(-0.300399,0.583301,-0.282902),(-0.282902,-0.282902,0.565803))rRightHandSideVector : 
+rRightHandSideVector : [3](-22.4277,30.2238,-7.79612)rRightHandSideVectorrLeftHandSideMatrix :  : 
+[3](-9.83126,-11.5616,21.3928)
+[3](10.0666,10.888,-20.9547)
+ms_temp : [3,3]((0.592155,-0.297415,-0.294739),(-0.297415,0.571567,-0.274151),(-0.294739,-0.274151,0.568891))
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](5.36299,-15.6769,10.3139)
+ms_temp : [3](74.7298,73.8003,111.3)[3,3]((0.589276,-0.312067,-0.277209),(-0.312067,0.589513,-0.277446),(-0.277209,-0.277446,0.554655))
+
+rRightHandSideVector : [3](439.226,463.59,432.837)rRightHandSideVector : 
+[3](40.4971,-21.8054,-18.6917)
+ms_temp : [3,3]((0.576156,-0.301723,-0.274433),(-0.301723,0.591917,-0.290195),(-0.274433,-0.290195,0.564628))
+rRightHandSideVector : [3](10.0666,10.888,-20.9547)
+rRightHandSideVector : [3](515.799,584.92,584.074)
+[3](5.36299,-15.6769,10.3139)
+[3](11.5612,-21.3926,9.83144)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3](148.666,185.57,150.221)
+[3,3]((0.69689,-0.514412,-0.182478),(-0.514412,0.738452,-0.22404),(-0.182478,-0.22404,0.406518))[3](40.4971,-21.8054,-18.6917)
+rRightHandSideVector : 
+rRightHandSideVector : [3,3]((0.578849,-0.291628,-0.287221),(-0.291628,0.578815,-0.287188),(-0.287221,-0.287188,0.574409))
+rRightHandSideVector : rLeftHandSideMatrix : [3](5.274,-7.42043,2.14643)
+[3](21.6828,-10.5672,-11.1156)
+[3,3]((0.457676,-0.287122,-0.170553),(-0.287122,0.726365,-0.439242),(-0.170553,-0.439242,0.609795))
+rRightHandSideVector : [3](11.5612,-21.3926,9.83144)
+ms_temp : ms_temp : [3](-24.6216,7.24581,17.3758)
+[3](37.6811,74.7298,75.5557)
+ms_temp : rLeftHandSideMatrix : [3](405.27,415.413,405.58)
+[3](447.252,399.05,384.037)rRightHandSideVector : [3](21.6828,-10.5672,-11.1156)
+
+[3,3]((0.567805,0.0024595,-0.570264),(0.0024595,0.440303,-0.442762),(-0.570264,-0.442762,1.01303))
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](2.90346,-19.6184,16.715)
+ms_temp : [3](5.274,-7.42043,2.14643)[3](-24.6216,7.24581,17.3758)
+
+[3](150.221,200.114,155.527)
+[3,3]((0.578814,-0.291628,-0.287186),(-0.291628,0.578851,-0.287222),(-0.287186,-0.287222,0.574408))
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : rLeftHandSideMatrix : [3](-11.3878,21.2551,-9.86727)
+ms_temp : [3](2.90346,-19.6184,16.715)
+[3,3]((0.665179,-0.436916,-0.228264),(-0.436916,0.662822,-0.225906),(-0.228264,-0.225906,0.45417))[3](111.3,73.8003,109.727)
+
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.824929,-0.638556,-0.186372),(-0.638556,0.797347,-0.158791),(-0.186372,-0.158791,0.345163))
+rRightHandSideVector : [3,3]((0.569838,-0.357073,-0.212765),(-0.357073,0.662471,-0.305398),(-0.212765,-0.305398,0.518163))[3](0.532555,0.536675,-1.06923)
+rRightHandSideVector[3](-1.0326,-21.0179,22.0505)
+ms_temp : 
+ms_temp :  : rRightHandSideVector : [3](384.037,399.05,327.059)[3](411.913,411.904,414.263)
+[3](-5.62259,-14.3059,19.9285)
+ms_temp : [3](-11.3878,21.2551,-9.86727)
+
+[3](150.221,155.527,114.889)
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](0.532555,0.536675,-1.06923)
+[3,3]((0.583132,-0.282901,-0.300231),(-0.282901,0.565966,-0.283066),(-0.300231,-0.283066,0.583297))
+rRightHandSideVector : rRightHandSideVector : [3](-11.066,21.5232,-10.4572)
+[3](-5.62259,-14.3059,19.9285)
+ms_temp : [3](-1.0326,-21.0179,22.0505)
+rLeftHandSideMatrixrLeftHandSideMatrix :  : [3](38.3773,0,37.6811)
+[3,3]((0.573631,-0.361319,-0.212312),(-0.361319,0.663407,-0.302089),(-0.212312,-0.302089,0.514401))[3,3]((0.838387,-0.427949,-0.410438),(-0.427949,0.516635,-0.0886861),(-0.410438,-0.0886861,0.499124))
+rRightHandSideVector : rRightHandSideVector : 
+[3](-11.066,21.5232,-10.4572)
+[3](14.2114,-24.35,10.1385)
+ms_temp : rLeftHandSideMatrixrLeftHandSideMatrix :  : rRightHandSideVector : [3](112.369,150.221,114.889)
+[3](9.95274,-15.524,5.57123)
+[3,3]((0.751415,-0.287665,-0.46375),(-0.287665,0.442833,-0.155168),(-0.46375,-0.155168,0.618918))ms_temp : 
+[3](346.775,375.792,340.768)
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.592058,-0.296044,-0.296014),(-0.296044,0.570285,-0.274241),(-0.296014,-0.274241,0.570256))
+[3](-24.296,25.9491,-1.65306)
+ms_temp : rRightHandSideVector : rRightHandSideVector[3](447.252,384.037,434.074) : 
+[3](9.95274,-15.524,5.57123)
+[3](14.2114,-24.35,10.1385)
+[3](10.7992,10.5929,-21.3921)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVectorrLeftHandSideMatrix :  : [3](38.3773,37.6811,75.5557)
+[3](-24.296,25.9491,-1.65306)
+rRightHandSideVector[3,3]((0.500546,-0.120476,-0.38007),(-0.120476,0.528452,-0.407976),(-0.38007,-0.407976,0.788046)) : 
+[3](10.7992,10.5929,-21.3921)rRightHandSideVector
+ : [3,3]((0.730422,-0.25975,-0.470672),(-0.25975,0.43464,-0.174889),(-0.470672,-0.174889,0.645561))[3](-10.2043,-7.00289,17.2072)
+ms_temp : 
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-15.8974,21.0533,-5.15588)[3](346.775,340.768,321.83)
+[3,3]((0.68339,-0.466149,-0.217241),(-0.466149,0.683789,-0.217641),(-0.217241,-0.217641,0.434882))
+rRightHandSideVector : [3,3]((0.563532,-0.255279,-0.308253),(-0.255279,0.559272,-0.303992),(-0.308253,-0.303992,0.612245))
+rRightHandSideVector : 
+[3](-7.86843,-15.6974,23.5658)
+ms_temp : [3](26.9115,-15.8237,-11.0878)
+ms_temp : ms_temp : rRightHandSideVector : [3](38.3773,75.5557,82.4798)[3](399.05,408.837,365.418)
+[3](-10.2043,-7.00289,17.2072)
+
+[3](268.088,217.33,262.324)rRightHandSideVector : 
+[3](26.9115,-15.8237,-11.0878)
+rLeftHandSideMatrix : rRightHandSideVectorrRightHandSideVector :  : rLeftHandSideMatrix[3](-15.8974,21.0533,-5.15588)[3](-7.86843,-15.6974,23.5658) : 
+
+[3,3]((0.583132,-0.282901,-0.300231),(-0.282901,0.565966,-0.283066),(-0.300231,-0.283066,0.583297))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.42395,-0.227019,-0.196931),(-0.227019,0.711258,-0.484238),(-0.196931,-0.484238,0.681169))rLeftHandSideMatrix : 
+rRightHandSideVector : [3](-10.5137,20.6313,-10.1176)[3,3]((0.579805,-0.309674,-0.270131),(-0.309674,0.596576,-0.286902),(-0.270131,-0.286902,0.557033))
+[3](5.54778,-18.3452,12.7974)
+ms_temp : [3,3]((0.589208,-0.277866,-0.311342),(-0.277866,0.555338,-0.277471),(-0.311342,-0.277471,0.588813))
+rRightHandSideVector : 
+[3](-9.23066,-11.0366,20.2673)rRightHandSideVector : 
+[3](295.519,320.716,294.644)ms_temp : [3](-249.519,130.709,118.81)ms_temp
+[3](171.2,174.7,138.429)
+ms_temp :  : 
+[3](1248.2,820.619,814.685)
+[3](36.681,0,36.2258)
+rRightHandSideVectorrRightHandSideVector :  : rRightHandSideVector : rRightHandSideVector : [3](-9.23066,-11.0366,20.2673)[3](-249.519,130.709,118.81)[3](5.54778,-18.3452,12.7974)
+
+[3](-10.5137,20.6313,-10.1176)
+rLeftHandSideMatrix : rLeftHandSideMatrix : 
+rLeftHandSideMatrix : [3,3]((0.600088,-0.301131,-0.298957),(-0.301131,0.567717,-0.266586),(-0.298957,-0.266586,0.565542))[3,3]((0.517351,-0.197972,-0.31938),(-0.197972,0.558987,-0.361016),(-0.31938,-0.361016,0.680395))
+
+rRightHandSideVector : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.570285,-0.296044,-0.274241),(-0.296044,0.592058,-0.296014),(-0.274241,-0.296014,0.570256))
+[3](-22.9171,9.87873,13.0383)
+ms_temp : rRightHandSideVector : [3,3]((0.663166,-0.435919,-0.227247),(-0.435919,0.663523,-0.227604),(-0.227247,-0.227604,0.45485))
+[3](9.72111,10.9079,-20.629)rRightHandSideVector : 
+ms_temp : [3](-20.2228,9.37166,10.8512)[3](17.5433,-11.1117,-6.43157)
+ms_temp : [3](408.837,363.123,365.418)
+[3](171.2,138.429,136.565)
+
+rRightHandSideVector : ms_temp : [3](36.681,36.2258,72.6197)
+[3](-22.9171,9.87873,13.0383)[3](294.644,320.716,321.83)
+
+rRightHandSideVectorrRightHandSideVector :  : rRightHandSideVector : [3](17.5433,-11.1117,-6.43157)
+rLeftHandSideMatrix : [3](-20.2228,9.37166,10.8512)
+[3,3]((0.584187,-0.295795,-0.288392),(-0.295795,0.577717,-0.281922),(-0.288392,-0.281922,0.570314))
+rRightHandSideVector : [3](9.72111,10.9079,-20.629)
+rLeftHandSideMatrix : rLeftHandSideMatrix : [3](17.5517,11.9955,-29.5472)
+ms_temp : [3,3]((0.604579,-0.373565,-0.231014),(-0.373565,0.644334,-0.270769),(-0.231014,-0.270769,0.501783))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.711557,-0.284459,-0.427098),(-0.284459,0.465061,-0.180602),(-0.427098,-0.180602,0.607699))[3](-13.0084,22.2345,-9.22618)
+ms_temp : 
+rRightHandSideVector : [3,3]((0.583183,-0.300106,-0.283077),(-0.300106,0.583116,-0.28301),(-0.283077,-0.28301,0.566088))
+rRightHandSideVector : [3](171.2,136.565,170.897)
+[3](10.3369,5.02323,-15.3601)
+ms_temp : [3](-11.3376,20.8064,-9.46871)rRightHandSideVector : 
+ms_temp : [3](402.882,408.837,457.634)[3](-13.0084,22.2345,-9.22618)
+
+[3](72.6197,36.2258,71.1515)
+[3](321.83,320.716,346.775)rRightHandSideVector : 
+rLeftHandSideMatrix[3](17.5517,11.9955,-29.5472) : 
+rRightHandSideVector : [3](-11.3376,20.8064,-9.46871)
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.545144,-0.109091,-0.436053),(-0.109091,0.480425,-0.371334),(-0.436053,-0.371334,0.807387))
+rRightHandSideVector : [3](10.3369,5.02323,-15.3601)
+[3](-17.6112,4.68616,12.9251)
+ms_temp : [3,3]((0.765771,-0.32912,-0.436651),(-0.32912,0.467921,-0.1388),(-0.436651,-0.1388,0.575451))rLeftHandSideMatrix : 
+rRightHandSideVector : rLeftHandSideMatrix[3,3]((1.08214,-0.546317,-0.535826),(-0.546317,0.50683,0.0394874),(-0.535826,0.0394874,0.496339))
+[3](-16.7884,-4.02242,20.8108)
+ms_temp : [3](170.897,136.565,139.099)
+ : rRightHandSideVector : [3](365.418,363.123,328.7)
+rRightHandSideVector[3](-2.86257,-8.62519,11.4878) : 
+[3,3]((0.579059,-0.269777,-0.309282),(-0.269777,0.557421,-0.287644),(-0.309282,-0.287644,0.596925))ms_temp : [3](-17.6112,4.68616,12.9251)
+
+[3](321.83,340.768,297.178)rRightHandSideVector : 
+[3](-20.3681,9.28816,11.08)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector : [3](71.1515,36.2258,35.7599)
+rRightHandSideVector[3](-16.7884,-4.02242,20.8108) : 
+[3](-2.86257,-8.62519,11.4878)
+[3,3]((0.491539,-0.252049,-0.23949),(-0.252049,0.637851,-0.385802),(-0.23949,-0.385802,0.625292))
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](8.38281,13.8201,-22.2029)
+[3](-20.3681,9.28816,11.08)ms_temp : 
+[3,3]((0.678375,-0.542471,-0.135904),(-0.542471,0.802321,-0.25985),(-0.135904,-0.25985,0.395754))[3](171.2,170.897,206.521)
+rRightHandSideVector : 
+rLeftHandSideMatrix : [3,3]((0.711987,-0.436493,-0.275494),(-0.436493,0.618727,-0.182235),(-0.275494,-0.182235,0.457729))
+[3,3]((0.589084,-0.311612,-0.277472),(-0.311612,0.589224,-0.277612),(-0.277472,-0.277612,0.555083))rRightHandSideVector : 
+rRightHandSideVector : [3](-18.2499,10.2984,7.95152)
+ms_temp : [3](-11.4261,20.4557,-9.02961)
+[3](321.83,297.178,294.644)
+[3](-25.1316,19.4919,5.6397)ms_temp : rRightHandSideVector
+[3](71.1515,35.7599,69.7183)
+ms_temp : rRightHandSideVector :  : rRightHandSideVector : [3](365.418,328.7,327.059)
+[3](-11.4261,20.4557,-9.02961)
+[3](8.38281,13.8201,-22.2029)
+[3](-18.2499,10.2984,7.95152)rLeftHandSideMatrix : 
+rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3](-25.1316,19.4919,5.6397)rLeftHandSideMatrix
+ : rLeftHandSideMatrix : [3,3]((0.740071,-0.598226,-0.141845),(-0.598226,0.821372,-0.223147),(-0.141845,-0.223147,0.364992))[3](-9.97654,-10.3882,20.3648)
+rRightHandSideVector : 
+[3](-21.1438,29.5241,-8.38028)
+ms_temp : rLeftHandSideMatrix : ms_temp[3](206.521,170.897,207.702) : 
+[3,3]((0.577767,-0.289431,-0.288336),(-0.289431,0.577691,-0.288259),(-0.288336,-0.288259,0.576595))[3](35.7599,36.2258,0)
+
+rRightHandSideVector : rRightHandSideVector : [3,3]((1.05196,-0.417594,-0.634364),(-0.417594,0.403424,0.0141701),(-0.634364,0.0141701,0.620194))
+rRightHandSideVector : rRightHandSideVector : [3](-12.7498,6.09462,6.65515)[3](5.31583,14.9985,-20.3143)
+ms_temp : 
+[3](460.957,439.226,438.551)
+[3](-9.97654,-10.3882,20.3648)
+[3](-21.1438,29.5241,-8.38028)rRightHandSideVector : 
+[3](-12.7498,6.09462,6.65515)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](365.418,327.059,399.05)
+[3,3]((0.587349,-0.267304,-0.320045),(-0.267304,0.547292,-0.279988),(-0.320045,-0.279988,0.600033))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.624878,-0.252231,-0.372647),(-0.252231,0.501891,-0.24966),(-0.372647,-0.24966,0.622307))rRightHandSideVector : [3](-20.1037,8.93882,11.1648)
+ms_temp : [3](5.31583,14.9985,-20.3143)
+
+[3](69.7183,35.7599,35.2656)
+[3,3]((0.762954,-0.575663,-0.187291),(-0.575663,0.762022,-0.186359),(-0.187291,-0.186359,0.37365))
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3](-1.24348,3.43432,-2.19084)rRightHandSideVector : 
+ms_temp : [3](-20.1037,8.93882,11.1648)[3](22.5609,-8.58128,-13.9796)
+[3](415.413,411.913,419.53)ms_temp : 
+
+[3](171.2,206.521,207.835)
+[3,3]((0.568751,-0.330411,-0.238341),(-0.330411,0.631508,-0.301098),(-0.238341,-0.301098,0.539438))
+rRightHandSideVector : [3](-22.673,15.4867,7.1863)
+ms_temp : rRightHandSideVector : rRightHandSideVector : [3](363.588,321.516,326.783)
+[3](22.5609,-8.58128,-13.9796)
+[3](-1.24348,3.43432,-2.19084)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3](-22.673,15.4867,7.1863)
+rLeftHandSideMatrix : [3,3]((0.584429,-0.221772,-0.362656),(-0.221772,0.511924,-0.290152),(-0.362656,-0.290152,0.652808))
+rRightHandSideVector : rLeftHandSideMatrix[3,3]((0.659316,-0.497944,-0.161372),(-0.497944,0.755249,-0.257305),(-0.161372,-0.257305,0.418678)) : [3,3]((0.594342,-0.321293,-0.273049),(-0.321293,0.59432,-0.273026),(-0.273049,-0.273026,0.546075))
+[3](11.8924,10.42,-22.3124)
+[3,3]((0.57893,-0.291792,-0.287138),(-0.291792,0.5789,-0.287108),(-0.287138,-0.287108,0.574246))
+rRightHandSideVector : 
+rRightHandSideVector : rRightHandSideVector : ms_temp : [3](-11.4388,20.1066,-8.66781)[3](18.3261,-14.7701,-3.556)
+ms_temp : [3](207.835,206.521,241.43)
+
+ms_temp : [3](295.519,333.529,320.716)
+[3](69.7183,35.2656,68.3656)[3](-1.45388,-20.4478,21.9017)
+
+ms_temp : rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : [3](361.207,372.91,316.088)
+[3](-11.4388,20.1066,-8.66781)
+[3](18.3261,-14.7701,-3.556)
+rRightHandSideVector : rLeftHandSideMatrix : [3](-1.45388,-20.4478,21.9017)
+rLeftHandSideMatrix : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3](11.8924,10.42,-22.3124)[3,3]((0.578912,-0.291788,-0.287124),(-0.291788,0.578914,-0.287126),(-0.287124,-0.287126,0.57425))
+rRightHandSideVector : 
+[3](-9.82815,-10.265,20.0931)
+ms_temp : [3](10.1657,-8.31171,-1.85399)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](361.668,382.889,375.507)
+[3](35.2656,35.7599,0)[3,3]((0.758235,-0.268547,-0.489687),(-0.268547,0.424826,-0.156279),(-0.489687,-0.156279,0.645966))
+
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3,3]((0.50886,-0.290887,-0.217973),(-0.290887,0.657579,-0.366692),(-0.217973,-0.366692,0.584664))
+rRightHandSideVector : [3](-22.6343,20.7193,1.91507)
+ms_temp : [3](10.1657,-8.31171,-1.85399)
+[3](-10.4328,22.487,-12.0541)
+ms_temp : [3](415.94,361.207,399.734)
+[3](-9.82815,-10.265,20.0931)
+[3](241.43,206.521,240.153)rRightHandSideVector : 
+[3](-22.6343,20.7193,1.91507)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.580099,-0.294119,-0.285979),(-0.294119,0.580085,-0.285965),(-0.285979,-0.285965,0.571944))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.578916,-0.291774,-0.287142),(-0.291774,0.578896,-0.287122),(-0.287142,-0.287122,0.574264))[3](9.60745,10.8598,-20.4673)
+ms_temp : 
+rRightHandSideVector : [3](-10.4328,22.487,-12.0541)
+[3](71.1515,69.7183,106.22)
+[3](4.86216,-3.34958,-1.51258)
+ms_temp : [3,3]((0.569915,-0.296079,-0.273836),(-0.296079,0.59248,-0.296401),(-0.273836,-0.296401,0.570236))rRightHandSideVector : 
+rRightHandSideVector : [3](9.60745,10.8598,-20.4673)
+[3](-10.4676,-5.01996,15.4875)
+ms_temp : rLeftHandSideMatrix : [3](397.921,407.352,405.27)
+[3](463.59,456.678,432.837)[3,3]((0.551447,-0.282751,-0.268696),(-0.282751,0.598331,-0.315581),(-0.268696,-0.315581,0.584277))
+
+rRightHandSideVector : [3](4.86216,-3.34958,-1.51258)rRightHandSideVector : 
+[3](19.3311,-8.55372,-10.7774)rLeftHandSideMatrix
+ms_temp :  : rRightHandSideVector : rLeftHandSideMatrix : [3](207.835,241.43,244.426)
+[3](-10.4676,-5.01996,15.4875)
+[3,3]((0.593742,-0.266154,-0.327588),(-0.266154,0.540366,-0.274212),(-0.327588,-0.274212,0.601799))rRightHandSideVector : 
+[3](19.3311,-8.55372,-10.7774)rRightHandSideVector : 
+[3](-19.8338,8.65826,11.1756)
+[3,3]((0.537529,-0.389485,-0.148044),(-0.389485,0.747305,-0.357821),(-0.148044,-0.357821,0.505865))ms_temp : 
+rRightHandSideVector : rLeftHandSideMatrix : [3](68.3656,35.2656,34.7132)
+[3](0.789058,-2.84217e-14,-0.789058)[3,3]((0.697213,-0.199331,-0.497881),(-0.199331,0.415559,-0.216228),(-0.497881,-0.216228,0.714109))
+rRightHandSideVector : 
+rRightHandSideVector : ms_temp : rLeftHandSideMatrix[3](-19.8338,8.65826,11.1756)
+[3](411.904,413.033,414.263)
+[3](-13.6919,16.4728,-2.78091)
+ms_temp :  : rRightHandSideVector : rLeftHandSideMatrix : [3](385.417,340.768,375.792)
+[3](0.789058,-2.84217e-14,-0.789058)[3,3]((0.887502,-0.562907,-0.324595),(-0.562907,0.638719,-0.0758121),(-0.324595,-0.0758121,0.400407))
+
+rRightHandSideVector : [3](-13.6919,16.4728,-2.78091)
+rRightHandSideVector[3,3]((0.598012,-0.32794,-0.270072),(-0.32794,0.597889,-0.269949),(-0.270072,-0.269949,0.540021))rLeftHandSideMatrix :  : 
+rRightHandSideVector : [3](-29.465,19.021,10.444)
+ms_temp : rLeftHandSideMatrix[3,3]((0.861677,-0.512274,-0.349403),(-0.512274,0.594683,-0.0824091),(-0.349403,-0.0824091,0.431812)) : 
+rRightHandSideVector : [3](-11.4016,19.7549,-8.35333)
+ms_temp : [3](240.153,206.521,207.702)
+[3](-12.0252,8.02354,4.00166)
+ms_temp : [3](68.3656,34.7132,67.0118)rRightHandSideVector : 
+[3,3]((0.578988,-0.291979,-0.287009),(-0.291979,0.579031,-0.287051),(-0.287009,-0.287051,0.57406))[3](-29.465,19.021,10.444)
+
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](405.58,390.402,393.416)
+[3](-11.4016,19.7549,-8.35333)
+[3](13.3313,-11.1768,-2.15453)
+ms_temp : [3,3]((0.6205,-0.577095,-0.043405),(-0.577095,0.939627,-0.362532),(-0.043405,-0.362532,0.405937))
+rLeftHandSideMatrixrRightHandSideVector :  : rRightHandSideVector : [3](1.57277,20.4915,-22.0643)
+[3](333.529,361.668,351.353)ms_temp : [3](-12.0252,8.02354,4.00166)[3,3]((0.583297,-0.300231,-0.283066),(-0.300231,0.583132,-0.282901),(-0.283066,-0.282901,0.565966))
+[3](241.43,240.153,294.644)
+
+rRightHandSideVectorrLeftHandSideMatrix :  : 
+[3](-9.66029,-10.1425,19.8028)rRightHandSideVector
+ms_temp :  : [3,3]((0.577329,-0.2888,-0.288529),(-0.2888,0.577496,-0.288696),(-0.288529,-0.288696,0.577225))[3](34.7132,35.2656,0)
+[3](1.57277,20.4915,-22.0643)
+rRightHandSideVectorrRightHandSideVector :  : 
+[3](-9.66029,-10.1425,19.8028)rRightHandSideVector : 
+[3](-1.31804,7.97054,-6.65249)
+ms_temp : rLeftHandSideMatrix : [3](13.3313,-11.1768,-2.15453)
+[3](416.301,405.58,422.464)rLeftHandSideMatrix[3,3]((0.742985,-0.721799,-0.0211862),(-0.721799,1.0377,-0.315898),(-0.0211862,-0.315898,0.337084))
+rRightHandSideVector :  : 
+rLeftHandSideMatrix : [3,3]((0.597769,-0.265598,-0.332171),(-0.265598,0.536231,-0.270633),(-0.332171,-0.270633,0.602804))
+[3](-1.04479,19.7731,-18.7283)rRightHandSideVector : rRightHandSideVector : 
+[3](-19.5325,8.3948,11.1377)
+ms_temp : ms_temp : [3](-1.31804,7.97054,-6.65249)[3](67.0118,34.7132,34.0347)
+[3](244.426,241.43,297.178)
+[3,3]((0.578916,-0.291774,-0.287142),(-0.291774,0.578896,-0.287122),(-0.287142,-0.287122,0.574264))
+rRightHandSideVector : 
+rRightHandSideVector : [3](-1.04479,19.7731,-18.7283)
+[3](7.40853,-5.67915,-1.72938)
+rLeftHandSideMatrix : ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](382.889,397.921,393.416)
+[3,3]((0.577759,-0.28942,-0.28834),(-0.28942,0.577686,-0.288267),(-0.28834,-0.288267,0.576607))[3](-19.5325,8.3948,11.1377)
+rRightHandSideVector : 
+[3,3]((0.592772,-0.421352,-0.17142),(-0.421352,0.721251,-0.299899),(-0.17142,-0.299899,0.471319))
+rRightHandSideVector : [3](20.4851,-8.55101,-11.9341)rLeftHandSideMatrix : 
+ms_temp : rRightHandSideVector : [3](-2.40352,-18.7165,21.12)[3,3]((0.600463,-0.332554,-0.267909),(-0.332554,0.600524,-0.26797),(-0.267909,-0.26797,0.535878))
+
+ms_temp : [3](340.768,350.719,302.289)
+[3](7.40853,-5.67915,-1.72938)
+[3](210.943,244.426,248.379)rRightHandSideVector : 
+[3](-2.40352,-18.7165,21.12)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3](-11.387,19.3832,-7.9962)
+ms_temp : [3,3]((0.578912,-0.291788,-0.287124),(-0.291788,0.578914,-0.287126),(-0.287124,-0.287126,0.57425))
+rRightHandSideVector : [3](20.4851,-8.55101,-11.9341)
+[3](67.0118,34.0347,65.443)
+[3](2.6378,-1.32573,-1.31207)
+ms_temp : rLeftHandSideMatrixrRightHandSideVector :  : rLeftHandSideMatrix : [3](407.352,411.904,411.913)
+[3](-11.387,19.3832,-7.9962)[3,3]((0.585336,-0.294797,-0.290539),(-0.294797,0.575576,-0.280779),(-0.290539,-0.280779,0.571318))
+
+rRightHandSideVector : [3,3]((0.578814,-0.287186,-0.291628),(-0.287186,0.574408,-0.287222),(-0.291628,-0.287222,0.578851))rLeftHandSideMatrix : 
+rRightHandSideVector : [3](-4.47474,-4.90579,9.38053)
+[3](10.4987,11.0481,-21.5467)ms_temp : 
+ms_temp : rRightHandSideVector[3](438.551,439.226,422.464)
+ : [3,3]((0.582058,-0.298022,-0.284036),(-0.298022,0.582102,-0.28408),(-0.284036,-0.28408,0.568116))
+rRightHandSideVector : rRightHandSideVector : [3](75.5557,74.7298,112.369)
+[3](2.6378,-1.32573,-1.31207)
+[3](9.32263,10.5156,-19.8383)rRightHandSideVector : 
+ms_temp : [3](10.4987,11.0481,-21.5467)[3](-4.47474,-4.90579,9.38053)
+rLeftHandSideMatrix : [3](68.3656,67.0118,102.608)
+
+[3,3]((0.577794,-0.289512,-0.288282),(-0.289512,0.577744,-0.288232),(-0.288282,-0.288232,0.576514))rLeftHandSideMatrix : 
+rRightHandSideVector : rRightHandSideVector : [3,3]((0.64965,-0.375698,-0.273951),(-0.375698,0.602093,-0.226394),(-0.273951,-0.226394,0.500346))
+[3](9.32263,10.5156,-19.8383)rRightHandSideVector : 
+rLeftHandSideMatrix[3](24.6061,-13.2604,-11.3457)
+ms_temp : [3](-28.9766,8.81743,20.1592)
+rLeftHandSideMatrix : ms_temp :  : [3](75.5557,112.369,114.889)
+[3](490.828,447.252,434.074)[3,3]((0.479245,-0.296059,-0.183185),(-0.296059,0.704548,-0.408489),(-0.183185,-0.408489,0.591674))
+rRightHandSideVector : 
+rRightHandSideVector : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))[3](24.6061,-13.2604,-11.3457)
+
+rRightHandSideVector : [3](-9.11061,10.2621,-1.15148)
+ms_temp : rRightHandSideVector : rLeftHandSideMatrix : [3](460.957,438.551,447.434)[3](-9.42461,-10.0242,19.4488)
+
+ms_temp : [3](-28.9766,8.81743,20.1592)rRightHandSideVector : 
+[3](-9.11061,10.2621,-1.15148)
+[3](34.0347,34.7132,0)
+rLeftHandSideMatrix : [3,3]((0.977211,-0.424024,-0.553187),(-0.424024,0.43982,-0.0157954),(-0.553187,-0.0157954,0.568982))
+rRightHandSideVector[3,3]((0.534612,-0.268848,-0.265764),(-0.268848,0.602828,-0.33398),(-0.265764,-0.33398,0.599744))rRightHandSideVector :  : 
+rRightHandSideVector : rLeftHandSideMatrix[3](-9.42461,-10.0242,19.4488)[3](-25.3095,16.5864,8.72303) : 
+
+ms_temp : [3](9.24643,26.6713,-35.9177)
+[3](139.099,100.798,122.704)
+rLeftHandSideMatrix : ms_temp : [3,3]((0.713865,-0.426339,-0.287526),(-0.426339,0.604827,-0.178488),(-0.287526,-0.178488,0.466014))
+[3,3]((0.965284,-0.524005,-0.441279),(-0.524005,0.543448,-0.0194426),(-0.441279,-0.0194426,0.460721))rRightHandSideVector : 
+[3](-8.89017,2.20495,6.68523)rRightHandSideVector : 
+ms_temp : [3](-27.8929,16.565,11.3279)rRightHandSideVector
+[3](447.434,438.551,429.686)
+ms_temp :  : [3](506.828,490.828,557.807)
+[3](-25.3095,16.5864,8.72303)
+rRightHandSideVectorrRightHandSideVector :  : [3](-8.89017,2.20495,6.68523)
+[3](9.24643,26.6713,-35.9177)
+rLeftHandSideMatrix : rLeftHandSideMatrix : [3,3]((0.636621,-0.478026,-0.158595),(-0.478026,0.751639,-0.273613),(-0.158595,-0.273613,0.432208))
+rRightHandSideVector : [3,3]((0.611795,-0.451098,-0.160697),(-0.451098,0.741244,-0.290146),(-0.160697,-0.290146,0.450843))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-1.62499,-19.3369,20.9619)[3](5.91678,15.2132,-21.13)
+ms_temp : 
+[3,3]((0.596476,-0.325284,-0.271192),(-0.325284,0.59652,-0.271236),(-0.271192,-0.271236,0.542428))[3](350.719,361.207,308.859)
+[3](65.443,34.0347,39.5303)ms_temp
+ : 
+rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : [3](217.33,214.418,262.324)
+[3](-1.62499,-19.3369,20.9619)
+[3](-31.202,30.5378,0.664207)
+ms_temp : [3](-27.8929,16.565,11.3279)
+rLeftHandSideMatrix : rRightHandSideVector : [3](557.807,490.828,523.09)
+[3](5.91678,15.2132,-21.13)[3,3]((0.792782,-0.450036,-0.342746),(-0.450036,0.570816,-0.12078),(-0.342746,-0.12078,0.463526))
+
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-10.0151,8.78597,1.2291)
+ms_temp : [3](-31.202,30.5378,0.664207)
+[3](422.464,405.58,415.413)[3,3]((0.582466,-0.298874,-0.283592),(-0.298874,0.582567,-0.283693),(-0.283592,-0.283693,0.567286))
+
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.57169,-0.125456,-0.446234),(-0.125456,0.464831,-0.339374),(-0.446234,-0.339374,0.785608))rRightHandSideVector : 
+[3](9.11265,10.4988,-19.6115)[3](-10.0151,8.78597,1.2291)rRightHandSideVector : 
+[3,3]((0.581638,-0.297365,-0.284273),(-0.297365,0.58185,-0.284485),(-0.284273,-0.284485,0.568758))
+ms_temp : [3](-12.2325,17.5357,-5.30318)
+ms_temp : rLeftHandSideMatrix : 
+[3](262.324,214.418,248.379)
+rRightHandSideVector : [3](67.0118,65.443,100.798)
+rRightHandSideVector : [3,3]((0.586268,-0.293596,-0.292673),(-0.293596,0.573455,-0.279859),(-0.292673,-0.279859,0.572532))
+rRightHandSideVector : [3](-26.2291,2.12386,24.1052)
+rRightHandSideVectorms_temp :  : [3](-12.2325,17.5357,-5.30318)
+[3](523.09,490.828,464.571)
+[3](9.11265,10.4988,-19.6115)
+rLeftHandSideMatrix : [3](8.5191,2.88179,-11.4009)
+ms_temp : [3,3]((0.579319,-0.293757,-0.285562),(-0.293757,0.580497,-0.28674),(-0.285562,-0.28674,0.572302))rLeftHandSideMatrix
+ : [3](416.301,422.464,439.226)rRightHandSideVector : 
+[3](-20.6668,8.97991,11.6869)
+ms_temp : [3,3]((0.581186,-0.29632,-0.284866),(-0.29632,0.581235,-0.284915),(-0.284866,-0.284915,0.569781))rRightHandSideVector : 
+[3](8.5191,2.88179,-11.4009)rRightHandSideVector : 
+[3](9.47412,10.6629,-20.137)[3](248.379,214.418,210.943)
+ms_temp : 
+[3](69.7183,68.3656,104.384)
+rLeftHandSideMatrix : rRightHandSideVectorrRightHandSideVector :  : rRightHandSideVector : [3](-20.6668,8.97991,11.6869)[3,3]((0.61969,-0.255383,-0.364307),(-0.255383,0.508674,-0.253292),(-0.364307,-0.253292,0.617599))
+[3](9.47412,10.6629,-20.137)
+[3](-26.2291,2.12386,24.1052)
+rLeftHandSideMatrix
+ : rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.57875,-0.291608,-0.287142),(-0.291608,0.578894,-0.287287),(-0.287142,-0.287287,0.574429))
+rRightHandSideVector : [3](-8.96669,4.80521,4.16148)[3,3]((0.878883,-0.677976,-0.200907),(-0.677976,0.807447,-0.129471),(-0.200907,-0.129471,0.330378))
+ms_temp : 
+rRightHandSideVector : [3](9.76402,11.0472,-20.8113)
+ms_temp : [3](438.551,422.464,425.215)
+[3](-0.104698,17.2843,-17.1796)
+ms_temp : [3](72.6197,71.1515,108.115)rRightHandSideVector : 
+[3](-8.96669,4.80521,4.16148)
+[3](262.324,248.379,308.859)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : [3](9.76402,11.0472,-20.8113)
+[3](-0.104698,17.2843,-17.1796)
+[3,3]((0.557077,-0.285934,-0.271144),(-0.285934,0.595533,-0.3096),(-0.271144,-0.3096,0.580743))
+rRightHandSideVector : [3,3]((0.714936,-0.303269,-0.411667),(-0.303269,0.478326,-0.175056),(-0.411667,-0.175056,0.586723))rLeftHandSideMatrix : 
+rRightHandSideVector : rLeftHandSideMatrix[3,3]((0.578851,-0.287222,-0.291628),(-0.287222,0.574408,-0.287186),(-0.291628,-0.287186,0.578814))
+rRightHandSideVector :  : [3](0.0300467,32.0437,-32.0738)[3](-21.1407,9.97996,11.1607)
+ms_temp : 
+ms_temp : [3,3]((0.662599,-0.320565,-0.342033),(-0.320565,0.532392,-0.211827),(-0.342033,-0.211827,0.55386))
+rRightHandSideVector : [3](109.727,73.8003,72.6197)
+[3](557.807,523.09,594.528)
+[3](-11.4834,20.0355,-8.55212)rRightHandSideVector : 
+ms_temp : [3](-21.1407,9.97996,11.1607)[3](-4.86962,-0.39997,5.26959)
+[3](37.1412,0,38.3773)
+rRightHandSideVector : 
+rRightHandSideVector : ms_temp : [3](0.0300467,32.0437,-32.0738)
+[3](-11.4834,20.0355,-8.55212)
+[3](425.215,422.464,415.413)rLeftHandSideMatrix : 
+rLeftHandSideMatrix : rLeftHandSideMatrix : [3,3]((0.578672,-0.291723,-0.286949),(-0.291723,0.579089,-0.287366),(-0.286949,-0.287366,0.574314))
+rRightHandSideVector : [3,3]((0.58807,-0.309541,-0.278529),(-0.309541,0.588052,-0.278511),(-0.278529,-0.278511,0.55704))rRightHandSideVector[3,3]((0.836849,-0.492315,-0.344534),(-0.492315,0.588367,-0.0960518),(-0.344534,-0.0960518,0.440586))
+ : rRightHandSideVector : [3](-4.86962,-0.39997,5.26959)
+[3](-37.3712,26.7517,10.6195)
+ms_temp : 
+rLeftHandSideMatrix : rRightHandSideVector : [3](-11.2878,21.0252,-9.73741)
+ms_temp : [3,3]((0.9714,-0.607942,-0.363459),(-0.607942,0.637835,-0.0298933),(-0.363459,-0.0298933,0.393352))
+[3](109.727,72.6197,108.115)rRightHandSideVector : 
+[3](-8.02526,6.08229,1.94297)[3](16.2292,3.62758,-19.8568)
+ms_temp : 
+ms_temp : [3](594.528,523.09,539.746)rRightHandSideVector : 
+[3](-11.2878,21.0252,-9.73741)
+[3](37.1412,38.3773,82.4798)
+[3](425.215,415.413,419.53)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : rRightHandSideVector[3](16.2292,3.62758,-19.8568) : 
+[3](-8.02526,6.08229,1.94297)
+[3,3]((0.901212,-0.480158,-0.421054),(-0.480158,0.533228,-0.0530703),(-0.421054,-0.0530703,0.474124))
+rRightHandSideVector : [3](-37.3712,26.7517,10.6195)rLeftHandSideMatrix : 
+rLeftHandSideMatrix[3,3]((0.455339,-0.36776,-0.0875784),(-0.36776,0.846068,-0.478308),(-0.0875784,-0.478308,0.565886)) : 
+rLeftHandSideMatrix : rRightHandSideVector : [3](-28.5962,11.2012,17.395)
+ms_temp : [3,3]((0.579948,-0.293691,-0.286258),(-0.293691,0.5798,-0.286109),(-0.286258,-0.286109,0.572367))[3,3]((0.578851,-0.291628,-0.287222),(-0.291628,0.578814,-0.287186),(-0.287222,-0.287186,0.574408))
+[3](225.049,200.114,185.57)
+rRightHandSideVector
+ : [3](-5.68075,7.04294,-1.36219)[3](-20.2038,-5.64714,25.8509)
+ms_temp : [3](539.746,523.09,486.255)
+
+rRightHandSideVector : ms_temp : rRightHandSideVector : rRightHandSideVector : [3](-28.5962,11.2012,17.395)
+[3](438.551,425.215,429.686)
+[3](21.4759,-10.358,-11.1179)rLeftHandSideMatrix
+ : ms_temp : [3](-20.2038,-5.64714,25.8509)rRightHandSideVector : 
+[3](-5.68075,7.04294,-1.36219)
+[3](74.7298,111.3,112.369)
+rLeftHandSideMatrix : [3,3]((0.663882,-0.514879,-0.149003),(-0.514879,0.775892,-0.261012),(-0.149003,-0.261012,0.410015))
+rRightHandSideVector : [3,3]((0.579697,-0.293543,-0.286154),(-0.293543,0.579902,-0.286359),(-0.286154,-0.286359,0.572513))
+rRightHandSideVector : [3](4.18423,17.0009,-21.1851)
+ms_temp : [3](-13.9116,33.939,-20.0274)
+ms_temp : [3](268.088,262.324,316.088)
+[3](594.528,539.746,602.108)
+rLeftHandSideMatrix : rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](4.18423,17.0009,-21.1851)
+[3,3]((0.819211,-0.527135,-0.292076),(-0.527135,0.644365,-0.117231),(-0.292076,-0.117231,0.409307))
+rRightHandSideVector : rLeftHandSideMatrix : [3](21.4759,-10.358,-11.1179)
+[3](-5.32304,1.69046,3.63258)[3,3]((0.725499,-0.680873,-0.0446254),(-0.680873,0.983583,-0.30271),(-0.0446254,-0.30271,0.347336))
+rRightHandSideVector : 
+rLeftHandSideMatrixms_temp :  : [3](-0.286038,20.2076,-19.9216)
+ms_temp : [3](-13.9116,33.939,-20.0274)[3](429.686,425.215,419.53)
+
+rRightHandSideVector[3](248.379,244.426,302.289) : 
+[3](-5.32304,1.69046,3.63258)
+rLeftHandSideMatrix[3,3]((0.49302,-0.467902,-0.0251183),(-0.467902,0.951142,-0.48324),(-0.0251183,-0.48324,0.508359)) : 
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.543539,-0.271785,-0.271753),(-0.271785,0.59585,-0.324064),(-0.271753,-0.324064,0.595818))
+[3](-0.286038,20.2076,-19.9216)
+rRightHandSideVector : [3](18.9631,-4.84072,-14.1223)
+ms_temp : rLeftHandSideMatrix : [3,3]((0.641032,-0.484209,-0.156823),(-0.484209,0.755748,-0.271539),(-0.156823,-0.271539,0.428362))
+rRightHandSideVector : [3,3]((0.418046,-0.324836,-0.0932101),(-0.324836,0.850429,-0.525592),(-0.0932101,-0.525592,0.618802))[3](-22.5602,25.3074,-2.74722)
+[3](3.38358,16.3314,-19.715)
+ms_temp : [3](0,37.1412,63.0864)
+
+ms_temp : [3](308.859,302.289,350.719)rRightHandSideVector : 
+[3](490.828,434.074,464.571)
+[3](18.9631,-4.84072,-14.1223)
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](-22.5602,25.3074,-2.74722)[3](-20.1465,21.5417,-1.39512)
+
+ms_temp : rLeftHandSideMatrix : [3](3.38358,16.3314,-19.715)rLeftHandSideMatrix : 
+[3](275.437,225.049,234.894)
+[3,3]((0.456103,-0.468259,0.0121565),(-0.468259,1.02886,-0.560603),(0.0121565,-0.560603,0.548446))
+rRightHandSideVector : rRightHandSideVector[3,3]((0.592576,-0.317845,-0.274731),(-0.317845,0.592372,-0.274527),(-0.274731,-0.274527,0.549258)) : 
+rRightHandSideVector : [3](-20.1465,21.5417,-1.39512)
+[3](-23.0534,4.71466,18.3387)
+ms_temp : rLeftHandSideMatrix : [3](-16.3107,25.0945,-8.78379)
+ms_temp : [3](464.571,434.074,415.94)[3,3]((0.645026,-0.493825,-0.151201),(-0.493825,0.765648,-0.271823),(-0.151201,-0.271823,0.423024))
+
+rRightHandSideVector : [3](100.798,65.443,80.6751)rRightHandSideVector : 
+[3](-23.0534,4.71466,18.3387)rLeftHandSideMatrix
+ : rRightHandSideVector : [3](4.39919,18.6552,-23.0544)
+ms_temp : [3](-16.3107,25.0945,-8.78379)
+[3](322.587,316.088,372.91)
+[3,3]((0.685457,-0.483909,-0.201548),(-0.483909,0.706343,-0.222434),(-0.201548,-0.222434,0.423982))
+rRightHandSideVector : rLeftHandSideMatrixrRightHandSideVector :  : rLeftHandSideMatrix : [3](-16.5603,21.1667,-4.6064)
+ms_temp : [3](4.39919,18.6552,-23.0544)[3,3]((0.657497,-0.488906,-0.168591),(-0.488906,0.743774,-0.254868),(-0.168591,-0.254868,0.423459))
+
+rRightHandSideVector : [3](170.897,139.099,165.079)
+[3,3]((0.653675,-0.410063,-0.243612),(-0.410063,0.639693,-0.22963),(-0.243612,-0.22963,0.473243))
+rRightHandSideVector : [3](1.61147,-24.455,22.8435)rRightHandSideVector : 
+ms_temp : rLeftHandSideMatrix[3](-16.5603,21.1667,-4.6064) : 
+[3](-16.2695,0.295762,15.9738)
+ms_temp : [3](415.94,434.074,372.91)
+rLeftHandSideMatrix : [3,3]((0.65276,-0.51905,-0.13371),(-0.51905,0.795719,-0.276668),(-0.13371,-0.276668,0.410378))
+rRightHandSideVectorrRightHandSideVector :  : [3,3]((1.08071,-0.557391,-0.523317),(-0.557391,0.518812,0.0385787),(-0.523317,0.0385787,0.484739))[3](80.6751,65.443,39.5303)
+rRightHandSideVector[3](1.61147,-24.455,22.8435)[3](5.29737,19.3223,-24.6197) : 
+[3](-23.8739,2.1781,21.6958)
+ms_temp : 
+rLeftHandSideMatrix : ms_temp : 
+[3](327.059,322.587,384.037)
+[3,3]((0.580749,-0.295582,-0.285168),(-0.295582,0.580919,-0.285338),(-0.285168,-0.285338,0.570505))
+rRightHandSideVector : rRightHandSideVector : [3](295.519,294.644,250.831)
+[3](-21.0302,21.5905,-0.560305)
+ms_temp : [3](-16.2695,0.295762,15.9738)
+rRightHandSideVector : [3](464.571,415.94,441.23)rRightHandSideVector : 
+[3](5.29737,19.3223,-24.6197)
+[3](-23.8739,2.1781,21.6958)
+rLeftHandSideMatrix : rLeftHandSideMatrixrRightHandSideVector :  : rLeftHandSideMatrix : [3](-21.0302,21.5905,-0.560305)
+[3,3]((0.566275,-0.283309,-0.282966),(-0.283309,0.583222,-0.299913),(-0.282966,-0.299913,0.582879))[3,3]((0.637691,-0.503731,-0.13396),(-0.503731,0.789952,-0.286221),(-0.13396,-0.286221,0.420181))
+rRightHandSideVector : 
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.602897,-0.481829,-0.121068),(-0.481829,0.799737,-0.317908),(-0.121068,-0.317908,0.438976))[3](-2.59248,-19.0297,21.6222)
+rRightHandSideVector : [3,3]((0.425662,-0.176352,-0.249311),(-0.176352,0.660383,-0.484031),(-0.249311,-0.484031,0.733342))
+
+rRightHandSideVector : [3](-24.0733,3.43829,20.635)
+ms_temp : [3](2.19588,16.3204,-18.5163)
+ms_temp : [3](19.6445,-9.0291,-10.6154)
+ms_temp : [3](434.074,384.037,372.91)
+[3](302.289,297.178,340.768)
+[3](67.0118,100.798,102.608)rRightHandSideVector : 
+[3](-24.0733,3.43829,20.635)ms_temp : 
+[3](308.859,316.088,262.324)rRightHandSideVector
+ : rRightHandSideVector : rLeftHandSideMatrix : [3](2.19588,16.3204,-18.5163)
+[3,3]((0.680933,-0.527151,-0.153782),(-0.527151,0.775242,-0.248091),(-0.153782,-0.248091,0.401874))rRightHandSideVector
+rRightHandSideVector :  : [3](19.6445,-9.0291,-10.6154)[3](-1.87299,-21.1109,22.9838)
+[3](-2.59248,-19.0297,21.6222)
+
+rLeftHandSideMatrixms_temp :  : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](372.91,384.037,322.587)
+[3,3]((0.642107,-0.481593,-0.160514),(-0.481593,0.750548,-0.268955),(-0.160514,-0.268955,0.429469))
+rRightHandSideVector : [3,3]((0.74738,-0.476761,-0.270619),(-0.476761,0.638632,-0.161871),(-0.270619,-0.161871,0.43249))
+rRightHandSideVector : [3,3]((0.582862,-0.299535,-0.283326),(-0.299535,0.582851,-0.283316),(-0.283326,-0.283316,0.566642))
+rRightHandSideVector : [3](3.76099,17.5607,-21.3216)
+ms_temp : [3](-15.3283,-7.39738,22.7257)
+ms_temp : [3](9.07875,10.6755,-19.7543)
+ms_temp : [3](316.088,308.859,361.207)
+[3](328.7,326.783,275.437)
+[3](102.608,100.798,136.565)rRightHandSideVector : 
+[3](3.76099,17.5607,-21.3216)rRightHandSideVector
+ : rRightHandSideVectorrRightHandSideVector :  : [3](-1.87299,-21.1109,22.9838)
+[3](9.07875,10.6755,-19.7543)
+rLeftHandSideMatrixrLeftHandSideMatrix :  : [3](-15.3283,-7.39738,22.7257)
+[3,3]((0.578142,-0.289959,-0.288183),(-0.289959,0.577844,-0.287886),(-0.288183,-0.287886,0.576069))rLeftHandSideMatrix : 
+rRightHandSideVector : [3,3]((0.838609,-0.502641,-0.335967),(-0.502641,0.599384,-0.0967422),(-0.335967,-0.0967422,0.43271))
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.680222,-0.271082,-0.40914),(-0.271082,0.475559,-0.204476),(-0.40914,-0.204476,0.613616))[3](1.85829,-3.38472,1.52643)
+ms_temp : 
+rRightHandSideVector : [3,3]((0.711634,-0.660439,-0.0511956),(-0.660439,0.96423,-0.303791),(-0.0511956,-0.303791,0.354987))
+rRightHandSideVector : [3](414.263,419.53,411.913)
+[3](-8.6592,17.5274,-8.86819)
+ms_temp : [3](0.674939,-20.954,20.2791)rRightHandSideVector : 
+ms_temp : [3](1.85829,-3.38472,1.52643)[3](-27.5834,23.2109,4.37252)
+[3](297.178,302.289,244.426)
+[3](136.565,100.798,139.099)
+rLeftHandSideMatrix : 
+ms_temp : rRightHandSideVector[3,3]((0.872529,-0.467644,-0.404885),(-0.467644,0.537164,-0.0695195),(-0.404885,-0.0695195,0.474405)) : 
+[3](523.09,464.571,486.255)
+rRightHandSideVector : [3](0.674939,-20.954,20.2791)
+rRightHandSideVector : rRightHandSideVector[3](-9.61938,14.2198,-4.60042)[3](-27.5834,23.2109,4.37252)
+rLeftHandSideMatrix : 
+[3,3]((0.634289,-0.474624,-0.159665),(-0.474624,0.749292,-0.274668),(-0.159665,-0.274668,0.434333))
+rRightHandSideVector : ms_temp : rLeftHandSideMatrix : [3](-5.88952,-17.1335,23.0231)
+ms_temp : [3](309.024,283.319,314.954)
+[3](322.587,327.059,272.407)
+ : [3,3]((0.431453,-0.173452,-0.258001),(-0.173452,0.649168,-0.475717),(-0.258001,-0.475717,0.733718))
+rRightHandSideVector : [3](-8.6592,17.5274,-8.86819)
+[3](-21.5848,1.89665,19.6882)rRightHandSideVector
+ms_temp :  : rRightHandSideVector : [3](415.94,372.91,361.207)
+[3](-9.61938,14.2198,-4.60042)
+[3](-5.88952,-17.1335,23.0231)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3](-21.5848,1.89665,19.6882)rLeftHandSideMatrix : 
+[3,3]((0.590031,-0.313059,-0.276973),(-0.313059,0.589809,-0.27675),(-0.276973,-0.27675,0.553723))[3,3]((0.555447,-0.518141,-0.0373069),(-0.518141,0.933427,-0.415286),(-0.0373069,-0.415286,0.452593))
+rRightHandSideVector : [3,3]((0.578694,-0.291366,-0.287328),(-0.291366,0.578707,-0.287341),(-0.287328,-0.287341,0.574669))rLeftHandSideMatrix : 
+rRightHandSideVector : 
+[3,3]((0.578123,-0.290404,-0.287719),(-0.290404,0.57831,-0.287906),(-0.287719,-0.287906,0.575625))rRightHandSideVector : 
+rRightHandSideVector : [3](20.1862,-9.35842,-10.8278)
+ms_temp : [3](-5.09829,-12.7786,17.8769)
+ms_temp : [3](-19.2836,2.6785,16.6051)
+ms_temp : [3](102.608,136.565,138.429)
+[3](321.516,314.954,275.996)
+[3](441.23,415.94,399.734)
+[3](-16.0984,16.9416,-0.843226)rRightHandSideVector : 
+ms_temp : [3](-5.09829,-12.7786,17.8769)
+rRightHandSideVector[3](250.371,213.78,233.606)
+ : rRightHandSideVector : rLeftHandSideMatrix : [3](20.1862,-9.35842,-10.8278)rRightHandSideVector
+ : [3,3]((0.698337,-0.668383,-0.0299542),(-0.668383,0.997707,-0.329324),(-0.0299542,-0.329324,0.359278))
+rRightHandSideVector : [3](-16.0984,16.9416,-0.843226)
+rLeftHandSideMatrix : [3](-19.2836,2.6785,16.6051)
+[3](0.100062,-20.0532,19.9531)
+ms_temp : [3,3]((0.566985,-0.283884,-0.283102),(-0.283884,0.583066,-0.299182),(-0.283102,-0.299182,0.582284))
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](19.9177,-9.18965,-10.728)
+ms_temp : [3](294.644,297.178,241.43)[3,3]((0.589847,-0.312963,-0.276884),(-0.312963,0.589892,-0.276929),(-0.276884,-0.276929,0.553813))
+
+rRightHandSideVector : [3](68.3656,102.608,104.384)rRightHandSideVector : 
+[3](0.100062,-20.0532,19.9531)[3,3]((0.550979,-0.276137,-0.274842),(-0.276137,0.592131,-0.315994),(-0.274842,-0.315994,0.590836))
+
+rRightHandSideVector : [3](-18.0952,18.538,-0.44283)
+ms_temp : rLeftHandSideMatrix : rRightHandSideVector : [3](174.859,134.283,155.369)[3](-0.485323,20.6727,-20.1874)
+[3](19.9177,-9.18965,-10.728)
+[3,3]((0.634205,-0.483284,-0.15092),(-0.483284,0.762473,-0.279188),(-0.15092,-0.279188,0.430109))
+ms_temp : [3](464.571,441.23,486.255)
+rRightHandSideVector : 
+[3](-18.0952,18.538,-0.44283)rRightHandSideVector
+rRightHandSideVector :  : rLeftHandSideMatrix : [3](-4.10301,-18.3567,22.4597)
+ms_temp : rLeftHandSideMatrix : [3,3]((0.591108,-0.29393,-0.297178),(-0.29393,0.569092,-0.275162),(-0.297178,-0.275162,0.57234))
+[3](-0.485323,20.6727,-20.1874)rRightHandSideVector : 
+[3,3]((0.509899,-0.344432,-0.165467),(-0.344432,0.722953,-0.378522),(-0.165467,-0.378522,0.543989))
+rRightHandSideVector : [3](-20.0713,21.0637,-0.992439)[3](316.088,322.587,268.088)
+ms_temp : 
+rLeftHandSideMatrix : [3](9.59553,10.3784,-19.9739)
+ms_temp : [3,3]((0.588619,-0.310666,-0.277953),(-0.310666,0.588689,-0.278023),(-0.277953,-0.278023,0.555976))[3](92.1087,47.7776,63.0864)
+rRightHandSideVector : 
+[3](104.384,102.608,138.429)
+[3](-22.2087,18.2826,3.92613)rRightHandSideVector : 
+ms_temp : [3](-20.0713,21.0637,-0.992439)rRightHandSideVector
+ : [3](486.255,441.23,456.678)
+rRightHandSideVector : [3](-4.10301,-18.3567,22.4597)
+[3](9.59553,10.3784,-19.9739)
+rRightHandSideVector : rLeftHandSideMatrix : rLeftHandSideMatrix : [3](-22.2087,18.2826,3.92613)
+[3,3]((0.723279,-0.377519,-0.34576),(-0.377519,0.542696,-0.165177),(-0.34576,-0.165177,0.510937))
+rRightHandSideVector : [3,3]((0.718339,-0.376028,-0.342312),(-0.376028,0.544863,-0.168836),(-0.342312,-0.168836,0.511147))
+rRightHandSideVector : rLeftHandSideMatrix : [3](-14.9706,16.6714,-1.7008)
+ms_temp : [3](-16.9994,-4.53805,21.5375)[3,3]((0.583311,-0.300414,-0.282897),(-0.300414,0.583306,-0.282891),(-0.282897,-0.282891,0.565788))
+rRightHandSideVector : 
+ms_temp : [3](283.319,250.371,275.996)
+[3](326.783,321.516,282.908)
+[3](20.3372,-9.74925,-10.588)
+ms_temp : rLeftHandSideMatrixrRightHandSideVector :  : rRightHandSideVector : [3](104.384,138.429,140.12)
+[3](-14.9706,16.6714,-1.7008)
+[3](-16.9994,-4.53805,21.5375)
+[3,3]((0.580099,-0.294093,-0.286006),(-0.294093,0.580057,-0.285964),(-0.286006,-0.285964,0.571971))
+rRightHandSideVector : rLeftHandSideMatrixrLeftHandSideMatrix :  : rRightHandSideVector : [3](-15.1138,-1.60845,16.7222)
+ms_temp : [3](20.3372,-9.74925,-10.588)
+[3,3]((0.719834,-0.661952,-0.0578821),(-0.661952,0.956026,-0.294075),(-0.0578821,-0.294075,0.351957))
+rRightHandSideVector : [3](456.678,441.23,419.718)rLeftHandSideMatrix : 
+[3,3]((0.589929,-0.313169,-0.27676),(-0.313169,0.590029,-0.276859),(-0.27676,-0.276859,0.553619))
+rRightHandSideVector : [3](1.22826,-22.1341,20.9059)rRightHandSideVector : 
+ms_temp : [3](-15.1138,-1.60845,16.7222)
+[3](302.289,308.859,248.379)
+[3,3]((0.57878,-0.291492,-0.287288),(-0.291492,0.578748,-0.287256),(-0.287288,-0.287256,0.574544))
+rRightHandSideVector : rRightHandSideVector : [3](-17.3095,17.8422,-0.53266)
+[3](1.22826,-22.1341,20.9059)
+[3](9.44152,10.912,-20.3535)
+ms_temp : rLeftHandSideMatrix : rLeftHandSideMatrix : ms_temp : [3](140.12,138.429,174.7)
+[3](213.78,174.859,195.278)
+[3,3]((0.571389,-0.276937,-0.294453),(-0.276937,0.571754,-0.294817),(-0.294453,-0.294817,0.58927))rRightHandSideVector : 
+rRightHandSideVector : [3](9.44152,10.912,-20.3535)
+[3](-10.9024,-12.3095,23.2119)[3,3]((0.58021,-0.294069,-0.286141),(-0.294069,0.579922,-0.285853),(-0.286141,-0.285853,0.571994))
+ms_temp : 
+rRightHandSideVector : rRightHandSideVector : rLeftHandSideMatrix : [3](-5.67738,20.1696,-14.4922)
+[3](-17.3095,17.8422,-0.53266)
+[3,3]((0.556056,-0.272624,-0.283432),(-0.272624,0.583258,-0.310634),(-0.283432,-0.310634,0.594065))
+rRightHandSideVector : [3](327.059,328.7,288.489)
+ms_temp : [3](10.2631,-20.2728,10.0097)
+rRightHandSideVector : ms_temp : rLeftHandSideMatrix : [3](486.255,456.678,496.81)
+[3](-10.9024,-12.3095,23.2119)[3,3]((0.58986,-0.312975,-0.276886),(-0.312975,0.589891,-0.276916),(-0.276886,-0.276916,0.553802))
+
+rRightHandSideVector : rRightHandSideVector : [3](-18.7884,19.2891,-0.500756)
+ms_temp : [3](104.384,140.12,106.22)
+rLeftHandSideMatrix : [3](-5.67738,20.1696,-14.4922)
+[3](134.283,92.1087,114.099)[3,3]((0.824727,-0.381566,-0.443161),(-0.381566,0.479665,-0.0980987),(-0.443161,-0.0980987,0.54126))rRightHandSideVector : 
+[3](10.2631,-20.2728,10.0097)
+rRightHandSideVector : 
+rRightHandSideVector : rLeftHandSideMatrix : [3](9.55884,-20.5683,11.0095)
+rLeftHandSideMatrix : ms_temp : [3](-18.7884,19.2891,-0.500756)
+[3](288.489,328.7,275.437)
+[3,3]((0.580235,-0.285883,-0.294352),(-0.285883,0.571715,-0.285832),(-0.294352,-0.285832,0.580184))
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.588737,-0.310801,-0.277937),(-0.310801,0.588713,-0.277912),(-0.277937,-0.277912,0.555849))rRightHandSideVector : 
+[3](-39.5895,-6.63997,46.2295)rRightHandSideVector : [3](9.55884,-20.5683,11.0095)
+ms_temp : [3](20.4935,-10.0003,-10.4932)
+[3](692.656,655.21,594.528)
+
+[3,3]((0.51449,-0.574039,0.0595488),(-0.574039,1.1264,-0.55236),(0.0595488,-0.55236,0.492811))rRightHandSideVector : 
+rRightHandSideVector : [3](-39.5895,-6.63997,46.2295)
+rLeftHandSideMatrix : [3](-24.5811,27.4262,-2.8451)
+ms_temp : rLeftHandSideMatrix : ms_temp[3,3]((0.475642,-0.375858,-0.0997838),(-0.375858,0.822613,-0.446755),(-0.0997838,-0.446755,0.546539)) : 
+rRightHandSideVector : [3](47.7776,0,0)[3,3]((0.588335,-0.286949,-0.301386),(-0.286949,0.564882,-0.277933),(-0.301386,-0.277933,0.579319))
+[3](-19.9501,7.31208,12.638)
+ms_temp : 
+rRightHandSideVector : rRightHandSideVector : [3](106.22,140.12,142.047)
+[3](-55.4478,30.2649,25.1829)[3](327.059,288.489,272.407)
+[3](-24.5811,27.4262,-2.8451)
+
+rRightHandSideVector : ms_temp : [3](-19.9501,7.31208,12.638)rRightHandSideVector
+ : [3](692.656,594.528,602.108)
+rLeftHandSideMatrix : [3](20.4935,-10.0003,-10.4932)
+rRightHandSideVector : rLeftHandSideMatrix : [3,3]((0.583302,-0.300401,-0.282901),(-0.300401,0.583302,-0.282901),(-0.282901,-0.282901,0.565801))
+rRightHandSideVector : [3](-55.4478,30.2649,25.1829)
+[3,3]((0.72256,-0.477436,-0.245124),(-0.477436,0.661461,-0.184025),(-0.245124,-0.184025,0.429149))
+rRightHandSideVector : rLeftHandSideMatrixrLeftHandSideMatrix :  : [3](10.5096,10.5096,-21.0191)
+ms_temp : [3](-1.51733,-17.541,19.0583)[3,3]((0.534192,-0.29486,-0.239332),(-0.29486,0.630751,-0.335891),(-0.239332,-0.335891,0.575223))
+ms_temp : 
+rRightHandSideVector : [3](0,0,37.1494)
+[3](272.407,288.489,234.894)
+rRightHandSideVector : [3](-35.3028,45.038,-9.73519)
+[3](10.5096,10.5096,-21.0191)ms_temp : 
+[3](692.656,602.108,656.707)[3,3]((0.582268,-0.297347,-0.284921),(-0.297347,0.581202,-0.283855),(-0.284921,-0.283855,0.568776))
+
+rRightHandSideVector : rRightHandSideVectorrRightHandSideVector :  : rLeftHandSideMatrix : [3](-9.33077,-10.9074,20.2382)
+ms_temp : [3](-35.3028,45.038,-9.73519)[3,3]((0.583297,-0.300231,-0.283066),(-0.300231,0.583132,-0.282901),(-0.283066,-0.282901,0.565966))
+
+rRightHandSideVector : [3](104.384,106.22,69.7183)
+[3](-1.51733,-17.541,19.0583)
+[3](9.98246,9.97665,-19.9591)rRightHandSideVector : 
+ms_temp : [3](-9.33077,-10.9074,20.2382)rLeftHandSideMatrix
+ : [3](0,0,35.2656)
+[3,3]((0.624613,-0.359477,-0.265136),(-0.359477,0.607134,-0.247657),(-0.265136,-0.247657,0.512793))
+rRightHandSideVector : rLeftHandSideMatrixrLeftHandSideMatrix : rRightHandSideVector :  : [3](-42.7004,11.596,31.1044)
+[3](9.98246,9.97665,-19.9591)ms_temp : 
+[3,3]((0.487851,-0.249755,-0.238096),(-0.249755,0.640313,-0.390558),(-0.238096,-0.390558,0.628654))[3](656.707,602.108,569.681)
+
+rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.580026,-0.293992,-0.286033),(-0.293992,0.580028,-0.286036),(-0.286033,-0.286036,0.57207))rRightHandSideVector : 
+[3](-16.5781,0.0859277,16.4922)rRightHandSideVector : 
+ms_temp : [3](9.42015,11.1047,-20.5249)[3,3]((0.583297,-0.300231,-0.283066),(-0.300231,0.583132,-0.282901),(-0.283066,-0.282901,0.565966))
+[3](165.079,139.099,122.704)
+[3](-42.7004,11.596,31.1044)
+
+rRightHandSideVector : [3](-16.5781,0.0859277,16.4922)rRightHandSideVector : 
+rLeftHandSideMatrix : ms_temp[3](10.8633,10.857,-21.7203) : 
+ms_temp : [3](142.047,140.12,176.962)
+[3,3]((0.555908,-0.285374,-0.270534),(-0.285374,0.596211,-0.310837),(-0.270534,-0.310837,0.581371))
+rRightHandSideVector : rRightHandSideVectorrLeftHandSideMatrix :  : [3](0,0,38.3773)
+[3](9.42015,11.1047,-20.5249)
+[3,3]((0.697611,-0.203991,-0.493619),(-0.203991,0.418016,-0.214025),(-0.493619,-0.214025,0.707644))
+rRightHandSideVector : [3](-38.1229,74.4482,-36.3253)
+rLeftHandSideMatrix : ms_temp : [3](-25.2152,0.161931,25.0533)
+ms_temp : [3](820.619,692.656,814.685)
+[3](122.704,100.798,80.6751)
+[3,3]((0.549053,-0.274927,-0.274126),(-0.274927,0.592993,-0.318066),(-0.274126,-0.318066,0.592192))
+rRightHandSideVector : rRightHandSideVector : rRightHandSideVector : [3](10.3691,-20.6424,10.2733)
+ms_temp : [3](-25.2152,0.161931,25.0533)
+[3](-38.1229,74.4482,-36.3253)
+[3](106.22,142.047,108.115)
+rLeftHandSideMatrix : rLeftHandSideMatrix : rRightHandSideVector : [3,3]((0.870177,-0.43804,-0.432137),(-0.43804,0.507804,-0.0697636),(-0.432137,-0.0697636,0.501901))
+[3](10.3691,-20.6424,10.2733)
+rRightHandSideVector : [3,3]((0.596358,-0.32621,-0.270148),(-0.32621,0.597649,-0.271439),(-0.270148,-0.271439,0.541587))
+rRightHandSideVector : [3](21.1845,-21.238,0.05348)
+[3](-82.4843,30.0487,52.4355)
+ms_temp : ms_temp : rLeftHandSideMatrix : [3](814.685,692.656,656.707)
+[3](165.079,207.702,170.897)
+[3,3]((0.591488,-0.316144,-0.275344),(-0.316144,0.591639,-0.275495),(-0.275344,-0.275495,0.550838))
+rRightHandSideVector : rRightHandSideVector : [3](20.6931,-10.1044,-10.5887)
+ms_temp : [3](21.1845,-21.238,0.05348)
+[3](108.115,142.047,144.308)
+rLeftHandSideMatrix : rRightHandSideVector : [3](20.6931,-10.1044,-10.5887)
+[3,3]((0.476931,-0.346269,-0.130662),(-0.346269,0.775589,-0.42932),(-0.130662,-0.42932,0.559982))
+rRightHandSideVector : rLeftHandSideMatrix : [3](19.1743,-19.5183,0.344019)
+ms_temp : [3,3]((0.580625,-0.295295,-0.28533),(-0.295295,0.580752,-0.285457),(-0.28533,-0.285457,0.570787))
+rRightHandSideVector : [3](207.702,250.831,240.153)
+[3](9.38331,11.3689,-20.7522)
+ms_temp : rRightHandSideVector : [3](144.308,142.047,179.535)
+[3](19.1743,-19.5183,0.344019)
+rLeftHandSideMatrix : [3,3]((0.879847,-0.622188,-0.257659),(-0.622188,0.724124,-0.101935),(-0.257659,-0.101935,0.359594))
+rRightHandSideVector : [3](20.6835,-2.17747,-18.5061)
+ms_temp : [3](240.153,250.831,294.644)
+DISPLACEMENT CRITERIA :: [ Obtained tol = 6.72234e-15; Expected ratio = 1e-06; Absolute tol = 2.42785e-12; ]
+"convergence is achieved" : convergence is achieved
+Solved!

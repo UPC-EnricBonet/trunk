@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/enric/kratos/applications/flowtransport_application/FlowTransport.gid/FlowTransport.py", line 106, in <module>
+    while(time <= final_time):
+NameError: name 'final_time' is not defined

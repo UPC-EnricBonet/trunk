@@ -1,0 +1,37 @@
+ |  /           |             
+ ' /   __| _` | __|  _ \   __|
+ . \  |   (   | |   (   |\__ \ 
+_|\_\_|  \__,_|\__|\___/ ____/
+           Multi-Physics 3.3.11098
+Importing    KratosFlowTransportApplication
+Initializing KratosFlowTransportApplication... 
+Importing    KratosExternalSolversApplication
+Initializing KratosExternalSolversApplication... 
+Importing    KratosMeshingApplication
+Initializing Kratos MeshingApplication... 
+[ "FlowTransport" ] 
+[ Opened for IO: .node, .prop, .elem, .cond, .init  ]
+  [Reading Nodes    : 216 nodes read]
+  [Reading Elements : 378 elements read] [Type: Flow]
+  [Total Lines Read : 659]
+variables for the Poisson solver added correctly
+about to solve!
+Solved Fluid!
+rReferenceElement : Element #0 : 
+2 dimensional triangle with three nodes in 2D space    Dimension               : 2
+    working space dimension : 2
+    Local space dimension   : 2
+
+    Point 1	 : (0 , 0 , 0)
+    Point 2	 : (0 , 0 , 0)
+    Point 3	 : (0 , 0 , 0)
+    Center	 : (0 , 0 , 0)
+
+    Length	 : 0
+    Area	 : 0
+    Volume	 : 0
+    Jacobian in the origin	 : [2,2]((0,0),(0,0))
+rReferenceBoundaryCondition : Condition #0 : 
+a point load in 2D space
+variables for the Poisson solver added correctly
+Solved Transport!

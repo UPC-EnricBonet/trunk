@@ -1,0 +1,198 @@
+// Project includes 
+#include "includes/define.h"
+#include "custom_conditions/leakage.h"
+#include "flow_application.h"
+#include "utilities/math_utils.h"
+
+
+namespace Kratos
+{
+    
+        typedef GeometryData::KratosGeometryType KratosGeometryType;
+        
+	//************************************************************************************
+	//************************************************************************************
+	Leakage::Leakage(IndexType NewId, GeometryType::Pointer pGeometry)
+		: Condition(NewId, pGeometry)
+	{		
+		//DO NOT ADD DOFS HERE!!!
+	}
+
+	//************************************************************************************
+	//************************************************************************************
+	Leakage::Leakage(IndexType NewId, GeometryType::Pointer pGeometry,  PropertiesType::Pointer pProperties)
+		: Condition(NewId, pGeometry, pProperties)
+	{
+	}
+	Condition::Pointer Leakage::Create(IndexType NewId, NodesArrayType const& ThisNodes,  PropertiesType::Pointer pProperties) const
+	{
+		return Condition::Pointer(new Leakage(NewId, GetGeometry().Create(ThisNodes), pProperties));
+	}
+
+	Leakage::~Leakage()
+	{
+	}
+
+	//************************************************************************************
+	//************************************************************************************
+	void Leakage::CalculateRightHandSide(VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo)
+	{
+                //calculation flags
+                bool CalculateStiffnessMatrixFlag = false;
+                bool CalculateResidualVectorFlag = true;
+                MatrixType temp = Matrix();
+
+                CalculateAll(temp, rRightHandSideVector, rCurrentProcessInfo, CalculateStiffnessMatrixFlag, CalculateResidualVectorFlag);
+                
+		
+	}
+
+	//************************************************************************************
+	//************************************************************************************
+	void Leakage::CalculateLocalSystem(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo)
+	{
+		
+            //calculation flags
+            bool CalculateStiffnessMatrixFlag = true;
+            bool CalculateResidualVectorFlag = true;
+
+            CalculateAll(rLeftHandSideMatrix, rRightHandSideVector, rCurrentProcessInfo, CalculateStiffnessMatrixFlag, CalculateResidualVectorFlag);
+                
+               
+	}
+        
+        void Leakage::CalculateAll(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo, bool CalculateStiffnessMatrixFlag, bool CalculateResidualVectorFlag)
+        {
+            KRATOS_TRY
+                
+                //Set Matrix & vector size
+                unsigned int number_of_nodes = GetGeometry().size();
+                unsigned int MatSize=number_of_nodes;
+            
+                if (CalculateStiffnessMatrixFlag == true) //calculation of the matrix is required
+                {
+                    if(rLeftHandSideMatrix.size1() != MatSize)
+                            rLeftHandSideMatrix.resize(MatSize,MatSize,false);
+                    noalias(rLeftHandSideMatrix) = ZeroMatrix(MatSize,MatSize);
+                }
+                
+                if (CalculateResidualVectorFlag == true) //calculation of the matrix is required
+                {
+                    if(rRightHandSideVector.size() != MatSize)
+			rRightHandSideVector.resize(MatSize,false);
+                }
+                
+                //Get properties
+                const double leakageCoefficient = GetProperties()[LEAKAGE_COEFFICIENT];
+                const double level = GetProperties()[LEVEL];
+                
+                //Catch type of element
+                KratosGeometryType typeOfElement= GetGeometry().GetGeometryType();
+                 
+                switch ( typeOfElement ) {
+                    case  GeometryData::Kratos_Point2D:
+                  this->CalculateLocalSystemPoint(rLeftHandSideMatrix, rRightHandSideVector, rCurrentProcessInfo, leakageCoefficient, level, CalculateStiffnessMatrixFlag, CalculateResidualVectorFlag);
+                  break;
+                    case GeometryData::Kratos_Line2D2:
+                  this->CalculateLocalSystemLine(rLeftHandSideMatrix, rRightHandSideVector, rCurrentProcessInfo, leakageCoefficient, level, CalculateStiffnessMatrixFlag, CalculateResidualVectorFlag);
+                  break;
+                    case GeometryData::Kratos_Triangle2D3:
+                  this->CalculateLocalSystemTriangle(rLeftHandSideMatrix, rRightHandSideVector, rCurrentProcessInfo, leakageCoefficient, level, CalculateStiffnessMatrixFlag, CalculateResidualVectorFlag);
+                  break;
+                default:
+                  KRATOS_ERROR(std::logic_error, "This element is not yet implement in order to solve source term!!!!! ERROR", "");
+                  break;
+                }
+                
+                KRATOS_CATCH("")
+        }
+        
+        
+        void Leakage::CalculateLocalSystemPoint(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo, const double aleakageCoeff, const double alevel, bool CalculateStiffnessMatrixFlag, bool CalculateResidualVectorFlag)
+        {
+		
+                double currentHeadLevel = GetGeometry()[0].FastGetSolutionStepValue(HEAD_LEVEL);
+                ////double stepHeadLevel = GetGeometry()[0].GetSolutionStepValue(HEAD_LEVEL,0);
+		
+                if (CalculateStiffnessMatrixFlag == true) //calculation of the matrix is required
+                    rLeftHandSideMatrix(0,0) = aleakageCoeff*currentHeadLevel;
+                
+                if (CalculateResidualVectorFlag == true) //calculation of the matrix is required
+                    rRightHandSideVector[0] = aleakageCoeff*alevel;
+                	
+        }
+        
+        void Leakage::CalculateLocalSystemLine(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo, const double aleakageCoeff, const double alevel, bool CalculateStiffnessMatrixFlag, bool CalculateResidualVectorFlag)
+        {
+            
+                
+                if (CalculateStiffnessMatrixFlag == true) //calculation of the matrix is required
+                {
+                    double currentHeadLevel0 = GetGeometry()[0].FastGetSolutionStepValue(HEAD_LEVEL);
+                    double currentHeadLevel1 = GetGeometry()[1].FastGetSolutionStepValue(HEAD_LEVEL);
+                    rLeftHandSideMatrix(0,0) = aleakageCoeff*currentHeadLevel0;
+                    rLeftHandSideMatrix(1,1) = aleakageCoeff*currentHeadLevel1;
+                }
+		
+                if (CalculateResidualVectorFlag == true) //calculation of the matrix is required
+                {
+                    rRightHandSideVector[0] = aleakageCoeff*alevel;
+                    rRightHandSideVector[1] = aleakageCoeff*alevel;
+                }
+		
+        }
+        
+        void Leakage::CalculateLocalSystemTriangle(MatrixType& rLeftHandSideMatrix, VectorType& rRightHandSideVector, ProcessInfo& rCurrentProcessInfo, const double aleakageCoeff, const double alevel, bool CalculateStiffnessMatrixFlag, bool CalculateResidualVectorFlag)
+        {
+
+                if (CalculateStiffnessMatrixFlag == true) //calculation of the matrix is required
+                {
+                    double currentHeadLevel0 = GetGeometry()[0].FastGetSolutionStepValue(HEAD_LEVEL);
+                    double currentHeadLevel1 = GetGeometry()[1].FastGetSolutionStepValue(HEAD_LEVEL);
+                    double currentHeadLevel2 = GetGeometry()[2].FastGetSolutionStepValue(HEAD_LEVEL);
+                
+                    rLeftHandSideMatrix(0,0) = aleakageCoeff*currentHeadLevel0;
+                    rLeftHandSideMatrix(1,1) = aleakageCoeff*currentHeadLevel1;
+                    rLeftHandSideMatrix(2,2) = aleakageCoeff*currentHeadLevel2;
+                }
+                
+		
+                if (CalculateResidualVectorFlag == true) //calculation of the matrix is required
+                {
+                    rRightHandSideVector[0] = aleakageCoeff*alevel;
+                    rRightHandSideVector[1] = aleakageCoeff*alevel;
+                    rRightHandSideVector[2] = aleakageCoeff*alevel;
+                }
+                
+        }
+
+	//************************************************************************************
+	//************************************************************************************
+	void Leakage::EquationIdVector(EquationIdVectorType& rResult, ProcessInfo& CurrentProcessInfo)
+	{
+		int number_of_nodes = GetGeometry().PointsNumber();
+		unsigned int index;
+		unsigned int dim = 1;
+		rResult.resize(number_of_nodes*dim);
+		for (int i=0;i<number_of_nodes;i++)
+		{
+			index = i*dim;
+			rResult[index] = (GetGeometry()[i].GetDof(HEAD_LEVEL).EquationId());			
+		}
+	}
+
+	//************************************************************************************
+	//************************************************************************************
+	  void Leakage::GetDofList(DofsVectorType& ConditionalDofList,ProcessInfo& CurrentProcessInfo)
+	{
+		unsigned int dim = 1;
+		ConditionalDofList.resize(GetGeometry().size()*dim);
+		unsigned int index;
+		for (unsigned int i=0;i<GetGeometry().size();i++)
+		{
+			
+			index = i*dim;
+			ConditionalDofList[index] = (GetGeometry()[i].pGetDof(HEAD_LEVEL));
+		}
+	}
+} // Namespace Kratos
