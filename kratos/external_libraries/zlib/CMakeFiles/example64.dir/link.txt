@@ -1,0 +1,1 @@
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp -g3 -gdwarf-2     CMakeFiles/example64.dir/test/example.o  -o example64  -L/usr/lib/python3.4/config-3.4m-x86_64-linux-gnu/libpython3.4m.so -rdynamic libz.so.1.2.8 -Wl,-rpath,/usr/lib/python3.4/config-3.4m-x86_64-linux-gnu/libpython3.4m.so:/home/enric/kratos/external_libraries/zlib 

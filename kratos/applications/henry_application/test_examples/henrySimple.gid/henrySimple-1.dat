@@ -1,0 +1,98 @@
+Begin ModelPartData
+//  nothing here
+End ModelPartData
+
+Begin Properties 1            
+CONDUCTIVITY 1.0 // all the elements of the group 1 (second column in the list of elements) will have this property
+End Properties
+
+
+Begin Nodes
+1                                 0                      1                     0
+2                                 0                   0.75                     0
+3                               0.5                      1                     0
+4                                 0                    0.5                     0
+5                               0.5                   0.75                     0
+6                               0.5                    0.5                     0
+7                                 0                   0.25                     0
+8                               0.5                   0.25                     0
+9                                 0                      0                     0
+10                                 1                      1                     0
+11                                 1                   0.75                     0
+12                               0.5                      0                     0
+13                                 1                    0.5                     0
+14                                 1                   0.25                     0
+15                                 1                      0                     0
+16                               1.5                      1                     0
+17                               1.5                   0.75                     0
+18                               1.5                    0.5                     0
+19                               1.5                   0.25                     0
+20                               1.5                      0                     0
+21                                 2                      1                     0
+22                                 2                   0.75                     0
+23                                 2                    0.5                     0
+24                                 2                   0.25                     0
+25                                 2                      0                     0
+End Nodes
+
+
+Begin Elements Poisson2D 
+1             1         12        8         9
+2             1         8        7         9
+3             1         15        14         12
+4             1         14        8         12
+5             1         20        19         15
+6             1         19        14         15
+7             1         25        24         20
+8             1         24        19         20
+9             1         8        6         7
+10             1         6        4         7
+11             1         14        13         8
+12             1         13        6         8
+13             1         19        18         14
+14             1         18        13         14
+15             1         24        23         19
+16             1         23        18         19
+17             1         6        5         4
+18             1         5        2         4
+19             1         13        11         6
+20             1         11        5         6
+21             1         18        17         13
+22             1         17        11         13
+23             1         23        22         18
+24             1         22        17         18
+25             1         5        3         2
+26             1         3        1         2
+27             1         11        10         5
+28             1         10        3         5
+29             1         17        16         11
+30             1         16        10         11
+31             1         22        21         17
+32             1         21        16         17
+End Elements
+
+
+Begin NodalData TEMPERATURE          //be careful, variables are case sensitive!
+21  1  12.0 // the 1 means that the DOF is fixed, then we write the fixed displacement (in this case, temperature)
+22  1  12.0 // the 1 means that the DOF is fixed, then we write the fixed displacement (in this case, temperature)
+23  1  12.0 // the 1 means that the DOF is fixed, then we write the fixed displacement (in this case, temperature)
+24  1  12.0 // the 1 means that the DOF is fixed, then we write the fixed displacement (in this case, temperature)
+25  1  12.0 // the 1 means that the DOF is fixed, then we write the fixed displacement (in this case, temperature)
+End NodalData
+
+Begin NodalData POINT_HEAT_SOURCE
+1  1  3.0             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+2  1  3.0             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+4  1  3.0             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+7  1  3.0             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+9  1  3.0             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+End NodalData
+
+
+Begin Conditions PointSource
+1   1  1             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+2   1  2             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+3   1  4             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+4   1  7             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+5   1  9             //fixing it or not does not change anything since it is not a degree of freedom, it's just info that will be used by the condition  
+End Conditions

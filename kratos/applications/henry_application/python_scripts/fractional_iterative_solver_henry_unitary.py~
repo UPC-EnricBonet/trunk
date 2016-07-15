@@ -1,0 +1,74 @@
+from __future__ import print_function, absolute_import, division #makes KratosMultiphysics backward compatible with python 2.6 and 2.7
+# -*- coding: utf-8 -*-
+# importing the Kratos Library
+from KratosMultiphysics import *
+from KratosMultiphysics.HenryApplication import *
+import KratosMultiphysics.KratosUnittest as KratosUnittest
+# Check that KratosMultiphysics was imported in the main script
+CheckForPreviousImport()
+
+#from KratosMultiphysics.KratosUnittest import*
+
+
+def AddVariables(model_part):
+    model_part.AddNodalSolutionStepVariable(DENSITY)
+    model_part.AddNodalSolutionStepVariable(CONCENTRATION)
+    model_part.AddNodalSolutionStepVariable(PRESSURE)
+    model_part.AddNodalSolutionStepVariable(CONCENTRATION_OLD_IT)
+    model_part.AddNodalSolutionStepVariable(STORAGE_BALANCE)
+    model_part.AddNodalSolutionStepVariable(PRESSURE_OLD_ITT)
+    model_part.AddNodalSolutionStepVariable(DARCY_FLOW_BALANCE)
+    model_part.AddNodalSolutionStepVariable(SINKSOURCE_BALANCE)
+
+    print("variables for the fractional iterative solver added correctly")
+
+
+def AddDofs(model_part):
+    print("hi")
+    for node in model_part.Nodes:
+        # adding dofs
+        node.AddDof(PRESSURE)
+        node.AddDof(CONCENTRATION)
+
+    print("dofs for the fractional iterative solver added correctly")
+
+class FractionalIterativeUnitarySolver:
+
+    def __init__(self, model_part, domain_size):
+
+        self.model_part = model_part
+        self.domain_size = domain_size
+
+    def Initialize(self):
+
+        self.domain_size = int(self.domain_size)
+
+        self.solver = FractionalIterativeUnitaryStrategy(
+            self.model_part,
+            self.domain_size
+            )
+
+        print("finished initialization of the Fractional Iterative Unitary Strategy")
+
+
+    def calculateDensityNodes(self):
+        print ("calculateDensity function")
+        (self.solver).calculateDensityNodes()
+
+    def ReadFile(self,filePost):
+        (self.solver).ReadFile(filePost)
+
+
+    def Solve(self):
+
+        print("just before solve")
+        print(self.model_part)
+        (self.solver).Solve()
+        
+    def ExecuteFinalizeSolutionStep(self):
+        print("just before solve")
+
+
+    def Clear(self):
+        (self.solver).Clear()
+

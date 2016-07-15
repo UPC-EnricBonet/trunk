@@ -1,0 +1,16 @@
+/home/enric/kratos/KratosMultiphysics/__init__.py
+/home/enric/kratos/KratosMultiphysics/kratos_utilities.py
+/home/enric/kratos/KratosMultiphysics/kratos_globals.py
+/home/enric/kratos/KratosMultiphysics/application_importer.py
+/home/enric/kratos/KratosMultiphysics/KratosUnittest.py
+/home/enric/kratos/libs/libboost_python.so.1.57.0
+/home/enric/kratos/libs/libz.so.1.2.8
+/home/enric/kratos/libs/libz.so.1
+/home/enric/kratos/libs/libz.so
+/home/enric/kratos/libs/libz.a
+/home/enric/kratos/libs/libKratosCore.so
+/home/enric/kratos/libs/Kratos.so
+/home/enric/kratos/libs/KratosManagerApplication.so
+/home/enric/kratos/KratosMultiphysics/ManagerApplication.py
+/home/enric/kratos/libs/KratosHenryApplication.so
+/home/enric/kratos/KratosMultiphysics/HenryApplication.py

@@ -1,0 +1,154 @@
+Begin ModelPartData
+//  VARIABLE_NAME value
+End ModelPartData
+
+Begin Properties 1            
+PERMEABILITY_WATER 1.020408e-06 
+POROSITY 0.35
+DIFFUSION_COEFFICIENT 1.88571e-05 //6.60000e-06
+End Properties
+
+Begin Properties 2            
+SINK_SOURCE_PRESS 6.60000e-02
+End Properties
+
+Begin Properties 3            
+PRESCRIBED_VALUE 0.0357
+End Properties
+
+Begin Nodes
+1                                 0                      1                     0
+2                                 0                   0.75                     0
+3                               0.5                      1                     0
+4                                 0                    0.5                     0
+5                               0.5                   0.75                     0
+6                               0.5                    0.5                     0
+7                                 0                   0.25                     0
+8                               0.5                   0.25                     0
+9                                 0                      0                     0
+10                                 1                      1                     0
+11                                 1                   0.75                     0
+12                               0.5                      0                     0
+13                                 1                    0.5                     0
+14                                 1                   0.25                     0
+15                                 1                      0                     0
+16                               1.5                      1                     0
+17                               1.5                   0.75                     0
+18                               1.5                    0.5                     0
+19                               1.5                   0.25                     0
+20                               1.5                      0                     0
+21                                 2                      1                     0
+22                                 2                   0.75                     0
+23                                 2                    0.5                     0
+24                                 2                   0.25                     0
+25                                 2                      0                     0
+End Nodes
+
+Begin Elements FlowPressureTrans2D 
+1             1         12        8         7
+2             1         15        14         8
+3             1         20        19         14
+4             1         25        24         19
+5             1         8        6         4
+6             1         14        13         6
+7             1         19        18         13
+8             1         24        23         18
+9             1         6        5         2
+10             1         13        11         5
+11             1         18        17         11
+12             1         23        22         17
+13             1         5        3         1
+14             1         11        10         3
+15             1         17        16         10
+16             1         22        21         16
+End Elements
+
+Begin NodalData PRESSURE   //Right_side hydrostatic sea water pressure       
+21	1	    0.00000
+22	1	 1005.51519
+23	1	 2011.03038
+24	1	 3016.54551
+25	1	 4022.06076
+End NodalData
+
+Begin Conditions LineSinkSourcePressure //Left_side sinkSource continental freshWater
+429 2        1    2       
+430 2        2    4        
+431 2        4    7        
+432 2        7    9              
+End Conditions
+
+Begin Conditions MassFlow //Right_side massFlow sea water
+439 3        21          
+440 3        22          
+441 3        23          
+442 3        24         
+443 3        25              
+End Conditions
+
+Begin NodalData CONCENTRATION //Left_side freshwater concentration       
+1	1	0.00 
+2	1	0.00 
+4	1	0.00 
+7	1	0.00 
+9	1	0.00 
+End NodalData
+
+Begin ElementalData DENSITY_ELEM  //Non-constant	
+1	1000
+2	1000
+3	1000
+4	1000
+5	1000
+6	1000
+7	1000
+8	1000
+9	1000
+10	1000
+11	1000
+12	1000
+13	1000
+14	1000
+15	1000
+16	1000
+End ElementalData
+
+Begin ElementalData DARCY_FLOW_X //Non-constant	
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+11	0
+12	0
+13	0
+14	0
+15	0
+16	0
+End ElementalData	
+
+Begin ElementalData DARCY_FLOW_Y //Non-constant	
+1	0
+2	0
+3	0
+4	0
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+11	0
+12	0
+13	0
+14	0
+15	0
+16	0
+End ElementalData	
+
+

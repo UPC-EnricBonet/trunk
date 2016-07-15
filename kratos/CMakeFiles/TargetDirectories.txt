@@ -1,0 +1,11 @@
+/home/enric/kratos/external_libraries/zlib/CMakeFiles/zlib.dir
+/home/enric/kratos/external_libraries/zlib/CMakeFiles/example.dir
+/home/enric/kratos/applications/henry_application/CMakeFiles/KratosHenryApplication.dir
+/home/enric/kratos/applications/manager_application/CMakeFiles/KratosManagerApplication.dir
+/home/enric/kratos/external_libraries/zlib/CMakeFiles/minigzip.dir
+/home/enric/kratos/external_libraries/zlib/CMakeFiles/example64.dir
+/home/enric/kratos/external_libraries/zlib/CMakeFiles/minigzip64.dir
+/home/enric/kratos/external_libraries/zlib/CMakeFiles/zlibstatic.dir
+/home/enric/kratos/external_libraries/gidpost/CMakeFiles/gidpost.dir
+/home/enric/kratos/kratos/CMakeFiles/Kratos.dir
+/home/enric/kratos/kratos/CMakeFiles/KratosCore.dir

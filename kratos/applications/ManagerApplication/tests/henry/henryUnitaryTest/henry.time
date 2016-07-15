@@ -1,0 +1,4 @@
+                                         Start   	Stop     	Elapsed 
+Reading Input .......................... 245622s     	245622s     	0.000764127s
+                                 Repeat # 	Total     	Max     	Min     	Average     	%
+Reading Input.......................... 1 	0.000764127s     	0.000764127s     	0.000764127s     	0.000764127s     	1.19692%

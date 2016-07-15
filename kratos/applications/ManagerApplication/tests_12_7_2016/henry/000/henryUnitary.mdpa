@@ -1,0 +1,78 @@
+Begin ModelPartData
+//  VARIABLE_NAME value
+End ModelPartData
+
+Begin Properties 1            
+PERMEABILITY_WATER 1.020408e-06 
+POROSITY 0.35
+DIFFUSION_COEFFICIENT 1.88571e-05 //6.60000e-06
+End Properties
+
+Begin Properties 2            
+SINK_SOURCE_PRESS 6.60000e-02
+End Properties
+
+Begin Properties 3            
+PRESCRIBED_VALUE 0.0357
+End Properties
+
+Begin Nodes
+1                                 0                      1                     0
+2                                 0                      0                     0
+3                                 1                      1                     0
+4                                 1                      0                     0
+5                                 2                      1                     0
+6                                 2                      0                     0
+End Nodes
+
+Begin Elements FlowPressureTrans2D 
+1             1         2        4         3
+2             1         3        1         2
+3             1         4        6         5
+4             1         5        3         4
+
+End Elements
+
+Begin NodalData PRESSURE   //Right_side hydrostatic sea water pressure       
+5	1	    0.00000
+6	1	 1005.51519
+End NodalData
+
+Begin Conditions LineSinkSourcePressure //Left_side sinkSource continental freshWater
+7    2      1    2       
+            
+End Conditions
+
+Begin Conditions MassFlow //Right_side massFlow sea water
+8    3      5          
+9    3      6          
+           
+End Conditions
+
+Begin NodalData CONCENTRATION //Left_side freshwater concentration       
+1	1	0.00 
+2	1	0.00  
+End NodalData
+
+Begin ElementalData DENSITY_ELEM  //Non-constant	
+1	1000
+2	1000
+3	1000
+4	1000
+End ElementalData
+
+Begin ElementalData DARCY_FLOW_X //Non-constant	
+1	0
+2	0
+3	0
+4	0
+End ElementalData	
+
+Begin ElementalData DARCY_FLOW_Y //Non-constant	
+1	0
+2	0
+3	0
+4	0
+End ElementalData	
+
+

@@ -1,0 +1,26 @@
+{
+    "problem_data"             : {
+        "problem_name"    : "dynamic_test",
+        "model_part_name" : "Structure",
+        "domain_size"     : 2,
+        "time_step"       : 0.001,
+        "start_time"      : 0.001,
+        "end_time"        : 1.00,
+        "echo_level"      : 0
+    },
+
+    "list_other_processes" :[
+    {
+        "implemented_in_file"   : "from_json_check_result_process",
+        "implemented_in_module" : "KratosMultiphysics",
+        "help"                  : "",
+        "process_name"          : "FromJsonCheckResultProcess",
+        "Parameters"            : {
+            "check_variables" : ["DISPLACEMENT_X","VELOCITY_X","ACCELERATION_X"],
+            "input_file_name" : "dynamic_test/dynamic_bossak_test_results.json",
+            "model_part_name"  : "DISPLACEMENT_Displacement_Auto1",
+            "time_frequency"   : 0.01
+        }
+    }
+    ]
+}

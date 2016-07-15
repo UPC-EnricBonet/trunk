@@ -1,0 +1,710 @@
+The system is: Linux - 3.13.0-86-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: ;-msse3
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/enric/kratos/cmake_build/CMakeFiles/3.3.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: ;-msse3;-std=c++11
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/enric/kratos/cmake_build/CMakeFiles/3.3.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_312e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_312e4.dir/build.make CMakeFiles/cmTC_312e4.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_312e4.dir/testCCompiler.c.o
+/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_312e4.dir/testCCompiler.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_312e4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_312e4.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3     CMakeFiles/cmTC_312e4.dir/testCCompiler.c.o  -o cmTC_312e4 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3b66c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b66c.dir/build.make CMakeFiles/cmTC_3b66c.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_3b66c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b66c.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3    -v CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o  -o cmTC_3b66c -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-msse3' '-v' '-o' 'cmTC_3b66c' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3b66c /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3b66c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3b66c.dir/build.make CMakeFiles/cmTC_3b66c.dir/build]
+  ignore line: [make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»]
+  ignore line: [Building C object CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -msse3    -o CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_3b66c]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b66c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc   -msse3    -v CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o  -o cmTC_3b66c -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-v' '-o' 'cmTC_3b66c' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3b66c /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3b66c] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTC_3b66c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05c13/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05c13.dir/build.make CMakeFiles/cmTC_05c13.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_05c13.dir/feature_tests.c.o
+/usr/bin/gcc   -msse3    -std=c11 -o CMakeFiles/cmTC_05c13.dir/feature_tests.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_05c13
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c13.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3     CMakeFiles/cmTC_05c13.dir/feature_tests.c.o  -o cmTC_05c13 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b7028/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7028.dir/build.make CMakeFiles/cmTC_b7028.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_b7028.dir/feature_tests.c.o
+/usr/bin/gcc   -msse3    -std=c99 -o CMakeFiles/cmTC_b7028.dir/feature_tests.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b7028
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7028.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3     CMakeFiles/cmTC_b7028.dir/feature_tests.c.o  -o cmTC_b7028 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_66c9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_66c9a.dir/build.make CMakeFiles/cmTC_66c9a.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_66c9a.dir/feature_tests.c.o
+/usr/bin/gcc   -msse3    -std=c90 -o CMakeFiles/cmTC_66c9a.dir/feature_tests.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_66c9a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66c9a.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3     CMakeFiles/cmTC_66c9a.dir/feature_tests.c.o  -o cmTC_66c9a -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba102/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba102.dir/build.make CMakeFiles/cmTC_ba102.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_ba102.dir/testCXXCompiler.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_ba102.dir/testCXXCompiler.cxx.o -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_ba102
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba102.dir/link.txt --verbose=1
+/usr/bin/g++    -msse3 -std=c++11     CMakeFiles/cmTC_ba102.dir/testCXXCompiler.cxx.o  -o cmTC_ba102 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb628/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb628.dir/build.make CMakeFiles/cmTC_cb628.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_cb628
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb628.dir/link.txt --verbose=1
+/usr/bin/g++    -msse3 -std=c++11    -v CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cb628 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-v' '-o' 'cmTC_cb628' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cb628 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cb628/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cb628.dir/build.make CMakeFiles/cmTC_cb628.dir/build]
+  ignore line: [make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»]
+  ignore line: [Building CXX object CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++    -msse3 -std=c++11    -o CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_cb628]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb628.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++    -msse3 -std=c++11    -v CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cb628 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-msse3' '-std=c++11' '-v' '-o' 'cmTC_cb628' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_cb628 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cb628] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTC_cb628.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ab8e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ab8e.dir/build.make CMakeFiles/cmTC_9ab8e.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_9ab8e.dir/feature_tests.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -std=c++1y -o CMakeFiles/cmTC_9ab8e.dir/feature_tests.cxx.o -c /home/enric/kratos/cmake_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_9ab8e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ab8e.dir/link.txt --verbose=1
+/usr/bin/g++    -msse3 -std=c++11     CMakeFiles/cmTC_9ab8e.dir/feature_tests.cxx.o  -o cmTC_9ab8e -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_568c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_568c4.dir/build.make CMakeFiles/cmTC_568c4.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_568c4.dir/feature_tests.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -std=c++11 -o CMakeFiles/cmTC_568c4.dir/feature_tests.cxx.o -c /home/enric/kratos/cmake_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_568c4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_568c4.dir/link.txt --verbose=1
+/usr/bin/g++    -msse3 -std=c++11     CMakeFiles/cmTC_568c4.dir/feature_tests.cxx.o  -o cmTC_568c4 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15818/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15818.dir/build.make CMakeFiles/cmTC_15818.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_15818.dir/feature_tests.cxx.o
+/usr/bin/g++    -msse3 -std=c++11    -std=c++98 -o CMakeFiles/cmTC_15818.dir/feature_tests.cxx.o -c /home/enric/kratos/cmake_build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_15818
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15818.dir/link.txt --verbose=1
+/usr/bin/g++    -msse3 -std=c++11     CMakeFiles/cmTC_15818.dir/feature_tests.cxx.o  -o cmTC_15818 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f0096/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0096.dir/build.make CMakeFiles/cmTC_f0096.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f0096.dir/src.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_f0096.dir/src.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f0096
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0096.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_f0096.dir/src.c.o  -o cmTC_f0096 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67f03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67f03.dir/build.make CMakeFiles/cmTC_67f03.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_67f03.dir/src.cxx.o
+/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -DOpenMP_FLAG_DETECTED -fopenmp   -o CMakeFiles/cmTC_67f03.dir/src.cxx.o -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_67f03
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67f03.dir/link.txt --verbose=1
+/usr/bin/g++    -msse3 -std=c++11 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -DOpenMP_FLAG_DETECTED -fopenmp    CMakeFiles/cmTC_67f03.dir/src.cxx.o  -o cmTC_67f03 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73738/fast"
+/usr/bin/make -f CMakeFiles/cmTC_73738.dir/build.make CMakeFiles/cmTC_73738.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_73738.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp    -o CMakeFiles/cmTC_73738.dir/CheckIncludeFile.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73738
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73738.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp     CMakeFiles/cmTC_73738.dir/CheckIncludeFile.c.o  -o cmTC_73738 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0392e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0392e.dir/build.make CMakeFiles/cmTC_0392e.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0392e.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp    -o CMakeFiles/cmTC_0392e.dir/CheckIncludeFile.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0392e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0392e.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp     CMakeFiles/cmTC_0392e.dir/CheckIncludeFile.c.o  -o cmTC_0392e -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d2ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d2ac.dir/build.make CMakeFiles/cmTC_4d2ac.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4d2ac.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp    -o CMakeFiles/cmTC_4d2ac.dir/CheckIncludeFile.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4d2ac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d2ac.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp     CMakeFiles/cmTC_4d2ac.dir/CheckIncludeFile.c.o  -o cmTC_4d2ac -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Determining size of off64_t passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_22878/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22878.dir/build.make CMakeFiles/cmTC_22878.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_22878.dir/OFF64_T.c.o
+/usr/bin/gcc  -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1 -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp    -o CMakeFiles/cmTC_22878.dir/OFF64_T.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CheckTypeSize/OFF64_T.c
+Linking C executable cmTC_22878
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22878.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp     CMakeFiles/cmTC_22878.dir/OFF64_T.c.o  -o cmTC_22878 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2990f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2990f.dir/build.make CMakeFiles/cmTC_2990f.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_2990f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTC_2990f.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2990f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2990f.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTC_2990f.dir/CheckFunctionExists.c.o  -o cmTC_2990f -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_46e09/fast"
+/usr/bin/make -f CMakeFiles/cmTC_46e09.dir/build.make CMakeFiles/cmTC_46e09.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_46e09.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp    -o CMakeFiles/cmTC_46e09.dir/CheckIncludeFile.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_46e09
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46e09.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp     CMakeFiles/cmTC_46e09.dir/CheckIncludeFile.c.o  -o cmTC_46e09 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_723b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_723b1.dir/build.make CMakeFiles/cmTC_723b1.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_723b1.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp    -o CMakeFiles/cmTC_723b1.dir/CheckIncludeFiles.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_723b1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_723b1.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp     CMakeFiles/cmTC_723b1.dir/CheckIncludeFiles.c.o  -o cmTC_723b1 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a3e61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a3e61.dir/build.make CMakeFiles/cmTC_a3e61.dir/build
+make[1]: se ingresa al directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a3e61.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp    -o CMakeFiles/cmTC_a3e61.dir/CheckSymbolExists.c.o   -c /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a3e61
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3e61.dir/link.txt --verbose=1
+/usr/bin/gcc   -msse3 -funroll-loops -ffast-math -Wall -Wno-strict-aliasing  -fopenmp     CMakeFiles/cmTC_a3e61.dir/CheckSymbolExists.c.o  -o cmTC_a3e61 -rdynamic 
+make[1]: se sale del directorio «/home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp»
+
+File /home/enric/kratos/cmake_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
